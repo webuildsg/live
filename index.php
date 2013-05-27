@@ -13,7 +13,7 @@
     </li>
     <?php endwhile; else: ?>
     <li>
-      <div class="post">Sorry, no posts matched your criteria.</div>
+      <div class="post">Coming your way really soon ;)</div>
     </li>
     <?php endif; ?>
   </ul>
