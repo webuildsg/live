@@ -4,7 +4,7 @@
 <meta name="description" content="a list of free open events and open source libraries for the curious folks who love to make things!">
 <meta name="keywords" content="Singapore, SG, open community, open source, software, hardware, programming, design, maker movement, free events, free tech events, podcast, audio, live, show">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-<meta property="og:image" content="public/logo.png">
+<meta property="og:image" content="http://webuild.sg/public/logo.png">
 <meta property="og:url" content="http://live.webuild.sg">
 <meta property="og:site_name" content="live.webuild.sg">
 <meta property="og:title" content="We Build SG LIVE">
