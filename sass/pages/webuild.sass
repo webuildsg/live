@@ -1,0 +1,128 @@
+// wordpress theme specific styles
+
+.main
+  overflow: hidden
+
+.container
+  position: relative
+
+.open-list li
+  &:hover a
+    background-color: transparent
+  margin: 0 0 2rem 0
+
+section
+  &:nth-of-type(1)
+    width: 35%
+    float: right
+  &:nth-of-type(2)
+    width: 65%
+    float: left
+
+.post
+  padding: 1rem 0
+  p
+    color: $grey
+    font-size: 0.9rem
+    margin: 0
+    a
+      padding: 0
+      margin: 0
+      display: inline
+      color: $grey
+      text-decoration: underline
+  audio
+    width: 100%
+  ul, ol
+    padding: 0
+    margin: .5rem 0 0 0
+    li
+      display: inline
+      color: $grey
+      font-size: .9rem
+      margin: 0 1rem 0 0
+      padding: 0
+      &:before
+        content: 'o'
+        font-size: .8rem
+        padding: 0 .3rem 0 0
+        line-height: .3rem
+        color: lighten($grey, 45%)
+      a
+        padding: 0
+        display: inline
+        margin: 0
+        color: $grey
+        &:hover
+          text-decoration: underline
+
+.wp-post-image
+  float: left
+  margin: 0 1rem 1rem 0
+
+.widget-title
+  font-size: 1.2rem
+  color: #e06149
+  font-family: $sans
+  text-align: left
+  letter-spacing: normal
+  font-weight: normal
+  text-shadow: 0 0 0 white
+
+.widget
+  padding-left: 1rem
+  margin-bottom: 2rem
+
+.splash
+  background-color: white
+  font-size: 1.5vw
+  position: absolute
+  right: 1rem
+  bottom: 2rem
+  padding: .5rem
+  @include rotate(-10deg)
+  border: 5px solid $blue
+  @include border-radius(0.5vw)
+  @include transition-duration(0)
+  &:hover, &:active
+    @include rotate(0)
+  a
+    color: $red
+    text-decoration: none
+
+
+.live:hover
+  background-color: lighten($yellow, 10%)
+  cursor: default
+
+@include font-face('Social', fonts/social)
+
+
+
+.textwidget
+  margin-top: .5rem
+
+.rss
+  font-family: 'Social'
+  font-size: 2rem
+
+.by
+  color: $blue
+  font-size: .9rem
+  text-align: center
+  margin: 1rem 0 2rem 0
+  a
+    color: $blue
+    &:hover, &:active
+      color: $red
+
+@media only screen and (max-width: 720px)
+  section
+    &:nth-of-type(1)
+      width: 100%
+    &:nth-of-type(2)
+      width: 100%
+  .splash
+    display: none
+  .social
+    font-size: 12vw
