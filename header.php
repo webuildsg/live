@@ -10,6 +10,8 @@
 <meta property="og:title" content="We Build SG LIVE">
 <meta property="og:description" content="A live conversation with geeks in town every 2nd saturday morning of the month!">
 <meta property="og:type" content="website">
+
+<link rel="shortcut icon" href="http://webuild.sg/favicon.ico">
 <link rel="stylesheet" type="text/css" href="<?php bloginfo( 'stylesheet_url' ); ?>" />
 
 <link rel="apple-touch-icon" href="http://webuild.sg/public/apple-touch-icon.png">
@@ -35,15 +37,17 @@
 	</header>
 
 	<div class="main container">
-		<div class="live">
-			<h3>Catch We Build SG LIVE</h3>
-			<p class="countdown">in <strong>11</strong> days <strong>23</strong> hours <strong>24</strong> minutes <strong>4</strong> seconds</p>
-			<p id="livetime">8 Jun 2013, Sat @11:00 am +08:00 GMT</p>
-		</div>
 
 		<!-- <div class="live">
+			<h3>Catch We Build SG LIVE</h3>
+			<p class="countdown"></p>
+			<p id="livetime"></p>
+		</div> -->
+
+		<div class="live">
 			<h3>We Build SG is airing now</h3>
-			<p class="livetag">join us in the live chat and conversation!</p>
+			<!-- <p class="livetag">join us in the live chat and conversation!</p> -->
+			<p class="countdown"></p>
 			<audio class="liveaudio" controls src="http://listen.webuild.sg:8000/live"></audio>
 			<iframe class="livechat" src="http://webchat.freenode.net?channels=webuildsg&uio=MT1mYWxzZSY5PXRydWUmMTE9NTEfe"></iframe>
-		</div> -->
+		</div>
