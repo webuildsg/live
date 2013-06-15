@@ -5,7 +5,7 @@
   function countdown () {
 
     var now = moment(),
-    podcastDate = "2013-6-8 11:00 +0800",
+    podcastDate = "2013-6-9 23:00 +0800",
     dateFormat = "YYYY-MM-DD HH:mm Z",
     livedate = moment(podcastDate, dateFormat),
     then = moment(podcastDate, dateFormat);

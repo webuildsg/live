@@ -38,16 +38,30 @@
 
 	<div class="main container">
 
+		<!-- before 12 hours -->
 		<!-- <div class="live">
 			<h3>Catch We Build SG LIVE</h3>
 			<p class="countdown"></p>
 			<p id="livetime"></p>
 		</div> -->
 
-		<div class="live">
-			<h3>We Build SG is airing now</h3>
-			<!-- <p class="livetag">join us in the live chat and conversation!</p> -->
+		<!-- 12 hours to 0s -->
+		<!-- <div class="live">
+			<h3>Catch We Build SG LIVE</h3>
 			<p class="countdown"></p>
 			<audio class="liveaudio" controls src="http://listen.webuild.sg:8000/live"></audio>
 			<iframe class="livechat" src="http://webchat.freenode.net?channels=webuildsg&uio=MT1mYWxzZSY5PXRydWUmMTE9NTEfe"></iframe>
+		</div> -->
+
+		<!-- 0s to post 1 hour -->
+		<!-- <div class="live">
+			<h3>We Build SG is airing now!</h3>
+			<p class="livetag">join us in the live chat and conversation!</p>
+			<audio class="liveaudio" controls src="http://listen.webuild.sg:8000/live"></audio>
+			<iframe class="livechat" src="http://webchat.freenode.net?channels=webuildsg&uio=MT1mYWxzZSY5PXRydWUmMTE9NTEfe"></iframe>
+		</div> -->
+
+		<!-- after 1 hour -->
+		<div class="live">
+			<h3>Catch We Build SG LIVE next month!</h3>
 		</div>

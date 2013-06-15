@@ -10,5 +10,9 @@
 1. command line instructions to watch and compile sass to css
 
     ```
-    sass compass --watch sass/style.sass:style.css
+    sass --compass --watch sass/style.sass:style.css
     ```
+
+#Thanks!
+
+1. [Social icon fonts](http://drinchev.github.io/monosocialiconsfont/)

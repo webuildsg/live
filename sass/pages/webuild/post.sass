@@ -1,0 +1,50 @@
+.post-thumbnail
+  display: inline-block
+  vertical-align: top
+  with: 30%
+
+.post-content
+  display: inline-block
+  vertical-align: top
+  width: 70%
+
+.post
+  padding: 1rem 0
+  p
+    color: $grey
+    font-size: 0.9rem
+    margin: 0
+    a
+      padding: 0
+      margin: 0
+      display: inline
+      color: $grey
+      text-decoration: underline
+  audio
+    width: 100%
+  ul, ol
+    padding: 0
+    margin: .5rem 0 0 0
+    li
+      display: inline
+      color: $grey
+      font-size: .9rem
+      margin: 0 1rem 0 0
+      padding: 0
+      &:before
+        content: 'o'
+        font-size: .8rem
+        padding: 0 .3rem 0 0
+        line-height: .3rem
+        color: lighten($grey, 45%)
+      a
+        padding: 0
+        display: inline
+        margin: 0
+        color: $grey
+        &:hover
+          text-decoration: underline
+
+.wp-post-image
+  float: left
+  margin: 0 1rem 1rem 0
