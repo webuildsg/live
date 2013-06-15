@@ -8,7 +8,7 @@
     <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
     <li>
       <div class="post-thumbnail">
-        <?php the_post_thumbnail( array(100,100) ); ?>
+        <?php the_post_thumbnail(); ?>
       </div>
       <div class="post-content">
         <p><?php the_title(); ?><span>on <?php the_time('j M y, D') ?></span> </p>
