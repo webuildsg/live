@@ -39,11 +39,11 @@
 	<div class="main container">
 
 		<!-- before 12 hours -->
-		<!-- <div class="live">
+		<div class="live">
 			<h3>Catch We Build SG LIVE</h3>
 			<p class="countdown"></p>
 			<p id="livetime"></p>
-		</div> -->
+		</div>
 
 		<!-- 12 hours to 0s -->
 		<!-- <div class="live">
@@ -62,6 +62,6 @@
 		</div> -->
 
 		<!-- after 1 hour -->
-		<div class="live">
+		<!-- <div class="live">
 			<h3>Catch We Build SG LIVE next month!</h3>
-		</div>
+		</div> -->
