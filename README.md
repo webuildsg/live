@@ -3,14 +3,11 @@
 ##development
 
 1. start MAMP
-2. visit [wp.localhost](http://wp.localhost/) in the browser
-
-###css
-
-1. command line instructions to watch and compile sass to css
+1. visit [wp.localhost](http://wp.localhost/) in the browser
+1. command line watch for css and javascript
 
     ```
-    sass --compass --watch sass/style.sass:style.css
+    grunt
     ```
 
 #Thanks!
