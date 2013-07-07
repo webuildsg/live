@@ -1,0 +1,30 @@
+{
+  "name": "webuild-theme",
+  "version": "0.2.0",
+  "author": "Sayanee <sayanee@gmail.com>",
+  "description": "a podcast live show theme",
+  "contributors": [
+    {
+      "name": "Chinmay",
+      "email": "notthetup@gmail.com"
+    }
+  ],
+  "bin": {
+    "http-server": "./bin/http-server"
+  }
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sayanee/webuild-theme.git"
+  },
+  "keywords": [
+    "wordpress",
+    "theme",
+    "podcast"
+  ]
+  "devDependencies": {
+    "grunt": "0.4.1",
+    "grunt-contrib-clean": "0.4.1",
+    "grunt-contrib-sass": "0.4.0",
+    "grunt-contrib-watch": "0.4.4"
+  }
+}
