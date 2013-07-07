@@ -8,9 +8,8 @@ module.exports = function(grunt) {
     compass: {
       production: {
         options: {
-          sassDir: 'sass',
-          cssDir: '/',
-          fontsDir: 'fonts',
+          specify: 'sass/style.sass',
+          cssPath: './',
           outputStyle: 'compressed',
           noLineComments: true
         }
@@ -18,15 +17,15 @@ module.exports = function(grunt) {
     },
     watch: {
       styles: {
-        files: ['sass/*'],
-        tasks: ['sass:production']
+        files: ['sass/**/*.scss', 'sass/**/*.sass'],
+        tasks: ['compass:production']
       }
     }
 
   });
 
   grunt.loadNpmTasks('grunt-contrib-clean');
-  grunt.loadNpmTasks('grunt-contrib-sass');
+  grunt.loadNpmTasks('grunt-contrib-compass');
   grunt.loadNpmTasks('grunt-contrib-watch');
 
   grunt.registerTask('default', ['clean', 'watch']);
