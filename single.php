@@ -1,31 +1,28 @@
-<?php
-/**
- * The Template for displaying all single posts.
- *
- * @package WeBuild
- */
-
-get_header(); ?>
-
-	<div id="primary" class="content-area">
-		<div id="content" class="site-content" role="main">
-
-		<?php while ( have_posts() ) : the_post(); ?>
-
-			<?php get_template_part( 'content', 'single' ); ?>
-
-			<?php webuild_content_nav( 'nav-below' ); ?>
-
-			<?php
-				// If comments are open or we have at least one comment, load up the comment template
-				if ( comments_open() || '0' != get_comments_number() )
-					comments_template();
-			?>
-
-		<?php endwhile; // end of the loop. ?>
-
-		</div><!-- #content -->
-	</div><!-- #primary -->
-
+<?php get_header(); ?>
 <?php get_sidebar(); ?>
+
+<section>
+
+	<h3>this episode</h3>
+
+	<ul class="open-list first">
+	    <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
+	    <li>
+	      <div class="post-thumbnail">
+	        <?php the_post_thumbnail(); ?>
+	      </div>
+	      <div class="post-content">
+	        <a href="<?php the_permalink(); ?>"><p><?php the_title(); ?><span>on <?php the_time('j M y, D') ?></span> </p></a>
+	        <div class="post"><?php the_content(); ?></div>
+	      </div>
+	    </li>
+	    <?php endwhile; else: ?>
+	    <li>
+	      <div class="post">Coming your way really soon ;)</div>
+	    </li>
+	    <?php endif; ?>
+	  </ul>
+
+</section>
+
 <?php get_footer(); ?>
