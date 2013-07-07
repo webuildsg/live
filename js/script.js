@@ -1,4 +1,10 @@
 (function () {
+
+  // click red header to link back to the homepage
+  $('header').click(function() {
+    window.parent.location.href = '/';
+  });
+
   // countdown
   countdown();
   setInterval(countdown, 1000);
