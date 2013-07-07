@@ -1,7 +1,10 @@
 (function () {
 
+  var podcastTimeString = "2013-7-13 11:00 +0800";
+  var timeFormatString = "YYYY-MM-DD HH:mm Z";
+
   // click red header to link back to the homepage
-  $('header').click(function() {
+  document.getElementsByTagName('header')[0].addEventListener('click', function() {
     window.parent.location.href = '/';
   });
 
@@ -10,26 +13,24 @@
   setInterval(countdown, 1000);
   function countdown () {
 
-    var now = moment(),
-    podcastDate = "2013-7-13 11:00 +0800",
-    dateFormat = "YYYY-MM-DD HH:mm Z",
-    livedate = moment(podcastDate, dateFormat),
-    then = moment(podcastDate, dateFormat);
+    var now = moment();
+    var podcastTime = moment(podcastTimeString, timeFormatString);
+    var remainingTime = podcastTime.clone();
 
-    ms = then.diff(now, 'milliseconds', true);
+    ms = remainingTime.diff(now, 'milliseconds', true);
     days = Math.floor(moment.duration(ms).asDays());
 
     if (days >= 0) {
-      then.subtract('days', days);
-      ms = then.diff(now, 'milliseconds', true);
+      remainingTime.subtract('days', days);
+      ms = remainingTime.diff(now, 'milliseconds', true);
       hours = Math.floor(moment.duration(ms).asHours());
 
-      then.subtract('hours', hours);
-      ms = then.diff(now, 'milliseconds', true);
+      remainingTime.subtract('hours', hours);
+      ms = remainingTime.diff(now, 'milliseconds', true);
       minutes = Math.floor(moment.duration(ms).asMinutes());
 
-      then.subtract('minutes', minutes);
-      ms = then.diff(now, 'milliseconds', true);
+      remainingTime.subtract('minutes', minutes);
+      ms = remainingTime.diff(now, 'milliseconds', true);
       seconds = Math.floor(moment.duration(ms).asSeconds());
 
       diff = 'in <strong>' + days + '</strong> days <strong>' + hours + '</strong> hours <strong>' + minutes + '</strong> minutes <strong>' + seconds + '</strong> seconds';
@@ -39,6 +40,6 @@
       $('.countdown').html('');
     }
 
-    $('#livetime').html( livedate.format('D MMM YYYY, ddd @h:mm a Z' ) + ' GMT' );
+    $('#livetime').html( podcastTime.format('D MMM YYYY, ddd @h:mm a Z' ) + ' GMT' );
   }
 })();
