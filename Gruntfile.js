@@ -5,21 +5,21 @@ module.exports = function(grunt) {
     clean: {
       assets: ['style.css']
     },
-    sass: {
-      optimized: {
+    compass: {
+      production: {
         options: {
-          style: 'compressed',
-          lineNumbers: false
-        },
-        files: {
-          'style.css': 'sass/style.sass'
+          sassDir: 'sass',
+          cssDir: '/',
+          fontsDir: 'fonts',
+          outputStyle: 'compressed',
+          noLineComments: true
         }
       }
     },
     watch: {
       styles: {
-        files: ['sass/style.sass'],
-        tasks: ['sass:optimized']
+        files: ['sass/*'],
+        tasks: ['sass:production']
       }
     }
 
