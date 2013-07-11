@@ -15,10 +15,24 @@ module.exports = function(grunt) {
         }
       }
     },
+    uglify: {
+      options: {
+        mangle: true
+      },
+      production: {
+        files: {
+          'js/script.js': ['js/script.input.js']
+        }
+      }
+    },
     watch: {
       styles: {
         files: ['sass/**/*.scss', 'sass/**/*.sass'],
         tasks: ['compass:production']
+      },
+      script: {
+        files: ['js/script.input.js'],
+        tasks: ['uglify:production']
       }
     }
 
@@ -26,8 +40,9 @@ module.exports = function(grunt) {
 
   grunt.loadNpmTasks('grunt-contrib-clean');
   grunt.loadNpmTasks('grunt-contrib-compass');
+  grunt.loadNpmTasks('grunt-contrib-uglify');
   grunt.loadNpmTasks('grunt-contrib-watch');
 
-  grunt.registerTask('default', ['clean', 'watch']);
+  grunt.registerTask('default', ['clean', 'compass', 'uglify', 'watch']);
 
 };
