@@ -12,7 +12,7 @@ var podcastTimeString = "2013-7-13 11:00 +0800";
 	var remainingTime;
 	var live = document.getElementById('liveDiv');
 
-	// -15 hours, -1 minute, +1 hour around the podcast live time
+	// -15 hours, -15 seconds, +1 hour around the podcast live time
 	var preMoment = podcastTime.clone().subtract('hours', 15);
 	var startMoment = podcastTime.clone().subtract('seconds', 15);
 	var stopMoment = podcastTime.clone().add('hours', 1);
@@ -28,16 +28,16 @@ var podcastTimeString = "2013-7-13 11:00 +0800";
 
 	function countdown () {
 
-		 var now = moment().add(extraTime);
+		var now = moment().add(extraTime);
 
 		if (now.clone().diff(preMoment) < 0) {
 			// before -15 hours
 			addBeforeMomentToDOM();
 		} else if (now.clone().diff(startMoment) < 0) {
-			// from -15 hours to -1 minute
+			// from -15 hours to -15 seconds
 			addPreMomentToDOM();
 		} else if (now.clone().diff(stopMoment) < 0) {
-			// from -1 minute to +1 hour
+			// from -15 seconds to +1 hour
 			addDuringMomentToDOM();
 		} else {
 			// after 1 hours
