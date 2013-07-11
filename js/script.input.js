@@ -16,7 +16,7 @@
 	// -15 hours, -15 seconds, +1 hour around the podcast live time
 	var preMoment = podcastTime.clone().subtract('hours', 15);
 	var startMoment = podcastTime.clone().subtract('seconds', 15);
-	var stopMoment = podcastTime.clone().add('hours', 1);
+	var stopMoment = podcastTime.clone().add('hours', 2);
 
 	// click red header to link back to the homepage
 	document.getElementsByTagName('header')[0].addEventListener('click', function() {
