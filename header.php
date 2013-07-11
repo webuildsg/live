@@ -1,7 +1,7 @@
 <html <?php language_attributes(); ?>>
 <head>
 
-	<title>We Build SG LIVE</title>
+	<title>We Build SG LIVE | <?php the_title(); ?></title>
 
 	<meta name="description" content="A live conversation with geeks in town every 2nd saturday morning of the month!">
 	<meta name="keywords" content="Singapore, SG, open community, open source, software, hardware, programming, design, maker movement, free events, free tech events, podcast, audio, live, show">
