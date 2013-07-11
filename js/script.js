@@ -1,16 +1,19 @@
-
-var extraTime = {days:4, hours:0, minutes:29};
+var extraTime = {
+	days: 0,
+	hours: 0,
+	minutes: 0
+};
+var podcastTimeString = "2013-7-13 11:00 +0800";
 
 (function () {
 
-	var podcastTimeString = "2013-7-13 11:00 +0800";
 	var timeFormatString = "YYYY-MM-DD HH:mm Z";
 	var podcastTime = moment(podcastTimeString, timeFormatString);
 	var remainingTime;
 	var live = document.getElementById('liveDiv');
 
-	// -12 hours, -1 minute, +1 hour around the podcast live time
-	var preMoment = podcastTime.clone().subtract('hours', 12);
+	// -15 hours, -1 minute, +1 hour around the podcast live time
+	var preMoment = podcastTime.clone().subtract('hours', 15);
 	var startMoment = podcastTime.clone().subtract('seconds', 15);
 	var stopMoment = podcastTime.clone().add('hours', 1);
 
@@ -26,13 +29,12 @@ var extraTime = {days:4, hours:0, minutes:29};
 	function countdown () {
 
 		 var now = moment().add(extraTime);
-		//var now = moment("2013-7-13 12:01 +0800", "YYYY-MM-DD HH:mm Z" );
 
 		if (now.clone().diff(preMoment) < 0) {
-			// before -12 hours
+			// before -15 hours
 			addBeforeMomentToDOM();
 		} else if (now.clone().diff(startMoment) < 0) {
-			// from -12 hours to -1 minute
+			// from -15 hours to -1 minute
 			addPreMomentToDOM();
 		} else if (now.clone().diff(stopMoment) < 0) {
 			// from -1 minute to +1 hour
@@ -108,7 +110,6 @@ var extraTime = {days:4, hours:0, minutes:29};
 		heading.innerHTML = content;
 	}
 
-
 	function addAudioAndIRC(station) {
 		var audioElement = document.getElementById('liveAudio');
 		if (audioElement == null){
@@ -134,7 +135,6 @@ var extraTime = {days:4, hours:0, minutes:29};
 		}
 	}
 
-
 	function removeAudioAndIRC(){
 		var audioElement = document.getElementById('liveAudio');
 		if (audioElement != null)
@@ -144,8 +144,6 @@ var extraTime = {days:4, hours:0, minutes:29};
 		if (chatElement != null)
 			live.removeChild(chatElement);
 	}
-
-
 
 	function addLivetime() {
 		var liveTime = document.createElement('p');
@@ -159,7 +157,6 @@ var extraTime = {days:4, hours:0, minutes:29};
 		if (liveElement != null)
 			live.removeChild(liveElement);
 	}
-
 
 	function addCountdown(){
 		var element = document.getElementById('liveCountdown');
@@ -185,7 +182,6 @@ var extraTime = {days:4, hours:0, minutes:29};
 
 	function updateCountdown() {
 		 var now = moment().add(extraTime);
-		//var now = moment("2013-7-12 23:15 +0800", "YYYY-MM-DD HH:mm Z" );
 
 		remainingTime = podcastTime.clone();
 
