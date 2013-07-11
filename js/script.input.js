@@ -1,9 +1,9 @@
 (function () {
 
 	var extraTime = {
-		days: 1,
-		hours: 19,
-		minutes: 48
+		days: 0,
+		hours: 0,
+		minutes: 0
 	};
 
 	var podcastTimeString = "2013-7-13 11:00 +0800";
