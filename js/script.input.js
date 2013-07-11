@@ -1,9 +1,9 @@
 (function () {
 
 	var extraTime = {
-		days: 0,
-		hours: 0,
-		minutes: 0
+		days: 1,
+		hours: 19,
+		minutes: 48
 	};
 
 	var podcastTimeString = "2013-7-13 11:00 +0800";
@@ -182,7 +182,7 @@
 	}
 
 	function updateCountdown() {
-		 var now = moment().add(extraTime);
+		var now = moment().add(extraTime);
 
 		remainingTime = podcastTime.clone();
 
