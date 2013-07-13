@@ -1,211 +1,277 @@
 (function () {
 
-	var extraTime = {
-		days: 0,
-		hours: 0,
-		minutes: 0
-	};
+    var extraTime = {
+        days: 0,
+        hours: 0,
+        minutes: 0
+    };
 
-	var podcastTimeString = "2013-7-13 11:00 +0800";
-	var timeFormatString = "YYYY-MM-DD HH:mm Z";
+    var podcastTimeString = "2013-8-24 11:00 +0800";
+    var timeFormatString = "YYYY-MM-DD HH:mm Z";
 
-	var podcastTime = moment(podcastTimeString, timeFormatString);
-	var remainingTime;
-	var live = document.getElementById('liveDiv');
+    var podcastTime = moment(podcastTimeString, timeFormatString);
+    var remainingTime;
+    var live = document.getElementById('liveDiv');
 
-	// -15 hours, -15 seconds, +1 hour around the podcast live time
-	var preMoment = podcastTime.clone().subtract('hours', 15);
-	var startMoment = podcastTime.clone().subtract('seconds', 15);
-	var stopMoment = podcastTime.clone().add('hours', 2);
+    // -15 hours, -15 seconds, +1 hour around the podcast live time
+    var preMoment = podcastTime.clone().subtract('hours', 15);
+    var startMoment = podcastTime.clone().subtract('seconds', 15);
+    var stopMoment = podcastTime.clone().add('hours', 2);
 
-	// click red header to link back to the homepage
-	document.getElementsByTagName('header')[0].addEventListener('click', function() {
-		window.parent.location.href = '/';
-	});
+    // click red header to link back to the homepage
+    document.getElementsByTagName('header')[0].addEventListener('click', function() {
+        window.parent.location.href = '/';
+    });
 
-	// countdown
-	countdown();
-	setInterval(countdown, 1000);
+    // countdown
+    countdown();
+    setInterval(countdown, 1000);
 
-	function countdown () {
+    function countdown () {
 
-		var now = moment().add(extraTime);
+        var now = moment().add(extraTime);
 
-		if (now.clone().diff(preMoment) < 0) {
-			// before -15 hours
-			addBeforeMomentToDOM();
-		} else if (now.clone().diff(startMoment) < 0) {
-			// from -15 hours to -15 seconds
-			addPreMomentToDOM();
-		} else if (now.clone().diff(stopMoment) < 0) {
-			// from -15 seconds to +1 hour
-			addDuringMomentToDOM();
-		} else {
-			// after 1 hours
-			addAfterMomentToDOM();
-		}
+        if (now.clone().diff(preMoment) < 0) {
+            // before -15 hours
+            addBeforeMomentToDOM();
+        } else if (now.clone().diff(startMoment) < 0) {
+            // from -15 hours to -15 seconds
+            addPreMomentToDOM();
+         } else if (now.clone().diff(podcastTime) < 0) {
+            // from -15 seconds to 0
+            addCountdownMomentToDOM();
+         } else if (now.clone().diff(stopMoment) < 0) {
+            // from 0 to +2 hour
+            addDuringMomentToDOM();
+        } else {
+            // after 1 hours
+            addAfterMomentToDOM();
+        }
 
-	}
+    }
 
-	function addBeforeMomentToDOM() {
-		if (needsToBeUpdated('before')){
-			removeAudioAndIRC();
+    function addBeforeMomentToDOM() {
+        if (needsToBeUpdated('before')){
+            removeAudioAndIRC();
 
-			addHeadingLive('Catch We Build SG LIVE');
-			addCountdown();
-			addLivetime();
+            addHeadingLive('Catch We Build SG LIVE');
+            addCountdown();
+            addLivetime();
 
-			live.setAttribute('data-state','before');
-		}
-		updateCountdown();
-	}
+            live.setAttribute('data-state','before');
+        }
+        updateCountdown('full');
+    }
 
-	function addPreMomentToDOM() {
-		if (needsToBeUpdated('pre')){
-			removeLiveTime();
+     function addPreMomentToDOM() {
+        if (needsToBeUpdated('pre')){
+            removeLiveTime();
 
-			addHeadingLive('Catch We Build SG LIVE');
-			addCountdown();
-			addAudioAndIRC('radio');
+            addHeadingLive('Catch We Build SG LIVE');
+            addCountdown();
+            addAudioAndIRC('radio', false);
 
-			live.setAttribute('data-state','pre');
-		}
-		updateCountdown();
-	}
+            live.setAttribute('data-state','pre');
+        }
+        updateCountdown('full');
+    }
 
-	function addDuringMomentToDOM() {
-		if (needsToBeUpdated('during')){
-			removeLiveTime();
+     function addCountdownMomentToDOM() {
+        if (needsToBeUpdated('countdown')){
+            removeLiveTime();
 
-			addHeadingLive('We Build SG LIVE is airing now!');
-			addSubtitle();
-			addAudioAndIRC('live');
+            addHeadingLive('We Build SG LIVE is airing soon');
+            addCountdown();
+            addAudioAndIRC('live', true);
 
-			live.setAttribute('data-state','during');
-		}
-	}
+            live.setAttribute('data-state','countdown');
+        }
 
-	function addAfterMomentToDOM() {
-		if (needsToBeUpdated('after')){
-			removeLiveTime();
-			removeAudioAndIRC();
-			removeSubtitle();
+        updateCountdown('short');
+    }
 
-			addHeadingLive('Catch We Build SG LIVE next month!');
+    function addDuringMomentToDOM() {
 
-			live.setAttribute('data-state','after');
-		}
-	}
+        isStreamAvailable(
+            'live',
+            function (){
+                if (needsToBeUpdated('during-live')){
+                 removeLiveTime();
+                 addHeadingLive('We Build SG LIVE is airing now!');
+                 addSubtitle("join us in the chat and conversation below");
+                 addAudioAndIRC('live', true);
+                 //console.log("Switching to Live");
+                 live.setAttribute('data-state','during-live');
+             }
+         },
+         function (){
+            if (needsToBeUpdated('during-radio')){
+                addHeadingLive('We Build SG LIVE just finished airing');
+                addSubtitle("continue to join us in the chat below");
+                addAudioAndIRC('radio', true);
+                //console.log("Switching to Radio");
+                live.setAttribute('data-state','during-radio');
+            }
+        });
+    }
 
-	function needsToBeUpdated(state){
-		return (live.getAttribute('data-state') != state)
-	}
+    function addAfterMomentToDOM() {
+        if (needsToBeUpdated('after')){
+            removeLiveTime();
+            removeAudioAndIRC();
+            removeSubtitle();
 
-	function addHeadingLive(content) {
-		var heading = document.getElementById('liveHeading')
-		if (heading == null){
-			heading = document.createElement('h3');
-			heading.setAttribute("id", "liveHeading");
-			live.appendChild(heading);
-		}
-		heading.innerHTML = content;
-	}
+            addHeadingLive('Catch We Build SG LIVE next month!');
 
-	function addAudioAndIRC(station) {
-		var audioElement = document.getElementById('liveAudio');
-		if (audioElement == null){
-			audioElement = document.createElement('audio');
-			audioElement.setAttribute('class', 'liveaudio');
-			audioElement.setAttribute("id", "liveAudio");
-			audioElement.setAttribute('controls', '');
-			live.appendChild(audioElement);
-		}
+            live.setAttribute('data-state','after');
+        }
+    }
 
-		audioElement.setAttribute('src', 'http://listen.webuild.sg:8000/' + station);
-		if (station == 'live')
-			audioElement.play();
+    function needsToBeUpdated(state){
+        return (live.getAttribute('data-state') != state)
+    }
 
-		var chatElement = document.getElementById('liveChat');
+    function addHeadingLive(content) {
+        var heading = document.getElementById('liveHeading')
+        if (heading == null){
+            heading = document.createElement('h3');
+            heading.setAttribute("id", "liveHeading");
+            live.appendChild(heading);
+        }
+        heading.innerHTML = content;
+    }
 
-		if (chatElement == null){
-			chatElement = document.createElement('iframe');
-			chatElement.setAttribute("id", "liveChat");
-			chatElement.setAttribute('class', 'livechat');
-			chatElement.setAttribute('src', 'http://webchat.freenode.net?channels=webuildsg&uio=MT1mYWxzZSY5PXRydWUmMTE9NTEfe');
-			live.appendChild(chatElement);
-		}
-	}
+    function addAudioAndIRC(station, autoPlay) {
+        var audioElement = document.getElementById('liveAudio');
+        if (audioElement == null){
+            audioElement = document.createElement('audio');
+            audioElement.setAttribute('class', 'liveaudio');
+            audioElement.setAttribute("id", "liveAudio");
+            audioElement.setAttribute('controls', 'controls');
+            live.appendChild(audioElement);
+        }
 
-	function removeAudioAndIRC(){
-		var audioElement = document.getElementById('liveAudio');
-		if (audioElement != null)
-			live.removeChild(audioElement);
+        if (audioElement.src !==  'http://listen.webuild.sg:8000/' + station){
+            audioElement.setAttribute('src', 'http://listen.webuild.sg:8000/' + station);
+        }
 
-		var chatElement= document.getElementById('liveChat');
-		if (chatElement != null)
-			live.removeChild(chatElement);
-	}
+        if (autoPlay)
+            audioElement.play();
 
-	function addLivetime() {
-		var liveTime = document.createElement('p');
-		liveTime.setAttribute('id', 'liveTime');
-		liveTime.innerHTML = podcastTime.format('D MMM YYYY, ddd @h:mm a Z' ) + ' GMT';
-		live.appendChild(liveTime);
-	}
+        var chatElement = document.getElementById('liveChat');
 
-	function removeLiveTime(){
-		var liveElement = document.getElementById('liveTime');
-		if (liveElement != null)
-			live.removeChild(liveElement);
-	}
+        if (chatElement == null){
+            chatElement = document.createElement('iframe');
+            chatElement.setAttribute("id", "liveChat");
+            chatElement.setAttribute('class', 'livechat');
+            chatElement.setAttribute('src', 'http://webchat.freenode.net?channels=webuildsg&uio=MT1mYWxzZSY5PXRydWUmMTE9NTEfe');
+            live.appendChild(chatElement);
+        }
+    }
 
-	function addCountdown(){
-		var element = document.getElementById('liveCountdown');
-		if (element == null){
-			var countdownElement = document.createElement('p');
-			countdownElement.setAttribute("class", "countdown");
-			countdownElement.setAttribute("id", "liveCountdown");
-			live.appendChild(countdownElement);
-		}
-	}
+    function removeAudioAndIRC(){
+        var audioElement = document.getElementById('liveAudio');
+        if (audioElement != null)
+            live.removeChild(audioElement);
 
-	function addSubtitle(){
-		addCountdown();
-		var countdownElement = document.getElementById('liveCountdown');
-		countdownElement.innerHTML = "join us in the chat and conversation below"
-	}
+        var chatElement= document.getElementById('liveChat');
+        if (chatElement != null)
+            live.removeChild(chatElement);
+    }
 
-	function removeSubtitle(){
-		var countdownElement = document.getElementById('liveCountdown');
-		if (countdownElement != null)
-			live.removeChild(countdownElement);
-	}
+    function addLivetime() {
+        var liveTime = document.createElement('p');
+        liveTime.setAttribute('id', 'liveTime');
+        liveTime.innerHTML = podcastTime.format('D MMM YYYY, ddd @h:mm a Z' ) + ' GMT';
+        live.appendChild(liveTime);
+    }
 
-	function updateCountdown() {
-		var now = moment().add(extraTime);
+    function removeLiveTime(){
+        var liveElement = document.getElementById('liveTime');
+        if (liveElement != null)
+            live.removeChild(liveElement);
+    }
 
-		remainingTime = podcastTime.clone();
+    function addCountdown(){
+        var element = document.getElementById('liveCountdown');
+        if (element == null){
+            var countdownElement = document.createElement('p');
+            countdownElement.setAttribute("class", "countdown");
+            countdownElement.setAttribute("id", "liveCountdown");
+            live.appendChild(countdownElement);
+        }
+    }
 
-		ms = remainingTime.diff(now, 'milliseconds', true);
-		days = Math.floor(moment.duration(ms).asDays());
+    function addSubtitle(content){
+        addCountdown();
+        var countdownElement = document.getElementById('liveCountdown');
+        countdownElement.innerHTML = content;
+    }
 
-		remainingTime.subtract('days', days);
-		ms = remainingTime.diff(now, 'milliseconds', true);
-		hours = Math.floor(moment.duration(ms).asHours());
+    function removeSubtitle(){
+        var countdownElement = document.getElementById('liveCountdown');
+        if (countdownElement != null)
+            live.removeChild(countdownElement);
+    }
 
-		remainingTime.subtract('hours', hours);
-		ms = remainingTime.diff(now, 'milliseconds', true);
-		minutes = Math.floor(moment.duration(ms).asMinutes());
+    function updateCountdown(length) {
+        var now = moment().add(extraTime);
 
-		remainingTime.subtract('minutes', minutes);
-		ms = remainingTime.diff(now, 'milliseconds', true);
-		seconds = Math.floor(moment.duration(ms).asSeconds());
+        remainingTime = podcastTime.clone();
 
-		diff = 'in <strong>' + days + '</strong> days <strong>' + hours + '</strong> hours <strong>' + minutes + '</strong> minutes <strong>' + seconds + '</strong> seconds';
+        ms = remainingTime.diff(now, 'milliseconds', true);
+        days = Math.floor(moment.duration(ms).asDays());
 
-		var countdownElement = document.getElementById('liveCountdown');
-		countdownElement.innerHTML = diff;
+        remainingTime.subtract('days', days);
+        ms = remainingTime.diff(now, 'milliseconds', true);
+        hours = Math.floor(moment.duration(ms).asHours());
 
-	}
+        remainingTime.subtract('hours', hours);
+        ms = remainingTime.diff(now, 'milliseconds', true);
+        minutes = Math.floor(moment.duration(ms).asMinutes());
+
+        remainingTime.subtract('minutes', minutes);
+        ms = remainingTime.diff(now, 'milliseconds', true);
+        seconds = Math.floor(moment.duration(ms).asSeconds());
+
+        if (length == 'short'){
+            diff = 'in <strong> ' + seconds + '</strong>...';
+       }
+       else{
+            diff = 'in <strong>' + days + '</strong> days <strong>' + hours + '</strong> hours <strong>' + minutes + '</strong> minutes <strong>' + seconds + '</strong> seconds';
+    }
+
+        var countdownElement = document.getElementById('liveCountdown');
+        countdownElement.innerHTML = diff;
+
+    }
+
+
+    function isStreamAvailable(streamName, ifAvailable, ifNotAvailable){
+
+        var serverName = 'http://listen.webuild.sg:8000/';
+        var testStream = new Audio(serverName + streamName);
+
+        testStream.preLoad = 'none';
+        testStream.pause();
+
+        window.setTimeout(function () {
+             //console.log("Test Stream error " + testStream.error + " networkState " + testStream.networkState);
+            if (testStream.error != null ||
+                testStream.networkState == HTMLMediaElement.NETWORK_NO_SOURCE ||
+                testStream.networkState == HTMLMediaElement.NETWORK_EMPTY){
+                //console.log("Not Available");
+                ifNotAvailable();
+
+            }
+            else{
+                //console.log("Available");
+                ifAvailable();
+            }
+
+            testStream = null;
+
+        }, 2000);
+    }
 
 })();
