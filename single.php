@@ -6,7 +6,7 @@
 	<h3>this episode</h3>
 
 	<ul class="open-list first">
-	    <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
+    <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
 	    <li>
 	      <div class="post-thumbnail">
 	        <?php the_post_thumbnail(); ?>
@@ -16,12 +16,12 @@
 	        <div class="post"><?php the_content(); ?></div>
 	      </div>
 	    </li>
-	    <?php endwhile; else: ?>
+    <?php endwhile; else: ?>
 	    <li>
 	      <div class="post">Coming your way really soon ;)</div>
 	    </li>
-	    <?php endif; ?>
-	  </ul>
+    <?php endif; ?>
+	</ul>
 
 </section>
 
