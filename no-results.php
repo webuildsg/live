@@ -7,7 +7,7 @@
 
 <?php else : ?>
 
-	<p><?php _e( 'It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help.', 'webuild' ); ?></p>
+	<?php _e( 'It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help.', 'webuild' ); ?>
 	<?php get_search_form(); ?>
 
 <?php endif; ?>
