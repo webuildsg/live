@@ -116,6 +116,10 @@ function webuild_scripts() {
 	wp_register_script( 'moment', 'http://cdnjs.cloudflare.com/ajax/libs/moment.js/2.0.0/moment.min.js', array(), false, true);
 	wp_enqueue_script( 'moment' );
 
+	wp_deregister_script( 'prism' );
+		wp_register_script( 'prism', get_template_directory_uri().'/js/prism.js', array(), false, true);
+		wp_enqueue_script( 'prism' );
+
 	wp_deregister_script( 'script' );
 	wp_register_script( 'script', get_template_directory_uri().'/js/script.js', array(), false, true);
 	wp_enqueue_script( 'script' );
