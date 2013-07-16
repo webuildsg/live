@@ -1,33 +1,15 @@
-<?php
-/**
- * The template part for displaying a message that posts cannot be found.
- *
- * Learn more: http://codex.wordpress.org/Template_Hierarchy
- *
- * @package WeBuild
- */
-?>
+<h3><?php _e( 'nothing found', 'webuild' ); ?></h3>
 
-<article id="post-0" class="post no-results not-found">
-	<header class="entry-header">
-		<h1 class="entry-title"><?php _e( 'Nothing Found', 'webuild' ); ?></h1>
-	</header><!-- .entry-header -->
+<?php if ( is_search() ) : ?>
 
-	<div class="entry-content">
-		<?php if ( is_home() && current_user_can( 'publish_posts' ) ) : ?>
+	<?php _e( 'Oops didn\'t find anything :( Want to search with another keyword?', 'webuild' ); ?>
+	<?php get_search_form(); ?>
 
-			<p><?php printf( __( 'Ready to publish your first post? <a href="%1$s">Get started here</a>.', 'webuild' ), esc_url( admin_url( 'post-new.php' ) ) ); ?></p>
+<?php else : ?>
 
-		<?php elseif ( is_search() ) : ?>
+	<p><?php _e( 'It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help.', 'webuild' ); ?></p>
+	<?php get_search_form(); ?>
 
-			<p><?php _e( 'Sorry, but nothing matched your search terms. Please try again with some different keywords.', 'webuild' ); ?></p>
-			<?php get_search_form(); ?>
+<?php endif; ?>
 
-		<?php else : ?>
 
-			<p><?php _e( 'It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help.', 'webuild' ); ?></p>
-			<?php get_search_form(); ?>
-
-		<?php endif; ?>
-	</div><!-- .entry-content -->
-</article><!-- #post-0 .post .no-results .not-found -->
