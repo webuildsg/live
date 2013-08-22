@@ -6,7 +6,7 @@
         minutes: 0
     };
 
-    var podcastTimeString = "2013-8-24 11:00 +0800";
+    var podcastTimeString = "2013-8-31 11:00 +0800";
     var timeFormatString = "YYYY-MM-DD HH:mm Z";
 
     var podcastTime = moment(podcastTimeString, timeFormatString);
