@@ -1,15 +1,17 @@
 (function () {
 
-    var extraTime = {
-        days: 0,
-        hours: 0,
-        minutes: 0
-    };
+    var config = {
+        extraTime: {
+            days: 0,
+            hours: 0,
+            minutes: 0
+        },
+        podcastTimeString: "2013-10-5 11:00 +0800"
+    }
 
-    var podcastTimeString = "2013-8-31 11:00 +0800";
     var timeFormatString = "YYYY-MM-DD HH:mm Z";
 
-    var podcastTime = moment(podcastTimeString, timeFormatString);
+    var podcastTime = moment(config.podcastTimeString, timeFormatString);
     var remainingTime;
     var live = document.getElementById('liveDiv');
 
@@ -29,7 +31,7 @@
 
     function countdown () {
 
-        var now = moment().add(extraTime);
+        var now = moment().add(config.extraTime);
 
         if (now.clone().diff(preMoment) < 0) {
             // before -15 hours
@@ -215,7 +217,7 @@
     }
 
     function updateCountdown(length) {
-        var now = moment().add(extraTime);
+        var now = moment().add(config.extraTime);
 
         remainingTime = podcastTime.clone();
 
