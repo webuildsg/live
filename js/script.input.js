@@ -6,12 +6,11 @@
             hours: 0,
             minutes: 0
         },
-        podcastTimeString: "2013-10-5 11:00 +0800"
+        podcastTimeString: "2013-10-5 11:00 +0800",
+        timeFormatString: "YYYY-MM-DD HH:mm Z"
     }
 
-    var timeFormatString = "YYYY-MM-DD HH:mm Z";
-
-    var podcastTime = moment(config.podcastTimeString, timeFormatString);
+    var podcastTime = moment(config.podcastTimeString, config.timeFormatString);
     var remainingTime;
     var live = document.getElementById('liveDiv');
 
