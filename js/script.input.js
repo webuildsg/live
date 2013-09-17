@@ -2,9 +2,9 @@
 
     var config = {
         extraTime: {
-            days: 0,
-            hours: 0,
-            minutes: 0
+            days: 17,
+            hours: 18,
+            minutes: 5
         },
         podcastTimeString: "2013-10-5 11:00 +0800",
         timeFormatString: "YYYY-MM-DD HH:mm Z",
@@ -16,10 +16,15 @@
             unit: "seconds",
             amount: 15
         },
+        liveEndMoment: {
+            unit: "minutes",
+            amount: 30
+        },
         stopMoment: {
             unit: "hours",
             amount: 2
-        }
+        },
+        streamingServerName: 'http://listen.webuild.sg:8000/'
     }
 
     var podcastTime = moment(config.podcastTimeString, config.timeFormatString);
@@ -30,6 +35,9 @@
     var preMoment = podcastTime.clone().subtract(config.preMoment.unit, config.preMoment.amount);
     var startMoment = podcastTime.clone().subtract(config.startMoment.unit, config.startMoment.amount);
     var stopMoment = podcastTime.clone().add(config.stopMoment.unit, config.stopMoment.amount);
+    var liveEndMoment = podcastTime.clone().add(config.liveEndMoment.unit, config.liveEndMoment.amount);
+    var testStream;
+    var testCount = 0;
 
     // click red header to link back to the homepage
     document.getElementsByTagName('header')[0].addEventListener('click', function() {
@@ -43,6 +51,7 @@
     function countdown () {
 
         var now = moment().add(config.extraTime);
+        console.log(now);
 
         if (now.clone().diff(preMoment) < 0) {
             // before -15 hours
@@ -50,11 +59,14 @@
         } else if (now.clone().diff(startMoment) < 0) {
             // from -15 hours to -15 seconds
             addPreMomentToDOM();
-         } else if (now.clone().diff(podcastTime) < 0) {
+        } else if (now.clone().diff(podcastTime) < 0) {
             // from -15 seconds to 0
             addCountdownMomentToDOM();
-         } else if (now.clone().diff(stopMoment) < 0) {
-            // from 0 to +2 hour
+        } else if (now.clone().diff(liveEndMoment) < 0) {
+            // from 0 seconds to +30mins
+            addInitDuringMomentToDOM();
+        } else if (now.clone().diff(stopMoment) < 0) {
+            // from +30min  to +2 hour
             addDuringMomentToDOM();
         } else {
             // after 1 hours
@@ -102,6 +114,17 @@
 
         updateCountdown('short');
     }
+
+    function addInitDuringMomentToDOM() {
+    	if (needsToBeUpdated('during-live')){
+            removeLiveTime();
+            addHeadingLive('We Build SG LIVE is airing now!');
+            addSubtitle("join us in the chat and conversation below");
+            addAudioAndIRC('live', true);
+            //console.log("Switching to Live");
+             live.setAttribute('data-state','during-live');
+          }
+   }
 
     function addDuringMomentToDOM() {
 
@@ -263,29 +286,46 @@
 
     function isStreamAvailable(streamName, ifAvailable, ifNotAvailable){
 
-        var serverName = 'http://listen.webuild.sg:8000/';
-        var testStream = new Audio(serverName + streamName);
+       if (testStream == null){
+         //console.log("Making new test stream for " + config.streamingServerName + streamName);
+         testStream = new Audio(config.streamingServerName + streamName);
+         testStream.preLoad = 'none';
+         testStream.pause();
+         testCount = 0;
+      }
+      else if(testStream.src != config.streamingServerName + streamName) {
+         testStream.src = config.streamingServerName + streamName;
+         testStream.preLoad = 'none';
+         testStream.pause();
+         testCount = 0;
+      }
+      else{
 
-        testStream.preLoad = 'none';
-        testStream.pause();
+        testCount++;
 
-        window.setTimeout(function () {
-             //console.log("Test Stream error " + testStream.error + " networkState " + testStream.networkState);
-            if (testStream.error != null ||
-                testStream.networkState == HTMLMediaElement.NETWORK_NO_SOURCE ||
-                testStream.networkState == HTMLMediaElement.NETWORK_EMPTY){
-                //console.log("Not Available");
+        /*Ignore the first 3 seconds of checks (network lag)*/
+        if (testCount < 3)
+         return;
+        else if (testCount > 10){
+            /*Re check after 10 seconds*/
+            testStream.src = "";
+            return;
+        }
+
+      console.log("Test Stream error " + testStream.error + " networkState " + testStream.networkState);
+      //console.log(testStream);
+
+      if (testStream.error != null ||
+        testStream.networkState == HTMLMediaElement.NETWORK_NO_SOURCE ||
+        testStream.networkState == HTMLMediaElement.NETWORK_EMPTY){
+               //console.log("Not Available");
                 ifNotAvailable();
-
-            }
-            else{
+             }
+             else{
                 //console.log("Available");
                 ifAvailable();
-            }
-
-            testStream = null;
-
-        }, 2000);
-    }
+             }
+      }
+}
 
 })();
