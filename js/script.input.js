@@ -2,8 +2,8 @@
 
     var config = {
         extraTime: {
-            days: 0,
-            hours: 0,
+            days: 17,
+            hours: 26,
             minutes: 0
         },
         podcastTimeString: "2013-10-5 11:00 +0800",
@@ -11,6 +11,14 @@
         preMoment: {
             unit: "hours",
             amount: 15
+        },
+        startMoment: {
+            unit: "seconds",
+            amount: 15
+        },
+        stopMoment: {
+            unit: "hours",
+            amount: 2
         }
     }
 
@@ -20,8 +28,8 @@
 
     // -hours, -seconds, +hour around the podcast live time
     var preMoment = podcastTime.clone().subtract(config.preMoment.unit, config.preMoment.amount);
-    var startMoment = podcastTime.clone().subtract('seconds', 15);
-    var stopMoment = podcastTime.clone().add('hours', 2);
+    var startMoment = podcastTime.clone().subtract(config.startMoment.unit, config.startMoment.amount);
+    var stopMoment = podcastTime.clone().add(config.stopMoment.unit, config.stopMoment.amount);
 
     // click red header to link back to the homepage
     document.getElementsByTagName('header')[0].addEventListener('click', function() {
@@ -101,12 +109,12 @@
             'live',
             function (){
                 if (needsToBeUpdated('during-live')){
-                 removeLiveTime();
-                 addHeadingLive('We Build SG LIVE is airing now!');
-                 addSubtitle("join us in the chat and conversation below");
-                 addAudioAndIRC('live', true);
-                 //console.log("Switching to Live");
-                 live.setAttribute('data-state','during-live');
+                    removeLiveTime();
+                    addHeadingLive('We Build SG LIVE is airing now!');
+                    addSubtitle("join us in the chat and conversation below");
+                    addAudioAndIRC('live', true);
+                    //console.log("Switching to Live");
+                    live.setAttribute('data-state','during-live');
              }
          },
          function (){
@@ -126,7 +134,8 @@
             removeAudioAndIRC();
             removeSubtitle();
 
-            addHeadingLive('Catch We Build SG LIVE next month!');
+            addHeadingLive('Catch We Build SG LIVE next episode!');
+            addSubtitle("we will publish info on the next live show shortly");
 
             live.setAttribute('data-state','after');
         }
