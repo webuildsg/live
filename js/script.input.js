@@ -7,15 +7,19 @@
             minutes: 0
         },
         podcastTimeString: "2013-10-5 11:00 +0800",
-        timeFormatString: "YYYY-MM-DD HH:mm Z"
+        timeFormatString: "YYYY-MM-DD HH:mm Z",
+        preMoment: {
+            unit: "hours",
+            amount: 15
+        }
     }
 
     var podcastTime = moment(config.podcastTimeString, config.timeFormatString);
     var remainingTime;
     var live = document.getElementById('liveDiv');
 
-    // -15 hours, -15 seconds, +1 hour around the podcast live time
-    var preMoment = podcastTime.clone().subtract('hours', 15);
+    // -hours, -seconds, +hour around the podcast live time
+    var preMoment = podcastTime.clone().subtract(config.preMoment.unit, config.preMoment.amount);
     var startMoment = podcastTime.clone().subtract('seconds', 15);
     var stopMoment = podcastTime.clone().add('hours', 2);
 
