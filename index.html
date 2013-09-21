@@ -12,9 +12,9 @@ title: A live conversation with geeks in town on building, learning and sharing!
         <img width="100" height="100" src="{{ site.url }}/img/{{ post.profile }}-profile.jpg" class="attachment-post-thumbnail wp-post-image" alt="{{ post.title}}" />
       </div>
       <div class="post-content">
-        <a href="{{site.url}}{{post.permalink}}">
-          <p>{{post.title}}<span>on {{post.date}}</span></p>
-        </a>
+        <p><a class="title" href="{{site.url}}{{post.permalink}}">
+          {{ post.title }}<span> on {{ post.date | date_to_string }}, Sat @11am</span>
+        </a></p>
         <div class="post">{{post.content}}</div>
       </div>
     </li>
