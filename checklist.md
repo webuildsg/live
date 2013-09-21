@@ -1,6 +1,6 @@
 ---
 title: checklist
-layout: post
+layout: page
 date:   2013-09-21 15:00:00
 permalink: /checklist/
 ---

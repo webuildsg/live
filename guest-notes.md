@@ -1,6 +1,6 @@
 ---
 title: guest notes
-layout: post
+layout: page
 date:   2013-09-21 15:00:00
 permalink: /guest-notes/
 ---
@@ -78,18 +78,10 @@ Finally, let's connect to the live podcast server!
 * * *
 
 <ol class="steps">
-  <li>
-    Join the chat with our live audience at<strong> irc.freenode.net</strong> in the channel <strong>#webuildsg</strong>
-  </li>
-  <li>
-    If you do not  have an external IRC client, join the web client via <a href="http://webchat.freenode.net/?channels=webuildsg&uio=MT1mYWxzZSY5PXRydWUmMTE9NTEfe">this link at freenode.net</a>
-  </li>
-  <li>
-    During the live show, close this website <a href="http://live.webuild.sg">live.webuild.sg</a> so that you do not hear yourself through the live streaming audio
-  </li>
-  <li>
-    W00t!! Now relax and enjoy the live show with our hosts and live audience <img src='http://live.webuild.sg/wp-includes/images/smilies/icon_biggrin.gif' alt=':D' class='wp-smiley' />
-  </li>
+  <li>Join the chat with our live audience at<strong> irc.freenode.net</strong> in the channel <strong>#webuildsg</strong></li>
+  <li>If you do not have an external IRC client, join the web client via <a href="http://webchat.freenode.net/?channels=webuildsg&uio=MT1mYWxzZSY5PXRydWUmMTE9NTEfe">this link at freenode.net</a></li>
+  <li>During the live show, close this website <a href="http://live.webuild.sg">live.webuild.sg</a> so that you do not hear yourself through the live streaming audio </li>
+  <li>W00t!! Now relax and enjoy the live show with our hosts and live audience :D </li>
 </ol>
 
  [1]: http://mumble.sourceforge.net/#Get_Mumble
