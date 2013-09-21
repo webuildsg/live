@@ -4,50 +4,37 @@ layout: page
 date:   2013-09-21 15:00:00
 permalink: /checklist/
 ---
+
 What exactly goes on before we get on the live show?
 
 Before 2 months:
 
-<ul class="checklist">
-  <li><input type="checkbox" />Contact guest for availability</li>
-  <li><input type="checkbox" />Schedule date and topics with the guest</li>
-</ul>
+- Contact guest for availability
+- Schedule date and topics with the guest
 
 Before 1 week:
 
-<ul class="checklist">
-  <li><input type="checkbox" />Guest tries out <a href="/guest-notes">joining the podcast server</a></li>
-</ul>
+- Guest tries out [joining the podcast server](/guest-notes)
 
 At 15 hours:
 
-<ul class="checklist">
-  <li><input type="checkbox" /><a href="http://webchat.freenode.net/?channels=webuildsg&#038;uio=MT1mYWxzZSY5PXRydWUmMTE9NTEfe" title="/join #webuilsg">IRC Chat</a> and radio are started for our live audience</li>
-  <li><input type="checkbox" />Research on questions, riddle, events and new releases</li>
-</ul>
+- [IRC Chat](http://webchat.freenode.net/?channels=webuildsg&#038;uio=MT1mYWxzZSY5PXRydWUmMTE9NTtitle="/join #webuilsg) and radio are started for our live audience
+- Research on questions, riddle, events and new releases
 
 Before 2 hours:
 
-<ul class="checklist">
-  <li><input type="checkbox" />Setup sound board</li>
-  <li><input type="checkbox" />Audio and mic test for hosts</li>
-</ul>
+- Setup sound board
+- Audio and mic test for hosts
 
 Before 1 hour:
 
-<ul class="checklist">
-  <li><input type="checkbox" />Test live with our guest</li>
-</ul>
+- Test live with our guest
 
 At 0 Seconds:
 
-<ul class="checklist">
-  <li><input type="checkbox" />We Build SG LIVE!</li>
-</ul>
+- We Build SG LIVE!
 
 After few days:
 
-<ul class="checklist">
-  <li><input type="checkbox" />Post produced episode is released</li>
-  <li><input type="checkbox" />Next guest is announced!</li>
-</ul>
+- Post produced episode is released
+- Next guest is announced!
