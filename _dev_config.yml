@@ -3,4 +3,4 @@ destination: ./_publish
 permalink: /:title
 exclude: ['sass', 'node_modules', 'Gruntfile.js', 'package.json', 'readme.md', 'js', 'scripts']
 markdown: redcarpet
-url: http://sayanee.github.io/webuild-live
+url: http://localhost:4000
