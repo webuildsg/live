@@ -16,7 +16,10 @@ title: A live conversation with geeks in town on building, learning and sharing!
           {{ post.title }}<span> on {{ post.date | date_to_string }}, Sat @11am</span>
         </a></p>
         <div class="post">
-          <audio src="{{ post.enclosure }}" controls=controls></audio>
+          <audio controls=controls>
+            <source>{{ post.enclosure }}.mp3</source>
+            <source>{{ post.enclosure }}.ogg</source>
+          </audio>
           {{post.content}}
         </div>
       </div>

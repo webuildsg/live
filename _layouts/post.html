@@ -16,7 +16,10 @@ layout: default
           </a>
         </p>
         <div class="post">
-          <audio src="{{ page.enclosure }}" controls=controls></audio>
+          <audio controls=controls>
+            <source>{{ page.enclosure }}.mp3</source>
+            <source>{{ page.enclosure }}.ogg</source>
+                    </audio>
           {{ content }}
         </div>
       </div>

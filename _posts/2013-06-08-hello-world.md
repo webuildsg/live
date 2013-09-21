@@ -3,7 +3,7 @@ title: hello world
 layout: post
 permalink: /hello-world/
 profile: logo-100
-enclosure: http://audio.live.webuild.sg/000-hello-world.mp3
+enclosure: http://audio.live.webuild.sg/000-hello-world
 ---
 *   [icecast][1]
 *   [mumble][2]
