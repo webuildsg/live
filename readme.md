@@ -2,6 +2,8 @@
 
 This repository contains the website for the live audio show.
 
+Go to the git branch `gh-pages` to see the [contents of the Jekyll blog](https://github.com/sayanee/webuild-live/tree/gh-pages).
+
 Related websites:
 
 - [Main website](http://live.webuild.sg/)
@@ -11,7 +13,7 @@ Related websites:
 - [Github repository](https://github.com/sayanee/webuild-live)
 - [Google Plus](https://plus.google.com/115395182582724849094)
 
-Go to the git branch `gh-pages` to see the [contents of the Jekyll blog](https://github.com/sayanee/webuild-live/tree/gh-pages).
+
 
 #Credits
 
