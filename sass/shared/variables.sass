@@ -15,7 +15,10 @@ $width-total: 960px
 
 //=== Fonts ===//
 @import url("http://fonts.googleapis.com/css?family=Open+Sans:400,700|Roboto+Slab:400,700")
-@include font-face('Social', fonts/social)
+@font-face
+  font-family: 'Social'
+  src: url('./fonts/social.eot')
+  src: url('./fonts/social.eot?#iefix') format('embedded-opentype'), url('./fonts/social.woff') format('woff'), url('./fonts/social.ttf') format('truetype'), url('./fonts/social.svg#./fonts/social') format('svg')
 $social: 'Social'
 $sans: 'Open Sans', Helvetica Neue, sans-serif
 $serif: 'Roboto Slab', serif
