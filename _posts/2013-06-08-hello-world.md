@@ -1,10 +1,9 @@
 ---
 title: hello world
-author: Sayanee Basu
 layout: post
 permalink: /hello-world/
-categories:
-  - Podcast
+profile: logo-100.jpg
+enclosure: http://audio.live.webuild.sg/hello-world.mp3
 ---
 *   [icecast][1]
 *   [mumble][2]

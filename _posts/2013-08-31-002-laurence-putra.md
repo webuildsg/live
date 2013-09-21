@@ -1,10 +1,9 @@
 ---
 title: 002 Laurence Putra
-author: chinmay
 layout: post
 permalink: /002-laurence-putra/
-categories:
-  - Podcast
+profile: 002-laurence-putra
+enclosure: http://audio.live.webuild.sg/001-laurence-putra.mp3
 ---
 **MongoDB**
 

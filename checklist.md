@@ -1,7 +1,8 @@
 ---
 title: checklist
-author: Sayanee Basu
-layout: page
+layout: post
+date:   2013-09-21 15:00:00
+permalink: /checklist/
 ---
 What exactly goes on before we get on the live show?
 

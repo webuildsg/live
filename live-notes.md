@@ -1,7 +1,8 @@
 ---
 title: live notes
-author: Sayanee Basu
-layout: page
+layout: post
+date:   2013-09-21 15:00:00
+permalink: /live-notes/
 ---
 On the actual day, at 11am sharp our live audio stream goes silent and we start the show!
 

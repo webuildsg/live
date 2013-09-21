@@ -1,7 +1,8 @@
 ---
 title: guest notes
-author: Sayanee Basu
-layout: page
+layout: post
+date:   2013-09-21 15:00:00
+permalink: /guest-notes/
 ---
 Each episode, our podcast guests can join us live from anywhere!
 
@@ -22,7 +23,7 @@ Ensure you have the following:
   </li>
 </ol>
 
-The next steps will take you **just 3 minutes** and you will be able to join the live podcast server. Try it out <img src='http://live.webuild.sg/wp-includes/images/smilies/icon_smile.gif' alt=':)' class='wp-smiley' /> 
+The next steps will take you **just 3 minutes** and you will be able to join the live podcast server. Try it out <img src='http://live.webuild.sg/wp-includes/images/smilies/icon_smile.gif' alt=':)' class='wp-smiley' />
 
 * * *
 
