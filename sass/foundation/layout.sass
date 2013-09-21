@@ -16,7 +16,7 @@
 
 body
 	background-color: white
-	color: black
+	color: $black
 
 .wrapper
 	width: 100%
@@ -26,22 +26,16 @@ body
 	width: $width-total
 	margin: 0 auto
 
-header
-	width: 100%
-	background-color: $red
-	@include box-shadow(lighten(black, 50%) 0 3px 10px)
-	padding: 0 0 15px 0
-
 .main
 	margin: 0 auto 20px auto
 
-section
+.section
 	width: 49.5%
 	display: inline-block
 	padding: 0
 	vertical-align: top
 
-footer
+.footer
 	width: 100%
 	background-color: lighten($yellow, 10%)
 	display: block
