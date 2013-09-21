@@ -2,9 +2,9 @@
 
     var config = {
         extraTime: {
-            days: 13,
-            hours: 12,
-            minutes: 45
+            days: 0,
+            hours: 0,
+            minutes: 0
         },
         podcastTimeString: "2013-10-5 11:00 +0800",
         timeFormatString: "YYYY-MM-DD HH:mm Z",
