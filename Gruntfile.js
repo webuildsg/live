@@ -21,7 +21,7 @@ module.exports = function(grunt) {
       },
       production: {
         files: {
-          'script.js': [ 'js/moment.js', 'js/prism.js', 'js/script.input.js']
+          'script.js': [ 'js/moment.js', 'js/prism.js', 'js/modernizr.js','js/script.input.js']
         }
       }
     },
