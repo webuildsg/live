@@ -17,8 +17,8 @@ title: A live conversation with geeks in town on building, learning and sharing!
         </a></p>
         <div class="post">
           <audio controls=controls>
-            <source>{{ post.enclosure }}.mp3</source>
-            <source>{{ post.enclosure }}.ogg</source>
+            <source src="{{ post.enclosure }}.mp3" type="audio/mpeg"></source>
+            <source src="{{ post.enclosure }}.ogg" type="audio/ogg"></source>
           </audio>
           {{post.content}}
         </div>
