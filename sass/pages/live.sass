@@ -1,6 +1,21 @@
-.live:hover
+.live
+  width: 100%
+  margin: 2em 0
   background-color: lighten($yellow, 10%)
-  cursor: default
+  @include border-radius(5px)
+  text-align: center
+  padding: .5em
+  &:hover
+    background-color: lighten($yellow, 10%)
+    cursor: default
+
+.countdown
+  font-size: 2rem
+  margin: 0 0 1rem 0
+
+.podcastTime
+  color: $grey
+  font-size: 0.9rem
 
 .livechat
   clear: both

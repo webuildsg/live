@@ -149,7 +149,8 @@
         var heading = document.getElementById('liveHeading')
         if (heading == null){
             heading = document.createElement('h3');
-            heading.setAttribute("id", "liveHeading");
+            heading.setAttribute('id', 'liveHeading');
+            heading.setAttribute('class', 'important');
             live.appendChild(heading);
         }
         heading.innerHTML = content;
@@ -196,6 +197,7 @@
     function addLivetime() {
         var liveTime = document.createElement('p');
         liveTime.setAttribute('id', 'liveTime');
+        liveTime.setAttribute('class', 'podcastTime');
         liveTime.innerHTML = podcastTime.format('D MMM YYYY, ddd @h:mm a Z' ) + ' GMT';
         live.appendChild(liveTime);
     }
