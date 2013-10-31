@@ -5,7 +5,7 @@ permalink: /006-calvin-cheng/
 profile: 006-calvin-cheng
 enclosure: http://audio.live.webuild.sg/006-calvin-cheng
 length: 16099208
-description: Calvin Cheng on Python programming and leading technology companies.
+description: Calvin Cheng on Python programming and leading technology companies
 ---
 
 **Python**
