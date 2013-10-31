@@ -13,12 +13,7 @@ Related websites:
 
 ##development
 
-1. in the command line, change to the git branch `gh-pages`:
-
-    ```
-    git checkout gh-pages
-    ```
-1. build the static pages
+1. build the static pages on the git branch `master`
 
     ```
     LC_CTYPE="en_US.UTF-8" && LANG="en_US.UTF-8" && jekyll build
