@@ -1,0 +1,19 @@
+---
+layout: default
+title: A live conversation with geeks in town on building, learning and sharing!
+---
+
+<section class="section">
+  <h3 class="important">oops :( nothing found</h3>
+
+  <ul class="list first">
+    <p>Check out our previous episodes instead?</p>
+    {% for post in site.posts %}
+    <li>
+      <p><a class="title" href="{{site.url}}{{post.permalink}}">
+        {{ post.title }}<span> on {{ post.date | date_to_string }}, Sat @11am</span>
+      </a></p>
+    </li>
+    {% endfor %}
+  </ul>
+</section>

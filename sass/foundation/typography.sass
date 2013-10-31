@@ -1,0 +1,84 @@
+// ----- Fonts ----- //
+body
+	font-size: 16px //12pt
+	line-height: 1.25 // 20px
+	font-family: $sans
+	font-style: normal
+
+h1, h2, h3, h4, h5, h6
+	margin: 0
+	color: $black
+
+p
+	text-overflow: ellipsis
+	overflow: hidden
+	margin: 0 0 1rem 0
+
+a
+	text-decoration: none
+	&:link, &:visited
+		color: $blue
+	&:hover, &:active
+		color: $red
+
+.title
+	font-size: 1.2rem
+	display: block
+	&:link, &:visited
+		color: $red-light
+	&:active, &:hover
+		background-color: lighten($yellow, 10%)
+	span
+		font-size: .8rem
+
+.credit
+	padding: 10px 0 40px 0
+	display: block
+	font-size: 0.8rem
+	text-align: center
+	text-decoration: none
+	&:link, &:visited
+		color: lighten($yellow, 10%)
+	&:hover, &:active
+		color: $red-light
+
+.important
+	font-size: 2.5rem
+	text-align: center
+	font-family: $serif
+	color: $blue
+	font-weight: 700
+
+.info
+	font-size: 1.2rem
+	color: $red-light
+	margin-bottom: 1rem
+
+.tagline
+	color: $grey
+	font-size: 0.9rem
+	margin-bottom: 1rem
+
+.explain
+	color: $blue
+	text-align: center
+	font-size: 0.9rem
+	span
+		margin: 0 0 0 10px
+		font-size: 0.9rem
+		&.stars
+			color: lighten($red-light, 10%)
+
+.social
+	font-family: $social
+	font-size: 3rem
+	font-size: 4vw
+	margin: 0
+	padding: 0
+	color: $blue
+	li
+		width: 21%
+		text-align: center
+		display: inline-block
+		margin: 0
+		padding: 0
