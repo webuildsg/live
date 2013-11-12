@@ -1,9 +1,9 @@
 ---
 title: 007 Muhd. Ibnur Rashad
 layout: post
-permalink: /007-muhd-ibnur-rashad/
-profile: 007-muhd-ibnur-rashad
-enclosure: http://audio.live.webuild.sg/007-muhd-ibnur-rashad
+permalink: /007-ibnur-rashad/
+profile: 007-ibnur-rashad
+enclosure: http://audio.live.webuild.sg/007-ibnur-rashad
 length: 23559347
 description: Muhd. Ibnur Rashad on building makerspaces and encouraging the DIY hands-on community spirit.
 ---
