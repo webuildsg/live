@@ -7,16 +7,16 @@ enclosure: http://audio.live.webuild.sg/000-hello-world
 length: 9007432
 description: First episode! Hosts explain the technology and reason behind this live audio show
 ---
-*   [icecast][1]
-*   [mumble][2]
-*   [soundplant][3]
-*   [ccmixter][4]
-*   [vorbis][5]
-*   [shoutcast][6]
-*   [makers][7]
-*   [rdrc][8]
-*   [pycon.sg][9]
-*   [uxsg][10]
+*   [Icecast][1]
+*   [Mumble][2]
+*   [Soundplant][3]
+*   [CCMixter][4]
+*   [Vorbis][5]
+*   [Shoutcast][6]
+*   [Makers][7]
+*   [Red Dor Ruby Conference][8]
+*   [PyCon.sg][9]
+*   [UXSG][10]
 
  [1]: http://www.icecast.org/
  [2]: http://mumble.sourceforge.net/
