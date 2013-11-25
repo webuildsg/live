@@ -10,11 +10,8 @@ description: Muhd. Ibnur Rashad on building makerspaces and encouraging the DIY 
 
 **Introduction**
 
-- [Sustainable Living Lab](http://www.sl2square.org/)
-- [Kampung](http://en.wikipedia.org/wiki/Kampung#Southeast_Asia)
-- [Bottle Tree Park](http://www.bottletree.com.sg/?page_id=23)
 
-**Makerspaces**
+**Agile Software Developement**
 
 - [Make Magazine](http://makezine.com//)
 - [Arduino](http://arduino.cc/)
@@ -36,10 +33,10 @@ description: Muhd. Ibnur Rashad on building makerspaces and encouraging the DIY 
 
 **Rapid Fire questions**
 
-- [Dremel](https://www.archlinux.org/)
+- [Dremel](http://en.wikipedia.org/wiki/Dremel)
 - [Jeff Bezos](http://en.wikipedia.org/wiki/Jeff_Bezos)
 - [Maker Nite](https://www.facebook.com/media/set/?set=a.537947932958795.1073741839.172727739480818&type=1)
-- [Civilizations V](https://www.archlinux.org/)
+- [Civilizations V](http://en.wikipedia.org/wiki/Civilization_V)
 
 **Doubly Linked list - New releases**
 

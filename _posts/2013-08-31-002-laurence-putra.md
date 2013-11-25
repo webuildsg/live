@@ -10,8 +10,8 @@ description: Laurence Putra on MongoDB, being a student in technology and organi
 
 **MongoDB**
 
-*   [mongodb group][1]
-*   [php user group][2]
+*   [Mongodb group][1]
+*   [PHP user group][2]
 *   [mongodb][3]
 *   [neo4j][4]
 *   [couchdb][5]
@@ -23,43 +23,43 @@ description: Laurence Putra on MongoDB, being a student in technology and organi
 
 **Being a student in tech**
 
-*   [startup roots][11]
-*   [chalkboard][12]
-*   [nus hackers][13]
+*   [Startup roots][11]
+*   [Chalkboard][12]
+*   [NUS Hackers][13]
 
 **Organizing unconferences**
 
-*   [geekcampsg][14]
-*   [barcamp][15]
-*   [geekcamp 2013 talks][16]
+*   [Geekcampsg][14]
+*   [Barcamp][15]
+*   [Geekcamp 2013 talks][16]
 
 **I/O Polling audience questions**
 
-*   [aws][17]
-*   [bitbucket][18]
+*   [AWS][17]
+*   [Bitbucket][18]
 
 **Rapid Fire questions!**
 
 *   [vim][19]
-*   [far cry 2][20]
-*   [centos][21]
-*   [bruce schneier][22]
+*   [Far Cry 2][20]
+*   [Centos][21]
+*   [Bruce Schneier][22]
 
 **Events and New Releases**
 
-*   [geekcampsg][14]
-*   [hackidemia 3][23]
-*   [yeoman 1.0][24]
-*   [hyperloop alpha][25]
+*   [Geekcampsg][14]
+*   [Hackidemia 3][23]
+*   [Yeoman 1.0][24]
+*   [Hyperloop alpha][25]
 
 **Electric plug &#8211; Connect with Laurence!**
 
-*   [twitter][26]
-*   [github][27]
-*   [website][28]
-*   [geekcamp][14]
-*   [instasyncer][29]
-*   [billpin][30]
+*   [Twitter][26]
+*   [Github][27]
+*   [Website][28]
+*   [Geekcamp][14]
+*   [Instasyncer][29]
+*   [Billpin][30]
 
  [1]: https://www.facebook.com/groups/mongosg
  [2]: https://www.facebook.com/groups/sghypertextpreprocessors/
