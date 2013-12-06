@@ -24,7 +24,8 @@
             unit: "hours",
             amount: 2
         },
-        streamingServerName: 'http://listen.webuild.sg:8000/'
+        streamingServerName: 'http://listen.webuild.sg:8000/',
+        usingiFrameIRC : 0
     }
 
     var podcastTime = moment(config.podcastTimeString, config.timeFormatString);
@@ -201,14 +202,16 @@
         if (autoPlay)
             audioElement.play();
 
-        var chatElement = document.getElementById('liveChat');
+        if (usingiFrameIRC){
+            var chatElement = document.getElementById('liveChat');
 
-        if (chatElement == null){
-            chatElement = document.createElement('iframe');
-            chatElement.setAttribute("id", "liveChat");
-            chatElement.setAttribute('class', 'livechat');
-            chatElement.setAttribute('src', 'http://webchat.freenode.net?channels=webuildsg&uio=MT1mYWxzZSY5PXRydWUmMTE9NTEfe');
-            live.appendChild(chatElement);
+            if (chatElement == null){
+                chatElement = document.createElement('iframe');
+                chatElement.setAttribute("id", "liveChat");
+                chatElement.setAttribute('class', 'livechat');
+                chatElement.setAttribute('src', 'http://webchat.freenode.net?channels=webuildsg&uio=MT1mYWxzZSY5PXRydWUmMTE9NTEfe');
+                live.appendChild(chatElement);
+            }
         }
     }
 
