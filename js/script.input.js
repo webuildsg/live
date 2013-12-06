@@ -202,7 +202,7 @@
         if (autoPlay)
             audioElement.play();
 
-        if (usingiFrameIRC){
+        if (config.usingiFrameIRC){
             var chatElement = document.getElementById('liveChat');
 
             if (chatElement == null){
