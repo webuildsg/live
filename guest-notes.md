@@ -13,7 +13,7 @@ Ensure you have the following:
 - Microphone connected to your laptop
 - Download [mumble](http://mumble.sourceforge.net/#Get_Mumble)
 
-The next steps will take you **just 3 minutes** and you will be able to join the live podcast server. Try it out :)
+The next steps will take you **just 3 minutes** and you will be able to join the live podcast server. We have MAC OSX screenshots along with Windows where it differs. Try it out :)
 
 * * *
 
@@ -24,6 +24,10 @@ Firstly, let's configure your audio with [mumble](http://mumble.sourceforge.net/
 - Audio Tuning Wizard's Introduction page will first appear
 
 ![Audio Tuning Wizard]({{ site.url }}/img/guest-notes-2.jpg)
+
+For Windows: Configure > Audio Wizard
+
+![Audio Tuning Wizard Windows]({{ site.url }}/img/guest-notes-2-win.jpg)
 
 - Choose your input and output devices. Choose your Audio I/O interface or USB microphone if you're using one. If you're using a the microphone jack of your computer, leave it as Default.
 
@@ -58,6 +62,12 @@ Next, let's meddle with [mumble](http://mumble.sourceforge.net/#Get_Mumble) pref
 ![Mumble preferences]({{ site.url}}/img/guest-notes-10.jpg)
 
 - **Important:** You must click "Apply" and save the settings. Close this preference menu before you can hear the audio.
+
+For Windows: Go to Configure > Settings. Ensure that you check the "Advanced" options.
+
+![Mumble Settings on Windows]({{ site.url}}/img/guest-notes-10a-win.jpg)
+
+![Mumble Settings options on Windows]({{ site.url}}/img/guest-notes-10b-win.jpg)
 
 * * *
 
