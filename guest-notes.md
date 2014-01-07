@@ -25,7 +25,7 @@ Firstly, let's configure your audio with [mumble](http://mumble.sourceforge.net/
 
 ![Audio Tuning Wizard]({{ site.url }}/img/guest-notes-2.jpg)
 
-For Windows: Configure > Audio Wizard
+**For Windows**: Configure > Audio Wizard
 
 ![Audio Tuning Wizard Windows]({{ site.url }}/img/guest-notes-2-win.jpg)
 
@@ -63,9 +63,11 @@ Next, let's meddle with [mumble](http://mumble.sourceforge.net/#Get_Mumble) pref
 
 - **Important:** You must click "Apply" and save the settings. Close this preference menu before you can hear the audio.
 
-For Windows: Go to Configure > Settings. Ensure that you check the "Advanced" options.
+**For Windows**: Go to Configure > Settings.
 
 ![Mumble Settings on Windows]({{ site.url}}/img/guest-notes-10a-win.jpg)
+
+Ensure that you check the "Advanced" options.
 
 ![Mumble Settings options on Windows]({{ site.url}}/img/guest-notes-10b-win.jpg)
 
