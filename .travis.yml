@@ -5,3 +5,7 @@ rvm:
 
 install: gem install jekyll
 script: jekyll build
+
+branches:
+  only:
+    - gh-pages
