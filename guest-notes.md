@@ -53,6 +53,7 @@ Next, let's meddle with [mumble](http://mumble.sourceforge.net/#Get_Mumble) pref
 
 - Open [mumble](http://mumble.sourceforge.net/#Get_Mumble)
 - Open Menu > Mumble > Preferences
+- Check the "Advanced" options right at the top
 
 ![Mumble preferences]({{ site.url}}/img/guest-notes-10.jpg)
 
