@@ -43,7 +43,6 @@ error: invalid byte sequence in US-ASCII`, run the following in the command line
     git push origin gh-pages
     ```
 
-
 #Credits
 
 1. [Social icon fonts](http://drinchev.github.io/monosocialiconsfont/)
