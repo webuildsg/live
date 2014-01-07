@@ -2,6 +2,9 @@
 
 This repository contains the website for the live audio show.
 
+[![Build Status](https://travis-ci.org/sayanee/webuild-live.png)](https://travis-ci.org/sayanee/webuild-live)
+
+
 Related websites:
 
 - [Main website](http://live.webuild.sg/)
