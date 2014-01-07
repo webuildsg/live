@@ -1,8 +1,7 @@
 language: ruby
+cache: bundler
 rvm:
   - 2.0.0
-  
-before_install: 
-  - travis_retry gem install jekyll
 
+install: gem install jekyll
 script: jekyll build
