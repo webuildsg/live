@@ -42,9 +42,9 @@ description: Luther Goh on building hackerspaces and running a hardware e-commer
 
 **I/O Polling audience questions**
 
--[Freecycle](https://www.freecycle.org/)
--[SGFreecycle](http://sgfreecycle.org/)
--[Team Fortress 2](http://www.teamfortress.com/)
+- [Freecycle](https://www.freecycle.org/)
+- [SGFreecycle](http://sgfreecycle.org/)
+- [Team Fortress 2](http://www.teamfortress.com/)
 
 **Rapid Fire questions**
 
