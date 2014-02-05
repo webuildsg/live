@@ -45,6 +45,20 @@
         window.parent.location.href = '/';
     });
 
+    // Add support for hash timestamps
+    window.addEventListener('load', function () {
+      var fHash = window.location.hash;
+      if (fHash.substring(0,3) == "#t=") {
+        var tStamp = fHash.replace(/#t=/,"").split(":");
+        var tSec = (parseInt (tStamp[0])*60)+ parseInt (tStamp[1]);
+        var aP = document.getElementsByTagName("audio")[0];
+        if (aP && tSec) {
+          aP.currentTime = tSec;
+          aP.play();
+        }
+      }
+   });
+
     // countdown
     countdown();
     setInterval(countdown, 1000);
@@ -89,7 +103,7 @@
         updateCountdown('full');
     }
 
-     function addPreMomentToDOM() {
+    function addPreMomentToDOM() {
         if (needsToBeUpdated('pre')){
             removeLiveTime();
 
@@ -102,7 +116,7 @@
         updateCountdown('full');
     }
 
-     function addCountdownMomentToDOM() {
+    function addCountdownMomentToDOM() {
         if (needsToBeUpdated('countdown')){
             removeLiveTime();
 
@@ -123,9 +137,9 @@
             addSubtitle("join us in the chat and conversation below");
             addAudioAndIRC('live', true);
             //console.log("Switching to Live");
-             live.setAttribute('data-state','during-live');
-          }
-   }
+            live.setAttribute('data-state','during-live');
+        }
+    }
 
     function addDuringMomentToDOM() {
 
@@ -139,13 +153,13 @@
                     addAudioAndIRC('live', true);
                     //console.log("Switching to Live");
                     live.setAttribute('data-state','during-live');
-             }
-         },
-         function (){
-            if (needsToBeUpdated('during-radio')){
-                addHeadingLive('We Build SG LIVE just finished airing');
-                addSubtitle("continue to join us in the chat below");
-                addAudioAndIRC('radio', true);
+                }
+            },
+            function (){
+                if (needsToBeUpdated('during-radio')){
+                    addHeadingLive('We Build SG LIVE just finished airing');
+                    addSubtitle("continue to join us in the chat below");
+                    addAudioAndIRC('radio', true);
                 //console.log("Switching to Radio");
                 live.setAttribute('data-state','during-radio');
             }
@@ -283,10 +297,10 @@
 
         if (length == 'short'){
             diff = 'in <strong> ' + seconds + '</strong>...';
-       }
-       else{
+        }
+        else{
             diff = 'in <strong>' + days + '</strong> days <strong>' + hours + '</strong> hours <strong>' + minutes + '</strong> minutes <strong>' + seconds + '</strong> seconds';
-    }
+        }
 
         var countdownElement = document.getElementById('liveCountdown');
         countdownElement.innerHTML = diff;
@@ -298,31 +312,31 @@
 
         if (!Modernizr.audio.mp3) station += '-ogg';
 
-       if (testStream == null){
+        if (testStream == null){
          //console.log("Making new test stream for " + config.streamingServerName + streamName);
          testStream = new Audio(config.streamingServerName + streamName);
          testStream.preLoad = 'none';
          testStream.pause();
          testCount = 0;
-      }
-      else if(testStream.src != config.streamingServerName + streamName) {
-         testStream.src = config.streamingServerName + streamName;
-         testStream.preLoad = 'none';
-         testStream.pause();
-         testCount = 0;
-      }
-      else{
+     }
+     else if(testStream.src != config.streamingServerName + streamName) {
+       testStream.src = config.streamingServerName + streamName;
+       testStream.preLoad = 'none';
+       testStream.pause();
+       testCount = 0;
+   }
+   else{
 
-        testCount++;
+    testCount++;
 
-        /*Ignore the first 3 seconds of checks (network lag)*/
-        if (testCount < 3)
-         return;
-        else if (testCount > 10){
-            /*Re check after 10 seconds*/
-            testStream.src = "";
-            return;
-        }
+    /*Ignore the first 3 seconds of checks (network lag)*/
+    if (testCount < 3)
+       return;
+   else if (testCount > 10){
+    /*Re check after 10 seconds*/
+    testStream.src = "";
+    return;
+}
 
       //console.log("Test Stream error " + testStream.error + " networkState " + testStream.networkState);
       //console.log(testStream);
@@ -331,13 +345,13 @@
         testStream.networkState == HTMLMediaElement.NETWORK_NO_SOURCE ||
         testStream.networkState == HTMLMediaElement.NETWORK_EMPTY){
                //console.log("Not Available");
-                ifNotAvailable();
-             }
-             else{
+           ifNotAvailable();
+       }
+       else{
                 //console.log("Available");
                 ifAvailable();
-             }
-      }
-}
+            }
+        }
+    }
 
 })();
