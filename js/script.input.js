@@ -46,7 +46,7 @@
     });
 
     // Add support for hash timestamps
-    window.addEventListener('load', function () {
+    window.addEventListener('hashchange', function () {
       var fHash = window.location.hash;
       if (fHash.substring(0,3) == "#t=") {
         var tStamp = fHash.replace(/#t=/,"").split(":");
