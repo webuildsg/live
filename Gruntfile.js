@@ -25,6 +25,9 @@ module.exports = function(grunt) {
         }
       }
     },
+    jshint: {
+      all: ['Gruntfile.js', 'script.input.js']
+    },
     watch: {
       styles: {
         files: ['sass/**/*.scss', 'sass/**/*.sass'],
@@ -42,7 +45,8 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-contrib-compass');
   grunt.loadNpmTasks('grunt-contrib-uglify');
   grunt.loadNpmTasks('grunt-contrib-watch');
+  grunt.loadNpmTasks('grunt-contrib-jshint');
 
-  grunt.registerTask('default', ['clean', 'compass', 'uglify', 'watch']);
+  grunt.registerTask('default', ['clean', 'compass','jshint', 'uglify', 'watch']);
 
 };

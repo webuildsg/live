@@ -9,3 +9,9 @@ permalink: /:title
 exclude: ['sass', 'node_modules', 'Gruntfile.js', 'package.json', 'readme.md', 'js', 'scripts']
 markdown: redcarpet
 url: http://localhost:4000
+
+next_guest: Tim Oxley
+next_episode: "013"
+next_profile: /img/013-tim-oxley-profile.jpg
+next_topic: developing <a href="http://nodejs.org/">nodejs</a> apps and organising technical workshops.
+next_connect: Connect with Tim on <a href="https://twitter.com/secoif">twitter</a>, <a href="http://github.com/timoxley">github</a>, <a href="http://campjs.com">campjs</a> and <a href="http://www.meetup.com/Singapore-JS">singaporejs</a>!
