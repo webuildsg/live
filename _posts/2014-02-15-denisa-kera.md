@@ -9,12 +9,12 @@ description: Denisa Kera on hacker culture, open science and community labs.
 
 ---
 
-[**Introduction**](#t=0:48)
+**[Introduction [0:48]](#t=0:48)**
 
 - [James Joyce](http://en.wikipedia.org/wiki/James_Joyce)
 - [Philosophy of Technology](http://en.wikipedia.org/wiki/Philosophy_of_technology)
 
-[**Hacker Culture**](#t=4:03)
+**[Hacker Culture [4:03]](#t=4:03)**
 
 - [16th Century Science](http://en.wikipedia.org/wiki/Category:16th-century_scientists)
 - [Tinkering](http://en.wikipedia.org/wiki/Tinker)
@@ -25,7 +25,7 @@ description: Denisa Kera on hacker culture, open science and community labs.
 - [Coursera](https://www.coursera.org)
 - [Hackerspaces](http://hackerspaces.org/wiki/)
 
-[**Open Science and Community Labs**](#t=22:10)
+**[Open Science and Community Labs [22:10]](#t=22:10)**
 
 - [Open Science](http://en.wikipedia.org/wiki/Open_science)
 - [Open Data](http://en.wikipedia.org/wiki/Open_data)
@@ -36,7 +36,7 @@ description: Denisa Kera on hacker culture, open science and community labs.
 - [Hackerspace - Berlin](http://hackerspaces.org/wiki/Berlin)
 - [DIYBio Lab Berlin](http://www.artlaboratory-berlin.org/home.htm)
 
-[**I/O Polling audience questions**](#t=39:25)
+**[I/O Polling audience questions [39:25]](#t=39:25)**
 
 - [Experiment](https://experiment.com/)
 - [Glowing Plant Project](https://en.wikipedia.org/wiki/Glowing_Plant_project)
@@ -49,7 +49,7 @@ description: Denisa Kera on hacker culture, open science and community labs.
 - [Zooplankton](https://en.wikipedia.org/wiki/Zooplankton)
 
 
-[**Rapid Fire questions**](#t=47:29)
+**[Rapid Fire questions [47:29]](#t=47:29)**
 
 - [Bunnie Huang](http://www.bunniestudios.com/)
 - [Startup Nation](http://www.startupnation.com/)
@@ -61,12 +61,12 @@ description: Denisa Kera on hacker culture, open science and community labs.
 - [HackteriaLab Yogyakarta](hackteria.org/wiki/index.php/HackteriaLab_2014_-_Yogyakarta#Green_Tech_Community)
 - [DIYBio SG](https://www.facebook.com/groups/300351496770239)
 
-[**Event Loop - Local events**](#t=52:50)
+**[Event Loop - Local events [52:50]](#t=52:50)**
 
 - [MakerFaire Singapore 2014](http://makerfairesingapore.com/makers/)
 - [Singapore Makers Meetup February](https://www.facebook.com/events/1398456883740565)
 
-[**Electric Plug  – Connect with Denisa!**](#t=53:52)
+**[Electric Plug  – Connect with Denisa! [53:52]](#t=53:52)**
 
 - [Denisa's Facebook](https://www.facebook.com/denisakera)
 - [Denisa's Academic Publications](http://nus.academia.edu/DenisaKera)
