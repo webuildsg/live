@@ -6,7 +6,7 @@
             hours: 0,
             minutes: 0
         },
-        podcastTimeString: '2014-03-01 11:00 +0800',
+        podcastTimeString: '2014-03-15 11:00 +0800',
         timeFormatString: 'YYYY-MM-DD HH:mm Z',
         preMoment: {
             unit: "hours",
@@ -50,14 +50,20 @@
       var fHash = window.location.hash;
       if (fHash.substring(0,3) == "#t=") {
         var tStamp = fHash.replace(/#t=/,"").split(":");
-        var tSec = (parseInt (tStamp[0])*60)+ parseInt (tStamp[1]);
+        var tSec = parseInt (tStamp[tStamp.length-1]);
+        if (tStamp[tStamp.length -2]){
+            tSec += (parseInt (tStamp[tStamp.length-2])*60);
+        }
+        if (tStamp[tStamp.length -3]){
+            tSec += (parseInt (tStamp[tStamp.length-3])*60*60);
+        }
         var aP = document.getElementsByTagName("audio")[0];
         if (aP && tSec) {
           aP.currentTime = tSec;
           aP.play();
-        }
       }
-   });
+  }
+});
 
     // countdown
     countdown();
@@ -320,23 +326,23 @@
          testCount = 0;
      }
      else if(testStream.src != config.streamingServerName + streamName) {
-       testStream.src = config.streamingServerName + streamName;
-       testStream.preLoad = 'none';
-       testStream.pause();
-       testCount = 0;
-   }
-   else{
+         testStream.src = config.streamingServerName + streamName;
+         testStream.preLoad = 'none';
+         testStream.pause();
+         testCount = 0;
+     }
+     else{
 
-    testCount++;
+        testCount++;
 
-    /*Ignore the first 3 seconds of checks (network lag)*/
-    if (testCount < 3)
-       return;
-   else if (testCount > 10){
-    /*Re check after 10 seconds*/
-    testStream.src = "";
-    return;
-}
+        /*Ignore the first 3 seconds of checks (network lag)*/
+        if (testCount < 3)
+         return;
+     else if (testCount > 10){
+        /*Re check after 10 seconds*/
+        testStream.src = "";
+        return;
+    }
 
       //console.log("Test Stream error " + testStream.error + " networkState " + testStream.networkState);
       //console.log(testStream);
