@@ -11,7 +11,7 @@ description: Lakshan Parera on startup product development and managing open sou
 
 **[Introduction [0:38]](#t=0:38)**
 
-- [Sri Lank](http://en.wikipedia.org/wiki/Sri_Lanka)
+- [Sri Lanka](http://en.wikipedia.org/wiki/Sri_Lanka)
 - [Punch](https://github.com/laktek/punch)
 - [NitrousIO](https://www.nitrous.io)
 - [CurdBee](http://curdbee.com/)
