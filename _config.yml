@@ -10,8 +10,8 @@ exclude: ['sass', 'node_modules', 'Gruntfile.js', 'package.json', 'readme.md', '
 markdown: redcarpet
 url: http://live.webuild.sg
 
-next_guest: Lakshan Parera
-next_episode: "014"
-next_profile: /img/014-lakshan-parera-profile.jpg
-next_topic: startup product development and managing open source projects.
-next_connect: Connect with Lakshan on <a href="https://twitter.com/laktek">twitter</a>, <a href="http://github.com/laktek">github</a>!
+next_guest: Martin Brochhaus
+next_episode: "015"
+next_profile: /img/015-martin-brochhaus-profile.jpg
+next_topic: developing with Python and organising talks in a tech conference.
+next_connect: Connect with Martin on <a href="https://plus.google.com/+MartinBrochhaus">Google+</a>, <a href="https://github.com/mbrochh">github</a>!
