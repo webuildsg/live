@@ -10,8 +10,8 @@ exclude: ['sass', 'node_modules', 'Gruntfile.js', 'package.json', 'readme.md', '
 markdown: redcarpet
 url: http://live.webuild.sg
 
-next_guest: Martin Brochhaus
-next_episode: "015"
-next_profile: /img/015-martin-brochhaus-profile.jpg
-next_topic: developing with Python and organising talks in a tech conference.
-next_connect: Connect with Martin on <a href="https://twitter.com/mbrochh">twitter</a>, <a href="https://plus.google.com/+MartinBrochhaus">google+</a>, <a href="https://github.com/mbrochh">github</a>!
+next_guest: Veronica Ng
+next_episode: "016"
+next_profile: /img/016-veronica-ng-profile.jpg
+next_topic: UX and UI for products and open source legal docs for startups.
+next_connect: Connect with Veronica on <a href="https://twitter.com/veronism">twitter</a>, <a href="https://github.com/veronism">github</a>!

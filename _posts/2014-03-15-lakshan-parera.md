@@ -69,5 +69,5 @@ description: Lakshan Parera on startup product development and managing open sou
 **[Electric Plug  – Connect with Lakshan! [42:40]](#t=42:40)**
 
 - [Lakshan's Twitter](https://twitter.com/laktek)
-- [Lakshan's Twitter](https://github.com/laktek/)
+- [Lakshan's Github](https://github.com/laktek/)
 - [Lakshan's Blog](http://www.laktek.com)
