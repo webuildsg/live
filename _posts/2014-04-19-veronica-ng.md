@@ -25,7 +25,7 @@ description: Veronica Ng on UX and UI for products and open source legal docs fo
 - [Sketch](http://bohemiancoding.com/sketch/)
 - [Balsamiq](http://balsamiq.com/)
 - [Antetype](http://antetype.com/)
-- [Invasion](http://www.invisionapp.com/)
+- [Invision](http://www.invisionapp.com/)
 - [Photoshop](http://adobe.com/photoshop)
 - [Google Fonts](https://www.google.com/fonts)
 - [Style Tile](http://styletil.es/)
@@ -62,10 +62,10 @@ description: Veronica Ng on UX and UI for products and open source legal docs fo
 
 **[Electric Plug  – Connect with Veronica! [45:07]](#t=45:07)**
 
-- [CoFounders](http://cf.sg)
-- [CoFounders SG](http://facebook.com/cofounders.sg)
-- [CoFounders Github](https://github.com/cofounders)
-- [CoFounders Twitter](https://twitter.com/cofounderssg)
+- [Cofounders](http://cf.sg)
+- [Cofounders Facebook](http://facebook.com/cofounders.sg)
+- [Cofounders Github](https://github.com/cofounders)
+- [Cofounders Twitter](https://twitter.com/cofounderssg)
 - [Veronica's Twitter](https://twitter.com/veronism)
 - [Veronica's Website](http://veron.sg)
-- [Chasing Light](http://chasinglights.co/)
+- [Chasing Lights](http://chasinglights.co/)
