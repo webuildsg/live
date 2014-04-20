@@ -6,7 +6,7 @@
             hours: 0,
             minutes: 0
         },
-        podcastTimeString: '2014-04-19 11:00 +0800',
+        podcastTimeString: '2014-05-03 11:00 +0800',
         timeFormatString: 'YYYY-MM-DD HH:mm Z',
         preMoment: {
             unit: "hours",
@@ -319,26 +319,25 @@
         if (!Modernizr.audio.mp3) station += '-ogg';
 
         if (testStream == null){
-         //console.log("Making new test stream for " + config.streamingServerName + streamName);
-         testStream = new Audio(config.streamingServerName + streamName);
-         testStream.preLoad = 'none';
-         testStream.pause();
-         testCount = 0;
-     }
-     else if(testStream.src != config.streamingServerName + streamName) {
-         testStream.src = config.streamingServerName + streamName;
-         testStream.preLoad = 'none';
-         testStream.pause();
-         testCount = 0;
-     }
-     else{
+           testStream = new Audio(config.streamingServerName + streamName);
+           testStream.preLoad = 'none';
+           testStream.pause();
+           testCount = 0;
+       }
+       else if(testStream.src != config.streamingServerName + streamName) {
+           testStream.src = config.streamingServerName + streamName;
+           testStream.preLoad = 'none';
+           testStream.pause();
+           testCount = 0;
+       }
+       else{
 
         testCount++;
 
         /*Ignore the first 3 seconds of checks (network lag)*/
         if (testCount < 3)
-         return;
-     else if (testCount > 10){
+           return;
+       else if (testCount > 10){
         /*Re check after 10 seconds*/
         testStream.src = "";
         return;

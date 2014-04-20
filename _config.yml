@@ -10,8 +10,8 @@ exclude: ['sass', 'node_modules', 'Gruntfile.js', 'package.json', 'readme.md', '
 markdown: redcarpet
 url: http://live.webuild.sg
 
-next_guest: Veronica Ng
-next_episode: "016"
-next_profile: /img/016-veronica-ng-profile.jpg
-next_topic: UX and UI for products and open source legal docs for startups.
-next_connect: Connect with Veronica on <a href="https://twitter.com/veronism">twitter</a>, <a href="https://github.com/veronism">github</a>!
+next_guest: Winston Teo
+next_episode: "017"
+next_profile: /img/017-winston-teo-profile.jpg
+next_topic: developer happiness and Ruby community events.
+next_connect: Connect with Winston on <a href="https://twitter.com/winstonyw">twitter</a>, <a href="https://github.com/winston">github</a> and <a href="http://www.reddotrubyconf.com/">rdrc</a>!
