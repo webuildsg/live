@@ -4,7 +4,7 @@ layout: post
 permalink: /016-veronica-ng/
 profile: 016-veronica-ng
 enclosure: http://audio.live.webuild.sg/016-veronica-ng
-length: XXXXXXXX
+length: 23675553
 description: Veronica Ng on UX and UI for products and open source legal docs for startups.
 
 ---
