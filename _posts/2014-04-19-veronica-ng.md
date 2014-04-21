@@ -34,6 +34,7 @@ description: Veronica Ng on UX and UI for products and open source legal docs fo
 **[Open source legal docs for startups[26:00]](#t=26:00)**
 
 - [Legal Boilerplate](http://legal.cf.sg/)
+- [Legal Boilerplate Slides](https://speakerdeck.com/cofounders/legal-dot-cf-dot-sg-roadmap)
 - [500px](http://500px.com/terms)
 - [JFDI terms](http://jfdi.asia/accelerator/terms/)
 - [tldrlegal](https://tldrlegal.com/)
