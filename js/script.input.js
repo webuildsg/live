@@ -6,7 +6,7 @@
             hours: 0,
             minutes: 0
         },
-        podcastTimeString: '2014-05-03 11:00 +0800',
+        podcastTimeString: '2014-05-17 11:00 +0800',
         timeFormatString: 'YYYY-MM-DD HH:mm Z',
         preMoment: {
             unit: "hours",
