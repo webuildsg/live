@@ -13,6 +13,8 @@ Ensure you have the following:
 - Microphone connected to your laptop
 - Download [mumble](http://mumble.sourceforge.net/#Get_Mumble)
 
+You can join our conversation from your own home or any other **quiet location** with **good Internet**. If you have access to Wired Internet, it's better than using WiFi. Otherwise ensure you get a strong WiFi signal where you're recording from. Also try to find a location which is relatively quiet and not near a window so we don't capture too much ambient noise.
+
 The next steps will take you **just 3 minutes** and you will be able to join the live podcast server. We have MAC OSX screenshots along with Windows where it differs. Try it out :)
 
 * * *
@@ -96,6 +98,14 @@ Finally, let's connect to the live podcast server!
 - This is how the mumble interface will typically look during the live show.
 
 ![During the live show]({{ site.url}}/img/guest-notes-13.jpg)
+
+- Take note of the chat inside the interface that you can use to communicate with only the hosts during the show
+
+![Mumble Chat]({{ site.url}}/img/guest-notes-14.jpg)
+
+- While typing in the chat there will be notification sounds. You can switch them off by going to Preferences > Messages tab > uncheck all columns expect for 1st column "Console"
+
+![Notification sounds off]({{ site.url}}/img/guest-notes-15.jpg)
 
 * * *
 

@@ -10,8 +10,8 @@ exclude: ['sass', 'node_modules', 'Gruntfile.js', 'package.json', 'readme.md', '
 markdown: redcarpet
 url: http://localhost:4000
 
-next_guest: Winston Teo
-next_episode: "017"
-next_profile: /img/017-winston-teo-profile.jpg
-next_topic: developer happiness and Ruby community events.
-next_connect: Connect with Winston on <a href="https://twitter.com/winstonyw">twitter</a>, <a href="https://github.com/winston">github</a> and <a href="http://www.reddotrubyconf.com/">rdrc</a>!
+next_guest: U-Zyn Chua
+next_episode: "018"
+next_profile: /img/018-uzyn-chua-profile.jpg
+next_topic: web security and authentication.
+next_connect: Connect with U-Zyn on <a href="https://twitter.com/uzyn">twitter</a>, <a href="https://github.com/uzyn">github</a> and <a href="https://github.com/opauth">opauth</a>!
