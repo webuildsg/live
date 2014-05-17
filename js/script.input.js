@@ -6,11 +6,7 @@
             hours: 0,
             minutes: 0
         },
-<<<<<<< HEAD
-        podcastTimeString: '2014-05-03 11:00 +0800',
-=======
-        podcastTimeString: '2014-05-17 11:00 +0800',
->>>>>>> 7c4e093ab6153a47e6888abc5cf8045f8143091d
+        podcastTimeString: '2014-06-07 11:00 +0800',
         timeFormatString: 'YYYY-MM-DD HH:mm Z',
         preMoment: {
             unit: "hours",
@@ -30,7 +26,7 @@
         },
         streamingServerName: 'http://listen.webuild.sg:8000/',
         usingiFrameIRC : 0
-    }
+    };
 
     var podcastTime = moment(config.podcastTimeString, config.timeFormatString);
     var remainingTime;
