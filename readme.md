@@ -20,7 +20,7 @@ Related websites:
     jekyll build
     ```
 
-1. start jekyll server
+1. start server
 
     ```
     jekyll serve --config _dev_config.yml --watch
