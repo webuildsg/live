@@ -10,7 +10,7 @@ Related websites:
 - [Main website](http://live.webuild.sg/)
 - [Facebook](http://facebook.com/webuildsg)
 - [Twitter](https://twitter.com/webuildsg)
-- [Github repository](https://github.com/webuildsg/live)
+- [Github](https://github.com/webuildsg/live)
 
 ##development
 
