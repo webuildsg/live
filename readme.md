@@ -11,6 +11,29 @@ Related websites:
 - [Twitter](https://twitter.com/webuildsg)
 - [Github](https://github.com/webuildsg/live)
 
+##install
+
+1. clone repository
+
+    ```
+    git@github.com:webuildsg/live.git
+    ```
+1. install packages
+
+    ```
+    npm install
+    bundle install
+    ```
+1. add a git pre-commit hook to generate new `sitemap.xml` with new episodes. edit file `.git/hooks/pre-commit`
+
+    ```
+    #!/bin/sh
+
+    rm sitemap.xml
+    jekyll build
+    mv _publish/sitemap.xml sitemap.xml
+    ```
+
 ##development
 
 1. build static pages
