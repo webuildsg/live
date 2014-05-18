@@ -2,30 +2,28 @@
 
 This repository contains the website for the live audio show.
 
-[![Build Status](https://travis-ci.org/sayanee/webuild-live.png)](https://travis-ci.org/sayanee/webuild-live)
+[![Build Status](https://travis-ci.org/webuildsg/live.png)](https://travis-ci.org/webuildsg/live)
 
 
 Related websites:
 
 - [Main website](http://live.webuild.sg/)
-- [Github pages](http://sayanee.github.io/webuild-live/)
 - [Facebook](http://facebook.com/webuildsg)
 - [Twitter](https://twitter.com/webuildsg)
-- [Github repository](https://github.com/sayanee/webuild-live)
-- [Google Plus](https://plus.google.com/115395182582724849094)
+- [Github repository](https://github.com/webuildsg/live)
 
 ##development
 
 1. build the static pages on the git branch `master`
 
     ```
-    LC_CTYPE="en_US.UTF-8" && LANG="en_US.UTF-8" && jekyll build
+    jekyll build
     ```
 
 1. start the jekyll server
 
     ```
-    LC_CTYPE="en_US.UTF-8" && LANG="en_US.UTF-8" && jekyll serve --config _dev_config.yml --watch
+    jekyll serve --config _dev_config.yml --watch
     ```
 1. if there's error on `invalid byte sequence in US-ASCII
 error: invalid byte sequence in US-ASCII`, run the following in the command line:
