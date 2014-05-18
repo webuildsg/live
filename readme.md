@@ -14,7 +14,7 @@ Related websites:
 
 ##development
 
-1. build the static pages on the git branch `master`
+1. build static pages
 
     ```
     jekyll build
