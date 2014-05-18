@@ -9,6 +9,9 @@ permalink: /:title
 exclude: ['sass', 'node_modules', 'Gruntfile.js', 'package.json', 'readme.md', 'js', 'scripts']
 markdown: redcarpet
 url: http://live.webuild.sg
+timezone:    Singapore/Singapore
+encoding:    UTF-8
+
 
 next_guest: Joshua Koo
 next_episode: "019"
