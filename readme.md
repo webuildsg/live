@@ -4,7 +4,6 @@ This repository contains the website for the live audio show.
 
 [![Build Status](https://travis-ci.org/webuildsg/live.png)](https://travis-ci.org/webuildsg/live)
 
-
 Related websites:
 
 - [Main website](http://live.webuild.sg/)
