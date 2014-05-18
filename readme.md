@@ -1,6 +1,6 @@
 #We Build SG LIVE
 
-This repository contains the website for the live audio show.
+This repository contains the website for a live audio podcast.
 
 [![Build Status](https://travis-ci.org/webuildsg/live.png)](https://travis-ci.org/webuildsg/live)
 
