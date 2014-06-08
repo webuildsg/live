@@ -70,6 +70,7 @@ description: Joshua Koo on fun with the web, threejs and randomness.
 - [Dragon v2 Unveiling](http://www.space.com/26063-spacex-unveils-dragon-v2-manned-spaceship.html)
 
 **[Event Loop - Local events [51:59]](#t=51:59)**
+
 - [PyConSG](https://pycon.sg/)
 - [RedDot Ruby Conference](http://www.reddotrubyconf.com/)
 - [Rails Girls (mentors wanted)](http://railsgirls.com/singapore)
