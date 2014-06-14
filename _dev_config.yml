@@ -12,6 +12,9 @@ url: http://localhost:4000
 timezone:    Singapore/Singapore
 encoding:    UTF-8
 
+default_day : Sat
+default_time : 11am
+
 
 next_guest: Kiruthika Curic
 next_episode: "020"

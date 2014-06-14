@@ -13,7 +13,7 @@ title: A live conversation with geeks in town on building, learning and sharing!
       </div>
       <div class="post-content">
         <p><a class="title" href="{{site.url}}{{post.permalink}}">
-          {{ post.title }}<span> on {{ post.date | date_to_string }}, Sat @11am</span>
+          {{ post.title }}<span> on {{ post.date | date_to_string }}, {% if post.day %}{{ post.day }}{% else %}Sat{% endif %}  @ {% if post.time %}{{ post.time }}{% else %}11am{% endif %}</span>
         </a></p>
         <div class="post">
           {% if post == site.posts.first %}
