@@ -12,6 +12,7 @@ url: http://live.webuild.sg
 timezone:    Singapore/Singapore
 encoding:    UTF-8
 
+default_logo : logo-100.jpg
 default_day : Sat
 default_time : 11am
 

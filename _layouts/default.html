@@ -9,11 +9,14 @@
   <link rel="alternate" type="application/rss+xml" title="RSS Feed for {{ site.name }}" href="{{ site.feed }}" />
   <link rel="stylesheet" href="{{ site.url }}/style.css">
 
-  <meta property="og:image" content="{{ site.url }}/logo-100.jpg">
-  <meta property="og:url" content="http://live.webuild.sg">
+
+  {% if page.profile %}<meta property="og:image" content="{{ site.url }}/img/{{ page.profile }}-profile.jpg">{% endif %}
+  <meta property="og:image" content="{{ site.url }}/{{site.default_logo}}">
+  {% if site.next_profile %}<meta property="og:image" content="{{ site.url }}{{ site.next_profile }}">{% endif %}
+  <meta property="og:url" content="{{ site.url }}{{ page.url }}">
   <meta property="og:site_name" content="live.webuild.sg">
-  <meta property="og:title" content="We Build LIVE">
-  <meta property="og:description" content="Live conversations with geeks in town on building, learning and sharing!">
+  <meta property="og:title" content="We Build LIVE - {{page.title}}">
+  <meta property="og:description" content="{{page.description}} | Live conversations with geeks in town on building, learning and sharing!">
   <meta property="og:type" content="website">
 
 </head>
