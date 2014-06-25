@@ -76,7 +76,7 @@ description: Joshua Koo on fun with the web, threejs and randomness.
 - [Rails Girls (mentors wanted)](http://railsgirls.com/singapore)
 - [NodeSchool (mentors wanted)](http://www.meetup.com/Singapore-JS/events/186094192/)
 
-**[Electric Plug  – Connect with Joshua! [54:05]](#t=54:00)**
+**[Electric Plug  – Connect with Joshua! [54:05]](#t=54:05)**
 
 - [Joshua's Twitter](https://twitter.com/blurspline)
 - [Joshua's Blog](http://www.lab4games.net/zz85/blog/)
