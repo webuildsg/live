@@ -86,7 +86,7 @@ Topic 2: 2 questions
 
 `Doubly Linked-list - new software/hardware released`
 
-`Eventloop - `
+`Eventloop - upcoming developer, designer, maker events`
 
 **[11:47 am] (0 min - STOP)**
 
