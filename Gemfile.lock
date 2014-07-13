@@ -60,3 +60,4 @@ PLATFORMS
 
 DEPENDENCIES
   jekyll (= 2.0.3)
+  sass (= 3.3.9)
