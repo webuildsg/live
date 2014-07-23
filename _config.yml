@@ -9,7 +9,7 @@ permalink: /:title
 exclude: ['sass', 'node_modules', 'Gruntfile.js', 'package.json', 'readme.md', 'js', 'scripts']
 markdown: redcarpet
 url: http://live.webuild.sg
-timezone:    Singapore/Singapore
+timezone:    Asia/Singapore
 encoding:    UTF-8
 
 default_logo : logo-100.jpg
