@@ -6,7 +6,7 @@
             hours: 0,
             minutes: 0
         },
-        podcastTimeString: '2014-08-02 11:00 +0800',
+        podcastTimeString: '',
         timeFormatString: 'YYYY-MM-DD HH:mm Z',
         preMoment: {
             unit: "hours",
@@ -28,17 +28,30 @@
         usingiFrameIRC : 0
     };
 
-    var podcastTime = moment(config.podcastTimeString, config.timeFormatString);
-    var remainingTime;
-    var live = document.getElementById('liveDiv');
+    var request = new XMLHttpRequest();
+    request.open('GET', '/api/podcasts.json', true);
+    request.responseType = 'json';
+    request.onload = function() {
+        config.podcastTimeString = request.response.next_live_show;
 
-    // -hours, -seconds, +hour around the podcast live time
-    var preMoment = podcastTime.clone().subtract(config.preMoment.unit, config.preMoment.amount);
-    var startMoment = podcastTime.clone().subtract(config.startMoment.unit, config.startMoment.amount);
-    var stopMoment = podcastTime.clone().add(config.stopMoment.unit, config.stopMoment.amount);
-    var liveEndMoment = podcastTime.clone().add(config.liveEndMoment.unit, config.liveEndMoment.amount);
-    var testStream;
-    var testCount = 0;
+        var podcastTime = moment(config.podcastTimeString, config.timeFormatString);
+        var remainingTime;
+        var live = document.getElementById('liveDiv');
+
+        // -hours, -seconds, +hour around the podcast live time
+        var preMoment = podcastTime.clone().subtract(config.preMoment.unit, config.preMoment.amount);
+        var startMoment = podcastTime.clone().subtract(config.startMoment.unit, config.startMoment.amount);
+        var stopMoment = podcastTime.clone().add(config.stopMoment.unit, config.stopMoment.amount);
+        var liveEndMoment = podcastTime.clone().add(config.liveEndMoment.unit, config.liveEndMoment.amount);
+        var testStream;
+        var testCount = 0;
+
+        // countdown
+        countdown();
+        setInterval(countdown, 1000);
+    }
+    request.send();
+
 
     // click red header to link back to the homepage
     document.getElementsByTagName('header')[0].addEventListener('click', function() {
@@ -47,27 +60,23 @@
 
     // Add support for hash timestamps
     window.addEventListener('hashchange', function () {
-      var fHash = window.location.hash;
-      if (fHash.substring(0,3) == "#t=") {
-        var tStamp = fHash.replace(/#t=/,"").split(":");
-        var tSec = parseInt (tStamp[tStamp.length-1]);
-        if (tStamp[tStamp.length -2]){
-            tSec += (parseInt (tStamp[tStamp.length-2])*60);
+        var fHash = window.location.hash;
+        if (fHash.substring(0,3) == "#t=") {
+            var tStamp = fHash.replace(/#t=/,"").split(":");
+            var tSec = parseInt (tStamp[tStamp.length-1]);
+            if (tStamp[tStamp.length -2]){
+                tSec += (parseInt (tStamp[tStamp.length-2])*60);
+            }
+            if (tStamp[tStamp.length -3]){
+                tSec += (parseInt (tStamp[tStamp.length-3])*60*60);
+            }
+            var aP = document.getElementsByTagName("audio")[0];
+            if (aP && tSec) {
+                aP.currentTime = tSec;
+                aP.play();
+            }
         }
-        if (tStamp[tStamp.length -3]){
-            tSec += (parseInt (tStamp[tStamp.length-3])*60*60);
-        }
-        var aP = document.getElementsByTagName("audio")[0];
-        if (aP && tSec) {
-          aP.currentTime = tSec;
-          aP.play();
-      }
-  }
-});
-
-    // countdown
-    countdown();
-    setInterval(countdown, 1000);
+    });
 
     function countdown () {
 
@@ -314,7 +323,6 @@
     }
 
 
-    function isStreamAvailable(streamName, ifAvailable, ifNotAvailable){
 
         if (!Modernizr.audio.mp3) station += '-ogg';
 
