@@ -31,7 +31,7 @@ module.exports = function(grunt) {
       }
     },
     jshint: {
-      all: ['Gruntfile.js', 'script.input.js']
+      all: ['Gruntfile.js', 'js/script.input.js']
     },
     watch: {
       styles: {

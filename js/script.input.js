@@ -28,28 +28,36 @@
         usingiFrameIRC : 0
     };
 
+    var preMoment = null;
+    var startMoment = null;
+    var stopMoment = null;
+    var liveEndMoment= null;
+
+    var testStream;
+    var testCount = 0;
+
+    var podcastTime;
+    var remainingTime;
+    var live = document.getElementById('liveDiv');
+
     var request = new XMLHttpRequest();
     request.open('GET', '/api/podcasts.json', true);
     request.responseType = 'json';
     request.onload = function() {
         config.podcastTimeString = request.response.next_live_show;
 
-        var podcastTime = moment(config.podcastTimeString, config.timeFormatString);
-        var remainingTime;
-        var live = document.getElementById('liveDiv');
+        podcastTime = moment(config.podcastTimeString, config.timeFormatString);
 
         // -hours, -seconds, +hour around the podcast live time
-        var preMoment = podcastTime.clone().subtract(config.preMoment.unit, config.preMoment.amount);
-        var startMoment = podcastTime.clone().subtract(config.startMoment.unit, config.startMoment.amount);
-        var stopMoment = podcastTime.clone().add(config.stopMoment.unit, config.stopMoment.amount);
-        var liveEndMoment = podcastTime.clone().add(config.liveEndMoment.unit, config.liveEndMoment.amount);
-        var testStream;
-        var testCount = 0;
+        preMoment = podcastTime.clone().subtract(config.preMoment.unit, config.preMoment.amount);
+        startMoment = podcastTime.clone().subtract(config.startMoment.unit, config.startMoment.amount);
+        stopMoment = podcastTime.clone().add(config.stopMoment.unit, config.stopMoment.amount);
+        liveEndMoment = podcastTime.clone().add(config.liveEndMoment.unit, config.liveEndMoment.amount);
 
         // countdown
         countdown();
         setInterval(countdown, 1000);
-    }
+    };
     request.send();
 
 
@@ -195,12 +203,12 @@
     }
 
     function needsToBeUpdated(state){
-        return (live.getAttribute('data-state') != state)
+        return (live.getAttribute('data-state') != state);
     }
 
     function addHeadingLive(content) {
-        var heading = document.getElementById('liveHeading')
-        if (heading == null){
+        var heading = document.getElementById('liveHeading');
+        if (heading === null){
             heading = document.createElement('h3');
             heading.setAttribute("id", "liveHeading");
             heading.setAttribute('class', 'important');
@@ -211,7 +219,7 @@
 
     function addAudioAndIRC(station, autoPlay) {
         var audioElement = document.getElementById('liveAudio');
-        if (audioElement == null){
+        if (audioElement === null){
             audioElement = document.createElement('audio');
             audioElement.setAttribute('class', 'liveaudio');
             audioElement.setAttribute("id", "liveAudio");
@@ -234,7 +242,7 @@
         if (config.usingiFrameIRC){
             var chatElement = document.getElementById('liveChat');
 
-            if (chatElement == null){
+            if (chatElement === null){
                 chatElement = document.createElement('iframe');
                 chatElement.setAttribute("id", "liveChat");
                 chatElement.setAttribute('class', 'livechat');
@@ -246,11 +254,11 @@
 
     function removeAudioAndIRC(){
         var audioElement = document.getElementById('liveAudio');
-        if (audioElement != null)
+        if (audioElement !== null)
             live.removeChild(audioElement);
 
         var chatElement= document.getElementById('liveChat');
-        if (chatElement != null)
+        if (chatElement !== null)
             live.removeChild(chatElement);
     }
 
@@ -264,13 +272,13 @@
 
     function removeLiveTime(){
         var liveElement = document.getElementById('liveTime');
-        if (liveElement != null)
+        if (liveElement !== null)
             live.removeChild(liveElement);
     }
 
     function addCountdown(){
         var element = document.getElementById('liveCountdown');
-        if (element == null){
+        if (element === null){
             var countdownElement = document.createElement('p');
             countdownElement.setAttribute("class", "countdown");
             countdownElement.setAttribute("id", "liveCountdown");
@@ -286,7 +294,7 @@
 
     function removeSubtitle(){
         var countdownElement = document.getElementById('liveCountdown');
-        if (countdownElement != null)
+        if (countdownElement !== null)
             live.removeChild(countdownElement);
     }
 
@@ -322,11 +330,13 @@
 
     }
 
+    function isStreamAvailable(streamName, ifAvailable, ifNotAvailable){
 
+        if (!Modernizr.audio.mp3) {
+            station += '-ogg';
+        }
 
-        if (!Modernizr.audio.mp3) station += '-ogg';
-
-        if (testStream == null){
+        if (testStream === null){
            testStream = new Audio(config.streamingServerName + streamName);
            testStream.preLoad = 'none';
            testStream.pause();
@@ -340,28 +350,25 @@
        }
        else{
 
-        testCount++;
+            testCount++;
 
-        /*Ignore the first 3 seconds of checks (network lag)*/
-        if (testCount < 3)
-           return;
-       else if (testCount > 10){
-        /*Re check after 10 seconds*/
-        testStream.src = "";
-        return;
-    }
+            /*Ignore the first 3 seconds of checks (network lag)*/
+            if (testCount < 3){
+               return;
+            }
+           else if (testCount > 10){
+                /*Re check after 10 seconds*/
+                testStream.src = "";
+                return;
+            }
 
-      //console.log("Test Stream error " + testStream.error + " networkState " + testStream.networkState);
-      //console.log(testStream);
 
-      if (testStream.error != null ||
-        testStream.networkState == HTMLMediaElement.NETWORK_NO_SOURCE ||
-        testStream.networkState == HTMLMediaElement.NETWORK_EMPTY){
-               //console.log("Not Available");
-           ifNotAvailable();
-       }
-       else{
-                //console.log("Available");
+            if (testStream.error !== null ||
+            testStream.networkState == HTMLMediaElement.NETWORK_NO_SOURCE ||
+            testStream.networkState == HTMLMediaElement.NETWORK_EMPTY){
+                ifNotAvailable();
+           }
+           else{
                 ifAvailable();
             }
         }
