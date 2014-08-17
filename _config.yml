@@ -16,9 +16,9 @@ default_logo : logo-100.jpg
 default_day : Sat
 default_time : 11am
 
-next_guest: Roland Turner
-next_episode: "023"
-next_podcast_date: 2014-08-16 11:00 +0800
-next_profile: /img/023-roland-turner-profile.jpg
-next_topic: <a href="http://rolandturner.com/yahi/">community based sensor projects</a> and running <a href="http://www.hackerspace.sg">hackerspaces</a>.
-next_connect: Connect with Roland on <a href="https://www.facebook.com/roland.turner">Facebook</a> and <a href="http://rolandturner.com/">his website</a>!
+next_guest: Arul Kumaran
+next_episode: "024"
+next_podcast_date: 2014-09-06 11:00 +0800
+next_profile: /img/024-arul-kumaran-profile.jpg
+next_topic: creating web APIs and types of APIs.
+next_connect: Connect with Arul on <a href="https://www.facebook.com/r.arulkumaran">Facebook</a> and <a href="https://www.luracast.com/products">his website</a>!
