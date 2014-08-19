@@ -44,7 +44,7 @@ description: Roland Turner on community based sensor projects and running hacker
 - [Singtel L!felabs](http://singtellifelabs.com/)
 - [Sigfox](http://www.sigfox.com/en/)
 - [Sigfox](http://www.sigfox.com/en/)
-- [12Geek](12geeks.com)
+- [12Geek](http://12geeks.com)
 - [JFDI](http://jfdi.asia/)
 - [Viki](http://www.viki.com/about)
 - [Humanist Meetup](http://humanist.org.sg/)
