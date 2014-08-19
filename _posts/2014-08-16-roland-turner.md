@@ -82,4 +82,4 @@ description: Roland Turner on community based sensor projects and running hacker
 
 **[Electric Plug  – Connect with Roland! [56:37]](#t=56:37)**
 
-- [Roland's Website](https://www.rolandturner.com)
+- [Roland's Website](http://rolandturner.com)
