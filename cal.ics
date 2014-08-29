@@ -1,0 +1,27 @@
+---
+layout: none
+---
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:http://live.webuild.sg/
+X-WR-CALNAME:We Build LIVE Podcast
+{% for post in site.posts %}BEGIN:VEVENT
+UID:{{ post.date | date: "%Y%m%d" }}@live.webuild.sg
+LOCATION:http://live.webuild.sg/
+SUMMARY:{{ post.title }}
+CLASS:PUBLIC
+DTSTART:{{ post.date | date: "%Y%m%d" }}T030000Z
+DTEND:{{ post.date | date: "%Y%m%d" }}T040000Z
+DTSTAMP:{{ post.date | date: "%Y%m%d" }}T030000Z
+END:VEVENT
+{% endfor %}
+BEGIN:VEVENT
+UID:{{ site.next_podcast_date | date: "%Y%m%d" }}@live.webuild.sg
+LOCATION:http://live.webuild.sg/
+SUMMARY:{{ site.next_episode}} {{ site.next_guest }}
+CLASS:PUBLIC
+DTSTART:{{ site.next_podcast_date | date: "%Y%m%d" }}T030000Z
+DTEND:{{ site.next_podcast_date | date: "%Y%m%d" }}T040000Z
+{% for post in site.posts offset: 0 limit: 10  %}DTSTAMP:{{ post.date | date: "%Y%m%d" }}T030000Z{% endfor %}
+END:VEVENT
+END:VCALENDAR
