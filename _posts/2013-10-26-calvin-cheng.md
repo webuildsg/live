@@ -1,6 +1,5 @@
 ---
 title: 006 Calvin Cheng
-layout: post
 permalink: /006-calvin-cheng/
 profile: 006-calvin-cheng
 enclosure: http://audio.live.webuild.sg/006-calvin-cheng

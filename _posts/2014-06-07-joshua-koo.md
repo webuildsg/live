@@ -1,6 +1,5 @@
 ---
 title: 019 Joshua Koo
-layout: post
 permalink: /019-joshua-koo/
 profile: 019-joshua-koo
 enclosure: http://audio.live.webuild.sg/019-joshua-koo

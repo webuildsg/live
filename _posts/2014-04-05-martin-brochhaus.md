@@ -1,6 +1,5 @@
 ---
 title: 015 Martin Brochhaus
-layout: post
 permalink: /015-martin-brochhaus/
 profile: 015-martin-brochhaus
 enclosure: http://audio.live.webuild.sg/015-martin-brochhaus

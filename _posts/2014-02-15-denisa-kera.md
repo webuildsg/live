@@ -1,6 +1,5 @@
 ---
 title: 012 Denisa Kera
-layout: post
 permalink: /012-denisa-kera/
 profile: 012-denisa-kera
 enclosure: http://audio.live.webuild.sg/012-denisa-kera

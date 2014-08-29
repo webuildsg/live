@@ -1,6 +1,5 @@
 ---
 title: 011 Mugunth Kumar
-layout: post
 permalink: /011-mugunth-kumar/
 profile: 011-mugunth-kumar
 enclosure: http://audio.live.webuild.sg/011-mugunth-kumar

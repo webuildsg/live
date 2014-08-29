@@ -1,6 +1,5 @@
 ---
 title: 000 Hello World
-layout: post
 permalink: /hello-world/
 profile: 000-hello-world
 enclosure: http://audio.live.webuild.sg/000-hello-world

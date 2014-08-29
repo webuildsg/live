@@ -1,6 +1,5 @@
 ---
 title: 010 Luther Goh
-layout: post
 permalink: /010-luther-goh/
 profile: 010-luther-goh
 enclosure: http://audio.live.webuild.sg/010-luther-goh

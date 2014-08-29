@@ -1,6 +1,5 @@
 ---
 title: 007 Muhd. Ibnur Rashad
-layout: post
 permalink: /007-ibnur-rashad/
 profile: 007-ibnur-rashad
 enclosure: http://audio.live.webuild.sg/007-ibnur-rashad

@@ -16,6 +16,13 @@ default_logo : logo-100.jpg
 default_day : Sat
 default_time : 11am
 
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      layout: "post"
+
 
 next_guest: Arul Kumaran
 next_episode: "024"

@@ -1,6 +1,5 @@
 ---
 title: 021 William Hooi
-layout: post
 permalink: /021-william-hooi/
 profile: 021-william-hooi
 enclosure: http://audio.live.webuild.sg/021-william-hooi

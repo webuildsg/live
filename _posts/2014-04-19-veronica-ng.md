@@ -1,6 +1,5 @@
 ---
 title: 016 Veronica Ng
-layout: post
 permalink: /016-veronica-ng/
 profile: 016-veronica-ng
 enclosure: http://audio.live.webuild.sg/016-veronica-ng

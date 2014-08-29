@@ -1,6 +1,5 @@
 ---
 title: 004 Thomas Gorissen
-layout: post
 permalink: /004-thomas-gorissen/
 profile: 004-thomas-gorissen
 enclosure: http://audio.live.webuild.sg/004-thomas-gorissen

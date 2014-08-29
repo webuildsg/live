@@ -1,6 +1,5 @@
 ---
 title: 002 Laurence Putra
-layout: post
 permalink: /002-laurence-putra/
 profile: 002-laurence-putra
 enclosure: http://audio.live.webuild.sg/002-laurence-putra

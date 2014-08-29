@@ -1,6 +1,5 @@
 ---
 title: 023 Roland Turner
-layout: post
 permalink: /023-roland-turner/
 profile: 023-roland-turner
 enclosure: http://audio.live.webuild.sg/023-roland-turner

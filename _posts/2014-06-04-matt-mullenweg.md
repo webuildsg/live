@@ -1,6 +1,5 @@
 ---
 title: Special 001 Matt Mullenweg
-layout: post
 permalink: /special-001-matt-mullenweg/
 profile: special-001-matt-mullenweg
 enclosure: http://audio.live.webuild.sg/special-001-matt-mullenweg

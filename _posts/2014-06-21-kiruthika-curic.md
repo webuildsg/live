@@ -1,6 +1,5 @@
 ---
 title: 020	 Kiruthika Curic
-layout: post
 permalink: /020-kiruthika-curic/
 profile: 020-kiruthika-curic
 enclosure: http://audio.live.webuild.sg/020-kiruthika-curic

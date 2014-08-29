@@ -1,6 +1,5 @@
 ---
 title: 017 Winston Teo
-layout: post
 permalink: /017-winston-teo/
 profile: 017-winston-teo
 enclosure: http://audio.live.webuild.sg/017-winston-teo

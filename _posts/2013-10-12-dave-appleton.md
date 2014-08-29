@@ -1,6 +1,5 @@
 ---
 title: 005 Dave Appleton
-layout: post
 permalink: /005-dave-appleton/
 profile: 005-dave-appleton
 enclosure: http://audio.live.webuild.sg/005-dave-appleton

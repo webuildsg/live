@@ -1,6 +1,5 @@
 ---
 title: 014 Lakshan Parera
-layout: post
 permalink: /014-lakshan-parera/
 profile: 014-lakshan-parera
 enclosure: http://audio.live.webuild.sg/014-lakshan-parera
