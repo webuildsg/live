@@ -63,7 +63,7 @@ date: 2013-09-21 13:00:00
       <itunes:keywords>{{ post.tags }}</itunes:keywords>
       <enclosure url="{{ post.enclosure }}.mp3" length="{{ post.length }}" type="audio/mp3" />
       <content:encoded>{{ post.description }}</content:encoded>
-      <itunes:image href="{{ site.url }}/logo-1400.jpg" />
+      <itunes:image href="{{ site.url }}/logo-100.jpg" />
     </item>
     {% endfor %}
 
