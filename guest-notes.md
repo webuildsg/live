@@ -110,6 +110,9 @@ Finally, let's connect to the live podcast server!
 * * *
 
 - Join the chat with our live audience at **irc.freenode.net** in the channel **#webuildsg**
-- If you do not have an external IRC client, join the web client via [this link at freenode.net](http://webchat.freenode.net/?channels=webuildsg&uio=MT1mYWxzZSY5PXRydWUmMTE9NTEfe)
+- If you do not have an external IRC client, join the web client via [Scrollback.io](https://scrollback.io/webuildsg)
 - During the live show, close this website [live.webuild.sg](http://live.webuild.sg) so that you do not hear yourself through the live streaming audio
-- W00t!! Now relax and enjoy the live show with our hosts and live audience :D
+
+* * *
+
+##There'll be a [final check](/checklist#final) for 10 minutes at 10am, 1 hour before we go live! It'll be fun :)
