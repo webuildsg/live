@@ -1,5 +1,5 @@
-name: wblive
-root: /Users/sayanee/Workspace/webuild-live
+name: wblive # tmuxinator rubygem - symlink this file to ~/.tmuxinator/wblive.yml
+root: ~/Workspace/webuild-live/app
 windows:
   - express:
       layout: main-vertical
