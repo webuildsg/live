@@ -2,5 +2,18 @@
 layout: null
 ---
 {
-  "next_live_show": "{{site.next_podcast_date}}"
+  "meta": {
+    "generated_at": "{{ site.time | date: \"%Y%m%d\" }}",
+    "location": "Singapore",
+    "total_podcasts": "{{ site.posts | size }}",
+    "next_live_show": "{{site.next_podcast_date}}"
+  },
+  "podcasts": [
+    {% for post in site.posts %}{
+      "date": "{{ post.date | date: \"%Y%m%d\" }}",
+      "title": "{{ post.title }}",
+      "description": "{{ post.description }}",
+      "download_link": "{{ post.enclosure }}.mp3"
+    }{% if post != site.posts.last %},{% endif %}{% endfor %}
+  ]
 }
