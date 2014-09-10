@@ -117,7 +117,7 @@
         if (needsToBeUpdated('before')){
             removeAudioAndIRC();
 
-            addHeadingLive('Catch We Build SG LIVE');
+            addHeadingLive('Catch We Build LIVE');
             addCountdown();
             addLivetime();
 
@@ -130,7 +130,7 @@
         if (needsToBeUpdated('pre')){
             removeLiveTime();
 
-            addHeadingLive('Catch We Build SG LIVE');
+            addHeadingLive('Catch We Build LIVE');
             addCountdown();
             addAudioAndIRC('radio', false);
 
@@ -143,7 +143,7 @@
         if (needsToBeUpdated('countdown')){
             removeLiveTime();
 
-            addHeadingLive('We Build SG LIVE is airing soon');
+            addHeadingLive('We Build LIVE is airing soon');
             addCountdown();
             addAudioAndIRC('live', true);
 
@@ -156,7 +156,7 @@
     function addInitDuringMomentToDOM() {
         if (needsToBeUpdated('during-live')){
             removeLiveTime();
-            addHeadingLive('We Build SG LIVE is airing now!');
+            addHeadingLive('We Build LIVE is airing now!');
             addSubtitle("join us in the chat and conversation below");
             addAudioAndIRC('live', true);
             //console.log("Switching to Live");
@@ -180,7 +180,7 @@
             },
             function (){
                 if (needsToBeUpdated('during-radio')){
-                    addHeadingLive('We Build SG LIVE just finished airing');
+                    addHeadingLive('We Build LIVE just finished airing');
                     addSubtitle("continue to join us in the chat below");
                     addAudioAndIRC('radio', true);
                 //console.log("Switching to Radio");
@@ -195,7 +195,7 @@
             removeAudioAndIRC();
             removeSubtitle();
 
-            addHeadingLive('We Build SG LIVE just finished!');
+            addHeadingLive('We Build LIVE just finished!');
             addSubtitle("we will publish info on the next live show shortly");
 
             live.setAttribute('data-state','after');
@@ -322,7 +322,7 @@
             diff = 'in <strong> ' + seconds + '</strong>...';
         }
         else{
-            diff = 'in <strong>' + days + '</strong> days <strong>' + hours + '</strong> hours <strong>' + minutes + '</strong> minutes <strong>' + seconds + '</strong> seconds';
+            diff = 'in <strong>' + days + '</strong> days <strong>' + hours + '</strong> hr <strong>' + minutes + '</strong> min <strong>' + seconds + '</strong> s';
         }
 
         var countdownElement = document.getElementById('liveCountdown');

@@ -27,9 +27,41 @@ audio
 	margin: 0 auto
 	position: relative
 
+.starter
+	position: fixed
+	top: 0
+	right: 0
+	left: 0
+	height: $starter-height
+	width: 100%
+	background: lighten($yellow, 12%)
+
+.content
+	position: relative
+	z-index: 999
+	top: $starter-height
+	background: $white
+	display: block
+	width: 100%
+	overflow: hidden
+	border-top: 1px solid #eee
+
 .main
 	margin: 0 auto 20px auto
 	overflow: hidden
+
+.chat
+	width: 48%
+	float: left
+	margin: 2rem 0 1rem 0
+	height: 350px
+	border: 1px solid $grey-light
+	border-right: 2px solid $grey-light
+	border-radius: 5px
+
+.sidebar
+	width: 48%
+	float: right
 
 .section
 	width: 49.5%
