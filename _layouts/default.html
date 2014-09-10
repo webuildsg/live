@@ -27,6 +27,7 @@
 {% include header.html %}
 <div class="main container">
   <div class="live" id="liveDiv"></div>
+  <iframe src="https://scrollback.io/webuildsg/" width="100%" height="300" frameborder="0"></iframe>
   {% include sidebar.html %}
   {{ content }}
 </div>
@@ -44,22 +45,6 @@ _gaq.push(['_trackPageview']);
   ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
   var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
 })();
-</script>
-
-<script>
-window.scrollback = {
-  streams:["webuildsg"],
-  theme: 'light',
-  ticker: false,
-  minimize: true
-};
-
-(function(d,s,h,e){
-  e=d.createElement(s);e.async=1;
-  e.src=h+'/client.min.js';scrollback.host=h;
-  d.getElementsByTagName(s)[0].parentNode.appendChild(e);
-}
-(document,'script',location.protocol+'//scrollback.io'));
 </script>
 
 </body>
