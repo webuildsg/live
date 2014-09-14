@@ -66,6 +66,32 @@ error: invalid byte sequence in US-ASCII`, run the following in the command line
     git push origin gh-pages
     ```
 
+##with docker
+
+1. Install Docker
+- Take note of $DOCKER_HOST IP address
+- Edit `line 11` of file `_dev_config.yml` to replace `localhost` with `$DOCKER_HOST` IP address. E.g.
+
+	```
+	url: http://192.168.59.103:4000
+	```
+	
+- Start docker E.g. for MAC OSX
+
+	```
+	boot2docker start
+	export DOCKER_HOST=tcp://$(boot2docker ip 2>/dev/null):2375
+	```
+	
+- Build the image and run it
+
+	```
+	docker build -t wblive .
+	docker run -d -p 4000:4000 wblive
+	```
+- Open in browser with `$DOCKER_HOST` IP address E.g. `http://192.168.59.103:4000`
+
+
 #Credits
 
 1. [Social icon fonts](http://drinchev.github.io/monosocialiconsfont/)
