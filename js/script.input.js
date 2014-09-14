@@ -1,5 +1,23 @@
 (function () {
 
+    // search input box
+    var searchInput = document.getElementById('search');
+
+    if (searchInput !== null) {
+      var searchStyle = document.createElement('style');
+      searchStyle.setAttribute('id', 'search_style');
+      document.head.appendChild(searchStyle);
+
+      searchInput.addEventListener('input', function() {
+        if (!this.value) {
+          searchStyle.innerHTML = "";
+          return;
+        }
+        searchStyle.innerHTML = '.searchable:not([data-index*=\"' + this.value.toLowerCase() + '\"]) { display: none; }';
+      });
+    }
+
+    // live show countdown
     var config = {
         extraTime: {
             days: 0,
@@ -180,7 +198,7 @@
             },
             function (){
                 if (needsToBeUpdated('during-radio')){
-                    addHeadingLive('We Build LIVE just finished airing');
+                    addHeadingLive('We Build LIVE ended!');
                     addSubtitle("continue to join us in the chat below");
                     addAudioAndIRC('radio', true);
                 //console.log("Switching to Radio");
@@ -195,8 +213,8 @@
             removeAudioAndIRC();
             removeSubtitle();
 
-            addHeadingLive('We Build LIVE just finished!');
-            addSubtitle("we will publish info on the next live show shortly");
+            addHeadingLive('We Build LIVE ended!');
+            addSubtitle('next episode coming soon');
 
             live.setAttribute('data-state','after');
         }

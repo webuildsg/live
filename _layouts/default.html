@@ -9,7 +9,6 @@
   <link rel="alternate" type="application/rss+xml" title="RSS Feed for {{ site.name }}" href="{{ site.feed }}" />
   <link rel="stylesheet" href="{{ site.url }}/style.css">
 
-
   {% if page.profile %}<meta property="og:image" content="{{ site.url }}/img/{{ page.profile }}-profile.jpg">{% endif %}
   <meta property="og:image" content="{{ site.url }}/{{site.default_logo}}">
   {% if site.next_profile %}<meta property="og:image" content="{{ site.url }}{{ site.next_profile }}">{% endif %}
@@ -39,10 +38,10 @@
 </div>
 
 <div class="content">
+  {% include search.html %}
   {{ content }}
+  {% include footer.html %}
 </div>
-
-{% include footer.html %}
 
 <script src="{{ site.url }}/script.js"></script>
 <script>

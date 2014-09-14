@@ -1,0 +1,15 @@
+#!/bin/bash
+
+# USAGE in the command line:
+# wblive
+
+app="~/Workspace/webuild-live"
+
+open $app
+subl $app
+
+open https://github.com/sayanee/webuild-live/issues?state=open
+open http://localhost:4000
+open http://live.webuild.sg
+
+tmuxinator wblive

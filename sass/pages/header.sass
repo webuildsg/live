@@ -37,14 +37,23 @@
     letter-spacing: 0.5rem
     line-height: 1.2em
     margin: 0
-  h2
+
+.social
+  list-style: none
+  padding: 0
+  text-align: center
+  li
     font-size: 1.55rem
-    text-align: left
     font-family: $sans
-    color: $yellow
     font-weight: 200
-    margin: 0
+    margin: 0 2%
     line-height: 1.2em
+    display: inline-block
+  a
+    &:link, &:visited
+      color: $yellow
+    &:hover, &:active
+      text-decoration: underline
 
 .splash
   background-color: $white

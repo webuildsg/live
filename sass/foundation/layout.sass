@@ -34,7 +34,7 @@ audio
 	left: 0
 	height: $starter-height
 	width: 100%
-	background: lighten($yellow, 12%)
+	background: lighten($yellow, 14%)
 
 .content
 	position: relative
@@ -44,7 +44,6 @@ audio
 	display: block
 	width: 100%
 	overflow: hidden
-	border-top: 1px solid #eee
 
 .main
 	margin: 0 auto 20px auto
@@ -64,19 +63,32 @@ audio
 	float: right
 
 .section
-	width: 49.5%
-	display: inline-block
-	padding: 0
-	vertical-align: top
-	&:nth-of-type(1)
-		width: 35%
-		float: right
-	&:nth-of-type(2)
-		width: 65%
-		float: left
+	width: 100%
+	display: block
 
 .first
 	border-right: 2px solid $blue
+
+.search
+	margin: 2rem auto 1rem
+	display: block
+	border: 3px solid #eee
+	border-radius: 9px
+	font-size: 2rem
+	outline: none
+	padding: 1rem 2rem
+	text-align: center
+	color: $black
+	font-family: $sans
+
+.pages
+	list-style: none
+	margin: 0
+	padding: 0
+	text-align: center
+	li
+		display: inline-block
+		margin: 0 1rem
 
 code
 	background: #f5f2f0
