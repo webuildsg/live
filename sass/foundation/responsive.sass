@@ -12,45 +12,38 @@
 
 // single column
 @media only screen and (max-width: 720px)
+  .chat, .live, .sidebar, .post-content
+    width: 100%
   h1
     letter-spacing: 0.1rem
     text-shadow: 0 0 2px white, 0 1px 10px rgba(0, 0, 0, 0.4)
-  .section
-    width: 100%
-    &:nth-of-type(1)
-      border-bottom: 2px solid $blue
-    &:nth-of-type(2)
-      padding: 40px 0 0 0
-  .first
-    border-right: none
   .footer p
     font-size: 1rem
+  .splash, .post-thumbnail
+    display: none
+  .pages
+    font-size: 1rem
+    li
+      margin: 0 .5rem
+  .next-profile
+    width: 100px
+  .social li
+    margin: 2%
+  .list > li
+    width: 95%
+    margin: 0
+  .important
+    font-size: 2rem
+  .countdown
+    font-size: 1.5rem
+  .podcastTime
+    margin: .4rem
 
-@media only screen and (max-width: 380px)
+@media only screen and (max-width: 520px)
+  .chat
+    display: none
+
+
   h1
     font-size: 18vw
 
-// single column
-@media only screen and (max-width: 720px)
-  .section
-    &:nth-of-type(1)
-      width: 100%
-    &:nth-of-type(2)
-      width: 100%
-  .splash
-    display: none
-  .social
-    font-size: 12vw
-  .post-thumbnail
-    display: none
-  .post-content
-    width: 100%
-  .widget
-    padding: 0
-  .list > li
-    margin: 0
-    padding: 1rem 0 2rem 0
-    width: 100%
-    border-bottom: 1px solid #eee
-    &:last-child
-      border-bottom: none
