@@ -6,7 +6,14 @@ layout: null
     "generated_at": "{{ site.time | date: \"%Y%m%d\" }}",
     "location": "Singapore",
     "total_podcasts": "{{ site.posts | size }}",
-    "next_live_show": "{{site.next_podcast_date}}"
+    "next_live_show": {
+      "next_guest": "{{site.next_guest}}",
+      "start_time": "{{site.next_podcast_start_time}}",
+      "end_time": "{{site.next_podcast_end_time}}",
+      "summary": "{{site.next_topic | strip_html}}",
+      "description": "{{site.next_topic | strip_html}} {{site.next_connect | strip_html}}",
+      "url": "{{site.url}}"
+    }
   },
   "podcasts": [
     {% for post in site.posts %}{
