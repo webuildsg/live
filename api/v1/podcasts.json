@@ -11,7 +11,7 @@ layout: null
       "episode_number": "{{site.next_episode}}",
       "start_time": "{{site.next_podcast_start_time}}",
       "end_time": "{{site.next_podcast_end_time}}",
-      "summary": "We Build LIVE {{site.episode_number}} with {{site.next_guest}}",
+      "summary": "We Build LIVE {{site.next_episode}} with {{site.next_guest}}",
       "description": "{{site.next_guest}} on {{site.next_topic | strip_html}} {{site.next_connect | strip_html}}",
       "url": "{{site.url}}"
     }
