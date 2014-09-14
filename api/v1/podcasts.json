@@ -7,7 +7,8 @@ layout: null
     "location": "Singapore",
     "total_podcasts": "{{ site.posts | size }}",
     "next_live_show": {
-      "next_guest": "{{site.next_guest}}",
+      "guest": "{{site.next_guest}}",
+      "episode_number": "{{site.next_episode}}",
       "start_time": "{{site.next_podcast_start_time}}",
       "end_time": "{{site.next_podcast_end_time}}",
       "summary": "{{site.next_topic | strip_html}}",
