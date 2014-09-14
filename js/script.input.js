@@ -174,10 +174,9 @@
     function addInitDuringMomentToDOM() {
         if (needsToBeUpdated('during-live')){
             removeLiveTime();
-            addHeadingLive('We Build LIVE is airing now!');
-            addSubtitle("join us in the chat and conversation below");
+            addHeadingLive('We Build LIVE airing!');
+            addSubtitle("join us in the chat");
             addAudioAndIRC('live', true);
-            //console.log("Switching to Live");
             live.setAttribute('data-state','during-live');
         }
     }
