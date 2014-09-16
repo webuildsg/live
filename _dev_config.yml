@@ -24,9 +24,9 @@ defaults:
       layout: "post"
 
 
-next_guest: Arul Kumaran
-next_episode: "024"
-next_podcast_date: 2014-09-13 11:00 +0800
-next_profile: /img/024-arul-kumaran-profile.jpg
-next_topic: <a href="https://www.luracast.com/products/restler">creating web APIs </a> and types of APIs.
-next_connect: Connect with Arul on <a href="https://www.facebook.com/r.arulkumaran">Facebook</a> and <a href="https://www.luracast.com/products">his website</a>!
+next_guest: "Anna, Roland, Mic"
+next_episode: "025"
+next_podcast_date: 2014-10-4 11:00 +0800
+next_profile: /img/025-anna-mic-roland-profile.jpg
+next_topic: open source hardware and software.
+next_connect: 'Connect with Anna on <a href="mailto:annaf@nus.edu.sg">email</a>, with Roland on his <a href="http://www.rolandturner.com">website</a> and Mic on <a href="http://www.twitter.com/coderkungfu">twitter</a> and his <a href="http://coderkungfu.com/">website</a> !'
