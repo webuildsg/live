@@ -1,6 +1,0 @@
----
-layout: null
----
-{
-  "next_live_show": "{{site.next_podcast_date}}"
-}
