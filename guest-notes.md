@@ -19,42 +19,6 @@ The next steps will take you **just 3 minutes** and you will be able to join the
 
 * * *
 
-Firstly, let's configure your audio with [mumble](http://mumble.sourceforge.net/#Get_Mumble):
-
-- Open [mumble](http://mumble.sourceforge.net/#Get_Mumble)
-- Open Menu > Configure > Audio Wizard
-- Audio Tuning Wizard's Introduction page will first appear
-
-![Audio Tuning Wizard]({{ site.url }}/img/guest-notes-2.jpg)
-
-**For Windows**: Configure > Audio Wizard
-
-![Audio Tuning Wizard Windows]({{ site.url }}/img/guest-notes-2-win.jpg)
-
-- Choose your input and output devices. Choose your Audio I/O interface or USB microphone if you're using one. If you're using a the microphone jack of your computer, leave it as Default.
-
-![Input and output device]({{ site.url }}/img/guest-notes-3.jpg)
-
-- Listen through your headphone and change the slider accordingly.
-
-![Device tuning]({{ site.url }}/img/guest-notes-4.jpg)
-
-- Speak and adjust the slider for volume tuning.
-
-![Volume tuning]({{ site.url }}/img/guest-notes-5.jpg)
-
-- Adjust the slider for voice activity detection.
-
-![Voice activity detection when speaking]({{ site.url}}/img/guest-notes-6.jpg)
-
-![Voice activity detection when speaking]({{ site.url}}/img/guest-notes-6b.jpg)
-
-- Choose the quality and notifications settings.
-
-![Quality and Notificatioin]({{ site.url}}/img/guest-notes-7.jpg)
-
-* * *
-
 Next, let's meddle with [mumble](http://mumble.sourceforge.net/#Get_Mumble) preferences:
 
 - Open [mumble](http://mumble.sourceforge.net/#Get_Mumble)
