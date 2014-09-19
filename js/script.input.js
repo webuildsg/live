@@ -57,7 +57,6 @@
     var podcastTime;
     var remainingTime;
     var live = document.getElementById('liveDiv');
-
     var request = new XMLHttpRequest();
     request.open('GET', '/api/v1/podcasts.json', true);
     request.responseType = 'json';

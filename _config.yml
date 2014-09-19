@@ -25,7 +25,8 @@ default_time : 11am
 
 next_guest: "Anna, Roland, Mic"
 next_episode: "025"
-next_podcast_date: 2014-10-4 11:00 +0800
+next_podcast_start_time: 2014-10-4 11:00 +0800
+next_podcast_end_time: 2014-10-4 12:00 +0800
 next_profile: /img/025-anna-mic-roland-profile.jpg
-next_topic: open source hardware and software.
-next_connect: 'Connect with Anna on <a href="mailto:annaf@nus.edu.sg">email</a>, with Roland on his <a href="http://www.rolandturner.com">website</a> and Mic on <a href="http://www.twitter.com/coderkungfu">twitter</a> and his <a href="http://coderkungfu.com/">website</a> !'
+next_topic: open source hardware and software panel discussion.
+next_connect: 'Connect with <a href="mailto:annaf@nus.edu.sg">Anna</a>, <a href="http://www.rolandturner.com">Roland</a> and <a href="http://www.twitter.com/coderkungfu">Mic</a> !'
