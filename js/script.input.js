@@ -59,10 +59,10 @@
     var live = document.getElementById('liveDiv');
 
     var request = new XMLHttpRequest();
-    request.open('GET', '/api/podcasts.json', true);
+    request.open('GET', '/api/v1/podcasts.json', true);
     request.responseType = 'json';
     request.onload = function() {
-        config.podcastTimeString = request.response.next_live_show;
+        config.podcastTimeString = request.response.meta.next_live_show.start_time;
 
         podcastTime = moment(config.podcastTimeString, config.timeFormatString);
 

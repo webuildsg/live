@@ -23,7 +23,6 @@ defaults:
     values:
       layout: "post"
 
-
 next_guest: "Anna, Roland, Mic"
 next_episode: "025"
 next_podcast_date: 2014-10-4 11:00 +0800
