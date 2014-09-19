@@ -5,25 +5,27 @@ layout: default
 <div class="container">
   <h3 class="important">this episode</h3>
 
-  <div class="post-thumbnail">
-    <img src="{{ site.url }}/img/{{ page.profile }}-profile.jpg"/>
-  </div>
+  <div class="page-content">
+    <div class="post-thumbnail">
+      <img src="{{ site.url }}/img/{{ page.profile }}-profile.jpg"/>
+    </div>
 
-  <div class="post-content">
-    <p>
-      <a class="title" href="{{site.url}}{{ page.permalink }}">
-        {{ page.title }}<span> on {{ page.date | date_to_string }}, {% if page.day %}{{ page.day }}{% else %}{{site.default_day}}{% endif %}  @ {% if page.time %}{{ page.time }}{% else %}{{site.default_time}}{% endif %}</span>
-      </a>
-    </p>
-    <div class="post">
-      <audio controls=controls>
-        <source src="{{ page.enclosure }}.mp3" type="audio/mpeg"></source>
-      </audio>
-
-      <p style="margin:0;">
-        <a href="{{ page.enclosure }}.mp3" download="webuild-live-{{ page.profile }}.mp3">download mp3</a>
+    <div class="post-content">
+      <p>
+        <a class="title" href="{{site.url}}{{ page.permalink }}">
+          {{ page.title }}<span> on {{ page.date | date_to_string }}, {% if page.day %}{{ page.day }}{% else %}{{site.default_day}}{% endif %}  @ {% if page.time %}{{ page.time }}{% else %}{{site.default_time}}{% endif %}</span>
+        </a>
       </p>
-      {{ content }}
+      <div class="post">
+        <audio controls=controls>
+          <source src="{{ page.enclosure }}.mp3" type="audio/mpeg"></source>
+        </audio>
+
+        <p style="margin:0;">
+          <a href="{{ page.enclosure }}.mp3" download="webuild-live-{{ page.profile }}.mp3">download mp3</a>
+        </p>
+        {{ content }}
+      </div>
     </div>
   </div>
 
