@@ -8,12 +8,12 @@ Each episode, our podcast guests can join us live from anywhere!
 
 Ensure you have the following:
 
-- Laptop
-- Headphone connected to your laptop
-- Microphone connected to your laptop
-- Download [mumble](http://mumble.sourceforge.net/#Get_Mumble)
-
-You can join our conversation from your own home or any other **quiet location** with **good Internet**. If you have access to Wired Internet, it's better than using WiFi. Otherwise ensure you get a strong WiFi signal where you're recording from. Also try to find a location which is relatively quiet and not near a window so we don't capture too much ambient noise.
+1. A quiet location, away from the window so we don't capture too much ambient noise
+1. Good Internet (Wired or strong WiFi)
+1. Laptop
+1. Headphone connected to your laptop
+1. Microphone connected to your laptop
+1. Download [Mumble](http://mumble.sourceforge.net/#Get_Mumble) for Windows / Linux / Mac OSX
 
 The next steps will take you **just 3 minutes** and you will be able to join the live podcast server. We have MAC OSX screenshots along with Windows where it differs. Try it out :)
 
