@@ -68,8 +68,12 @@
     request.open('GET', '/api/v1/podcasts.json', true);
     request.responseType = 'json';
     request.onload = function() {
-        config.podcastTimeString = request.response.meta.next_live_show.start_time;
-
+        var response =  request.response;
+        if (typeof request.response === 'string') {
+            // Safari doesn't honor the responseType of 'json'.
+            response = JSON.parse(request.response);
+        }
+        config.podcastTimeString = response.meta.next_live_show.start_time;
         podcastTime = moment(config.podcastTimeString, config.timeFormatString);
 
         // -hours, -seconds, +hour around the podcast live time
