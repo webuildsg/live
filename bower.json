@@ -1,0 +1,22 @@
+{
+  "name": "webuild-live",
+  "version": "0.1.0",
+  "description": "a live conversation with geeks in town on building, learning and sharing",
+  "main": "index.html",
+  "keywords": [
+    "screencasts",
+    "technology",
+    "tools",
+    "development"
+  ],
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "js/lib"
+  ],
+  "dependencies": {
+    "fluidvids": "latest",
+    "moment": "2.8.3"
+  }
+}

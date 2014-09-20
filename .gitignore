@@ -2,3 +2,4 @@
 .sass-cache
 _publish
 node_modules
+js/lib

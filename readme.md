@@ -2,7 +2,8 @@
 
 This repository contains the website for a live audio podcast.
 
-[![Build Status](https://travis-ci.org/webuildsg/live.png)](https://travis-ci.org/webuildsg/live)
+[![Build Status](https://travis-ci.org/webuildsg/live.png)](https://travis-ci.org/webuildsg/live) [![Dependency Status](https://gemnasium.com/sayanee/webuild-live.svg)](https://gemnasium.com/sayanee/webuild-live)
+
 
 Related websites:
 
@@ -75,14 +76,14 @@ error: invalid byte sequence in US-ASCII`, run the following in the command line
 	```
 	url: http://192.168.59.103:4000
 	```
-	
+
 - Start docker E.g. for MAC OSX
 
 	```
 	boot2docker start
 	export DOCKER_HOST=tcp://$(boot2docker ip 2>/dev/null):2375
 	```
-	
+
 - Build the image and run it
 
 	```

@@ -1,20 +1,26 @@
-(function () {
+(function() {
+
+    // responsive video
+    fluidvids.init({
+        selector: [ 'iframe' ], // runs querySelectorAll()
+        players: [ 'www.youtube.com' ] // players to support
+    });
 
     // search input box
     var searchInput = document.getElementById('search');
 
     if (searchInput !== null) {
-      var searchStyle = document.createElement('style');
-      searchStyle.setAttribute('id', 'search_style');
-      document.head.appendChild(searchStyle);
+        var searchStyle = document.createElement('style');
+        searchStyle.setAttribute('id', 'search_style');
+        document.head.appendChild(searchStyle);
 
-      searchInput.addEventListener('input', function() {
+        searchInput.addEventListener('input', function() {
         if (!this.value) {
-          searchStyle.innerHTML = "";
-          return;
+            searchStyle.innerHTML = '';
+            return;
         }
         searchStyle.innerHTML = '.searchable:not([data-index*=\"' + this.value.toLowerCase() + '\"]) { display: none; }';
-      });
+        });
     }
 
     // live show countdown
@@ -27,29 +33,29 @@
         podcastTimeString: '',
         timeFormatString: 'YYYY-MM-DD HH:mm Z',
         preMoment: {
-            unit: "hours",
+            unit: 'hours',
             amount: 15
         },
         startMoment: {
-            unit: "seconds",
+            unit: 'seconds',
             amount: 15
         },
         liveEndMoment: {
-            unit: "minutes",
+            unit: 'minutes',
             amount: 30
         },
         stopMoment: {
-            unit: "hours",
+            unit: 'hours',
             amount: 2
         },
         streamingServerName: 'http://listen.webuild.sg:8000/',
-        usingiFrameIRC : 0
+        usingiFrameIRC: 0
     };
 
     var preMoment = null;
     var startMoment = null;
     var stopMoment = null;
-    var liveEndMoment= null;
+    var liveEndMoment = null;
 
     var testStream;
     var testCount = 0;
@@ -58,6 +64,7 @@
     var remainingTime;
     var live = document.getElementById('liveDiv');
     var request = new XMLHttpRequest();
+
     request.open('GET', '/api/v1/podcasts.json', true);
     request.responseType = 'json';
     request.onload = function() {
@@ -77,25 +84,30 @@
     };
     request.send();
 
-
     // click red header to link back to the homepage
     document.getElementsByTagName('header')[0].addEventListener('click', function() {
         window.parent.location.href = '/';
     });
 
     // Add support for hash timestamps
-    window.addEventListener('hashchange', function () {
+    window.addEventListener('hashchange', function() {
         var fHash = window.location.hash;
-        if (fHash.substring(0,3) == "#t=") {
-            var tStamp = fHash.replace(/#t=/,"").split(":");
-            var tSec = parseInt (tStamp[tStamp.length-1]);
-            if (tStamp[tStamp.length -2]){
-                tSec += (parseInt (tStamp[tStamp.length-2])*60);
+        var tStamp;
+        var tSec;
+        var aP;
+
+        if (fHash.substring(0, 3) == '#t=') {
+            tStamp = fHash.replace(/#t=/, '').split(':');
+            tSec = parseInt (tStamp[tStamp.length - 1]);
+
+            if (tStamp[tStamp.length - 2]) {
+                tSec += (parseInt (tStamp[tStamp.length - 2]) * 60);
             }
-            if (tStamp[tStamp.length -3]){
-                tSec += (parseInt (tStamp[tStamp.length-3])*60*60);
+            if (tStamp[tStamp.length - 3]) {
+                tSec += (parseInt (tStamp[tStamp.length - 3]) * 60 * 60);
             }
-            var aP = document.getElementsByTagName("audio")[0];
+
+            aP = document.getElementsByTagName('audio')[0];
             if (aP && tSec) {
                 aP.currentTime = tSec;
                 aP.play();
@@ -131,52 +143,52 @@
     }
 
     function addBeforeMomentToDOM() {
-        if (needsToBeUpdated('before')){
+        if (needsToBeUpdated('before')) {
             removeAudioAndIRC();
 
             addHeadingLive('Catch We Build LIVE');
             addCountdown();
             addLivetime();
 
-            live.setAttribute('data-state','before');
+            live.setAttribute('data-state', 'before');
         }
         updateCountdown('full');
     }
 
     function addPreMomentToDOM() {
-        if (needsToBeUpdated('pre')){
+        if (needsToBeUpdated('pre')) {
             removeLiveTime();
 
             addHeadingLive('Catch We Build LIVE');
             addCountdown();
             addAudioAndIRC('radio', false);
 
-            live.setAttribute('data-state','pre');
+            live.setAttribute('data-state', 'pre');
         }
         updateCountdown('full');
     }
 
     function addCountdownMomentToDOM() {
-        if (needsToBeUpdated('countdown')){
+        if (needsToBeUpdated('countdown')) {
             removeLiveTime();
 
             addHeadingLive('We Build LIVE is airing soon');
             addCountdown();
             addAudioAndIRC('live', true);
 
-            live.setAttribute('data-state','countdown');
+            live.setAttribute('data-state', 'countdown');
         }
 
         updateCountdown('short');
     }
 
     function addInitDuringMomentToDOM() {
-        if (needsToBeUpdated('during-live')){
+        if (needsToBeUpdated('during-live')) {
             removeLiveTime();
             addHeadingLive('We Build LIVE airing!');
-            addSubtitle("join us in the chat");
+            addSubtitle('join us in the chat');
             addAudioAndIRC('live', true);
-            live.setAttribute('data-state','during-live');
+            live.setAttribute('data-state', 'during-live');
         }
     }
 
@@ -184,29 +196,30 @@
 
         isStreamAvailable(
             'live',
-            function (){
-                if (needsToBeUpdated('during-live')){
+            function() {
+                if (needsToBeUpdated('during-live')) {
                     removeLiveTime();
                     addHeadingLive('We Build SG LIVE is airing now!');
-                    addSubtitle("join us in the chat and conversation below");
+                    addSubtitle('join us in the chat and conversation below');
                     addAudioAndIRC('live', true);
                     //console.log("Switching to Live");
-                    live.setAttribute('data-state','during-live');
+                    live.setAttribute('data-state', 'during-live');
                 }
             },
-            function (){
-                if (needsToBeUpdated('during-radio')){
+            function() {
+                if (needsToBeUpdated('during-radio')) {
                     addHeadingLive('We Build LIVE ended!');
-                    addSubtitle("continue to join us in the chat below");
+                    addSubtitle('continue to join us in the chat below');
                     addAudioAndIRC('radio', true);
-                //console.log("Switching to Radio");
-                live.setAttribute('data-state','during-radio');
+                    //console.log("Switching to Radio");
+                    live.setAttribute('data-state', 'during-radio');
+                }
             }
-        });
+        );
     }
 
     function addAfterMomentToDOM() {
-        if (needsToBeUpdated('after')){
+        if (needsToBeUpdated('after')) {
             removeLiveTime();
             removeAudioAndIRC();
             removeSubtitle();
@@ -214,11 +227,11 @@
             addHeadingLive('We Build LIVE ended!');
             addSubtitle('next episode coming soon');
 
-            live.setAttribute('data-state','after');
+            live.setAttribute('data-state', 'after');
         }
     }
 
-    function needsToBeUpdated(state){
+    function needsToBeUpdated(state) {
         return (live.getAttribute('data-state') != state);
     }
 
@@ -226,7 +239,7 @@
         var heading = document.getElementById('liveHeading');
         if (heading === null){
             heading = document.createElement('h3');
-            heading.setAttribute("id", "liveHeading");
+            heading.setAttribute('id', 'liveHeading');
             heading.setAttribute('class', 'important');
             live.appendChild(heading);
         }
@@ -238,7 +251,7 @@
         if (audioElement === null){
             audioElement = document.createElement('audio');
             audioElement.setAttribute('class', 'liveaudio');
-            audioElement.setAttribute("id", "liveAudio");
+            audioElement.setAttribute('id', 'liveAudio');
             audioElement.setAttribute('controls', 'controls');
             live.appendChild(audioElement);
         }
@@ -252,15 +265,16 @@
             audioElement.setAttribute('src', config.streamingServerName + station);
         }
 
-        if (autoPlay)
+        if (autoPlay) {
             audioElement.play();
+        }
 
-        if (config.usingiFrameIRC){
+        if (config.usingiFrameIRC) {
             var chatElement = document.getElementById('liveChat');
 
-            if (chatElement === null){
+            if (chatElement === null) {
                 chatElement = document.createElement('iframe');
-                chatElement.setAttribute("id", "liveChat");
+                chatElement.setAttribute('id', 'liveChat');
                 chatElement.setAttribute('class', 'livechat');
                 chatElement.setAttribute('src', 'http://webchat.freenode.net?channels=webuildsg&uio=MT1mYWxzZSY5PXRydWUmMTE9NTEfe');
                 live.appendChild(chatElement);
@@ -270,12 +284,14 @@
 
     function removeAudioAndIRC(){
         var audioElement = document.getElementById('liveAudio');
-        if (audioElement !== null)
+        if (audioElement !== null) {
             live.removeChild(audioElement);
+        }
 
-        var chatElement= document.getElementById('liveChat');
-        if (chatElement !== null)
+        var chatElement = document.getElementById('liveChat');
+        if (chatElement !== null) {
             live.removeChild(chatElement);
+        }
     }
 
     function addLivetime() {
@@ -288,34 +304,37 @@
 
     function removeLiveTime(){
         var liveElement = document.getElementById('liveTime');
-        if (liveElement !== null)
+        if (liveElement !== null) {
             live.removeChild(liveElement);
+        }
     }
 
-    function addCountdown(){
+    function addCountdown() {
         var element = document.getElementById('liveCountdown');
-        if (element === null){
+        if (element === null) {
             var countdownElement = document.createElement('p');
-            countdownElement.setAttribute("class", "countdown");
-            countdownElement.setAttribute("id", "liveCountdown");
+            countdownElement.setAttribute('class', 'countdown');
+            countdownElement.setAttribute('id', 'liveCountdown');
             live.appendChild(countdownElement);
         }
     }
 
-    function addSubtitle(content){
+    function addSubtitle(content) {
         addCountdown();
         var countdownElement = document.getElementById('liveCountdown');
         countdownElement.innerHTML = content;
     }
 
-    function removeSubtitle(){
+    function removeSubtitle() {
         var countdownElement = document.getElementById('liveCountdown');
-        if (countdownElement !== null)
+        if (countdownElement !== null) {
             live.removeChild(countdownElement);
+        }
     }
 
     function updateCountdown(length) {
         var now = moment().add(config.extraTime);
+        var countdownElement;
 
         remainingTime = podcastTime.clone();
 
@@ -334,14 +353,13 @@
         ms = remainingTime.diff(now, 'milliseconds', true);
         seconds = Math.floor(moment.duration(ms).asSeconds());
 
-        if (length == 'short'){
+        if (length == 'short') {
             diff = 'in <strong> ' + seconds + '</strong>...';
-        }
-        else{
+        } else {
             diff = 'in <strong>' + days + '</strong> days <strong>' + hours + '</strong> hr <strong>' + minutes + '</strong> min <strong>' + seconds + '</strong> s';
         }
 
-        var countdownElement = document.getElementById('liveCountdown');
+        countdownElement = document.getElementById('liveCountdown');
         countdownElement.innerHTML = diff;
 
     }
@@ -357,34 +375,29 @@
            testStream.preLoad = 'none';
            testStream.pause();
            testCount = 0;
-       }
-       else if(testStream.src != config.streamingServerName + streamName) {
+       } else if (testStream.src != config.streamingServerName + streamName) {
            testStream.src = config.streamingServerName + streamName;
            testStream.preLoad = 'none';
            testStream.pause();
            testCount = 0;
-       }
-       else{
+       } else {
 
             testCount++;
 
-            /*Ignore the first 3 seconds of checks (network lag)*/
-            if (testCount < 3){
+            // Ignore the first 3 seconds of checks (network lag)
+            if (testCount < 3) {
                return;
-            }
-           else if (testCount > 10){
-                /*Re check after 10 seconds*/
-                testStream.src = "";
+            } else if (testCount > 10) {
+                // Re check after 10 seconds
+                testStream.src = '';
                 return;
             }
-
 
             if (testStream.error !== null ||
             testStream.networkState == HTMLMediaElement.NETWORK_NO_SOURCE ||
             testStream.networkState == HTMLMediaElement.NETWORK_EMPTY){
                 ifNotAvailable();
-           }
-           else{
+            } else {
                 ifAvailable();
             }
         }

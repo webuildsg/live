@@ -18,7 +18,11 @@ Ensure you have the following:
 1. Microphone connected to your laptop
 1. Download [Mumble](http://mumble.sourceforge.net/#Get_Mumble) for Windows / Linux / Mac OSX
 
-The next steps will take you **just 3 minutes** and you will be able to join the live podcast server. We have MAC OSX screenshots along with Windows where it differs. Try it out :)
+The next steps will take you **just 5 minutes** and you will be able to join the live podcast server. You view the screencast below on how to setup and refer to the notes after that.
+
+<div id="video">
+  <iframe width="560" height="315" src="//www.youtube.com/embed/wEg8C1vGLhQ" frameborder="0" allowfullscreen></iframe>
+</div>
 
 * * *
 
