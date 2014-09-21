@@ -6,7 +6,7 @@ VERSION:2.0
 PRODID:http://live.webuild.sg/
 X-WR-CALNAME:We Build LIVE Podcast
 {% for post in site.posts %}BEGIN:VEVENT
-UID:{{ posts.date | date: "%Y%m%d" }}@live.webuild.sg
+UID:{{ post.date | date: "%Y%m%d" }}@live.webuild.sg
 LOCATION:http://live.webuild.sg/
 SUMMARY:{{ post.title }}
 CLASS:PUBLIC
