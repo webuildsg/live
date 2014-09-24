@@ -140,12 +140,13 @@
             // from +30min  to +2 hour
             addDuringMomentToDOM();
         } else {
-            // after 1 hours
+            // after 2 hours
             addAfterMomentToDOM();
         }
 
     }
 
+    // before -15 hours
     function addBeforeMomentToDOM() {
         if (needsToBeUpdated('before')) {
             removeAudioAndIRC();
@@ -159,24 +160,26 @@
         updateCountdown('full');
     }
 
+    // from -15 hours to -15 seconds
     function addPreMomentToDOM() {
         if (needsToBeUpdated('pre')) {
             removeLiveTime();
 
             addHeadingLive('Catch We Build LIVE');
             addCountdown();
-            addAudioAndIRC('radio', false);
+            addAudioAndIRC('radio', true);
 
             live.setAttribute('data-state', 'pre');
         }
         updateCountdown('full');
     }
 
+    // from -15 seconds to 0
     function addCountdownMomentToDOM() {
         if (needsToBeUpdated('countdown')) {
             removeLiveTime();
 
-            addHeadingLive('We Build LIVE is airing soon');
+            addHeadingLive('Starting');
             addCountdown();
             addAudioAndIRC('live', true);
 
@@ -186,16 +189,18 @@
         updateCountdown('short');
     }
 
+    // from 0 seconds to +30mins
     function addInitDuringMomentToDOM() {
         if (needsToBeUpdated('during-live')) {
             removeLiveTime();
-            addHeadingLive('We Build LIVE airing!');
+            addHeadingLive('We are LIVE now!');
             addSubtitle('join us in the chat');
             addAudioAndIRC('live', true);
             live.setAttribute('data-state', 'during-live');
         }
     }
 
+    // from +30min  to +2 hour
     function addDuringMomentToDOM() {
 
         isStreamAvailable(
@@ -203,8 +208,8 @@
             function() {
                 if (needsToBeUpdated('during-live')) {
                     removeLiveTime();
-                    addHeadingLive('We Build SG LIVE is airing now!');
-                    addSubtitle('join us in the chat and conversation below');
+                    addHeadingLive('We are LIVE now!');
+                    addSubtitle('join us in the chat');
                     addAudioAndIRC('live', true);
                     //console.log("Switching to Live");
                     live.setAttribute('data-state', 'during-live');
@@ -212,8 +217,8 @@
             },
             function() {
                 if (needsToBeUpdated('during-radio')) {
-                    addHeadingLive('We Build LIVE ended!');
-                    addSubtitle('continue to join us in the chat below');
+                    addHeadingLive('We just ended!');
+                    addSubtitle('continue to join us in the chat');
                     addAudioAndIRC('radio', true);
                     //console.log("Switching to Radio");
                     live.setAttribute('data-state', 'during-radio');
@@ -222,6 +227,7 @@
         );
     }
 
+    // after 2 hours
     function addAfterMomentToDOM() {
         if (needsToBeUpdated('after')) {
             removeLiveTime();
@@ -374,7 +380,7 @@
             station += '-ogg';
         }
 
-        if (testStream === null){
+        if (!testStream) {
            testStream = new Audio(config.streamingServerName + streamName);
            testStream.preLoad = 'none';
            testStream.pause();
