@@ -5,6 +5,7 @@ layout: null
   "meta": {
     "generated_at": "{{ site.time | date: \"%Y%m%d\" }}",
     "location": "Singapore",
+    "api_version": "v1",
     "total_podcasts": "{{ site.posts | size }}",
     "next_live_show": {
       "guest": "{{site.next_guest}}",
