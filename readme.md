@@ -2,8 +2,7 @@
 
 This repository contains the website for a live audio podcast.
 
-[![Build Status](https://travis-ci.org/webuildsg/live.png)](https://travis-ci.org/webuildsg/live) [![Dependency Status](https://gemnasium.com/sayanee/webuild-live.svg)](https://gemnasium.com/sayanee/webuild-live)
-
+[![Build Status](https://travis-ci.org/webuildsg/live.png)](https://travis-ci.org/webuildsg/live) [![Dependency Status](https://gemnasium.com/webuildsg/live.svg)](https://gemnasium.com/webuildsg/live)
 
 Related websites:
 
