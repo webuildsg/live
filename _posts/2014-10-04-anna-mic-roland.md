@@ -107,5 +107,5 @@ description: Anna, Mic and Roland on open source hardware and software.
 - [Anna's Twitter](http://www.twitter.com/anna_fil)
 - [Roland's Website](http://rolandturner.com/contact)
 - [Michael's Website](http://coderkungfu.com/)
-- [Michael's Website](http://www.twitter.com/coderkungfu)
+- [Michael's Twitter	](http://www.twitter.com/coderkungfu)
 
