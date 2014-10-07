@@ -4,7 +4,7 @@ permalink: /025-anna-mic-roland/
 profile: 025-anna-mic-roland
 enclosure: http://audio.live.webuild.sg/025-anna-mic-roland
 length: 34424853
-description: Anna, Mic and Roland on creating web APIs and types of APIs.
+description: Anna, Mic and Roland on open source hardware and software.
 
 ---
 
