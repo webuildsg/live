@@ -25,8 +25,8 @@ default_time : 11am
 
 next_guest: "Vishnu Prem"
 next_episode: "026"
-next_podcast_start_time: 2014-11-11 11:00 +0800
-next_podcast_end_time: 2014-11-11 12:00 +0800
-next_profile: /img/026-vishnu-prem.jpg
-next_topic: starting young in technology and getting involved tech-focused student groups.
+next_podcast_start_time: 2014-11-01 11:00 +0800
+next_podcast_end_time: 2014-11-01 12:00 +0800
+next_profile: /img/026-vishnu-prem-profile.jpg
+next_topic: starting young in tech and getting involved in student groups.
 next_connect: 'Connect with Vishnu on <a href="https://twitter.com/burnflare">twitter</a> and on his <a href="http://vishnuprem.com/">website</a>!'
