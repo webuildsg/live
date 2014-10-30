@@ -153,6 +153,7 @@
 
             addHeadingLive('Catch We Build LIVE');
             addCountdown();
+            removeLiveTime();
             addLivetime();
 
             live.setAttribute('data-state', 'before');
