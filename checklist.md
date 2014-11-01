@@ -9,25 +9,40 @@ What exactly goes on before we get on the live show?
 
 Before 2 months:
 
-- Contact guest for availability
-- Schedule date and topics with the guest
+- Hosts contact the potential guest for availability and interest
+- Hosts schedule date and episode topic with the guest
+
+Before 1 month:
+
+- Hosts contact the guest for profile pic
+- Hosts confirm the episode topic with the guest
+
+Before 2 weeks:
+
+- Hosts draw up a list of curated questions for the guest
+- Guest edits and confirms the questions
 
 Before 1 week:
 
-- Guest tries out [joining the podcast server](/guest-notes)
+- Guest tries out [joining the podcast server](/guest-notes) (hosts will provide the password)
+- Hosts ask the guest if a wake up call is required
 
-At 15 hours:
+Before 15 hours:
 
-- [IRC Chat](http://webchat.freenode.net/?channels=webuildsg&#038;uio=MT1mYWxzZSY5PXRydWUmMTE9NTtitle="/join #webuilsg) and radio are started for our live audience
-- Research on questions, riddle, events and new releases
+- Hosts research on questions, riddle, events and picks
 
 Before 2 hours:
 
 - Setup sound board
 - Audio and mic test for hosts
+- Test live streaming
+
+Before 1.5 hour:
+
+- If requested, the guest gets a wake up call on mobile
 
 <a name="final"></a>
-Before 1 hour with guest *for 10 minutes*:
+Before 1 hour, at 10am with guest *for 10 minutes*:
 
 1. How to pronounce firstname and lastname
 1. Run through the entire format of the show
@@ -52,5 +67,5 @@ At 0 Seconds:
 
 After few days:
 
-- Post produced episode is released
-- Next guest is announced!
+- Post produced episode is released with Creative Commons license
+- Next guest is announced and countdown restarts!
