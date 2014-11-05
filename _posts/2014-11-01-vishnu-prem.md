@@ -4,7 +4,7 @@ permalink: /026-vishnu-prem/
 profile: 026-vishnu-prem
 enclosure: http://audio.live.webuild.sg/026-vishnu-prem
 length: 26517049
-description: Vishnu Prem on starting young in tech and getting involved in student group.
+description: Vishnu Prem on starting young in tech and getting involved in student groups.
 
 ---
 
