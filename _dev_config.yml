@@ -23,10 +23,10 @@ defaults:
     values:
       layout: "post"
 
-next_guest: "Vishnu Prem"
-next_episode: "026"
-next_podcast_start_time: 2014-11-01 11:00 +0800
-next_podcast_end_time: 2014-11-01 12:00 +0800
-next_profile: /img/026-vishnu-prem-profile.jpg
-next_topic: starting young in tech and getting involved in student groups.
-next_connect: 'Connect with Vishnu on <a href="https://twitter.com/burnflare">twitter</a>, <a href="http://vishnuprem.com/">website</a> and <a href="http://github.com/burnflare">github</a>!'
+next_guest: "Kiran Jonnalagadda"
+next_episode: "027"
+next_podcast_start_time: 2014-11-22 11:00 +0800
+next_podcast_end_time: 2014-11-22 12:00 +0800
+next_profile: /img/027-kiran-jonnalagadda-profile.jpg
+next_topic: automating event logistics with python and growing developer communities.
+next_connect: 'Connect with Kiran on <a href="https://twitter.com/jackerhack">twitter</a> and <a href="https://hasgeek.com/">hasgeek</a>!'
