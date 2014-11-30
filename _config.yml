@@ -23,7 +23,7 @@ default_logo : logo-100.jpg
 default_day : Sat
 default_time : 11am
 
-next_guest: "Honor Hager"
+next_guest: "Honor Harger"
 next_episode: "028"
 next_podcast_start_time: 2014-12-06 11:00 +0800
 next_podcast_end_time: 2014-12-06 12:00 +0800
