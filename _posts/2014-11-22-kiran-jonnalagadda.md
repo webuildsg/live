@@ -3,7 +3,7 @@ title: 027 Kiran Jonnalagadda
 permalink: /027-kiran-jonnalagadda/
 profile: 027-kiran-jonnalagadda
 enclosure: http://audio.live.webuild.sg/027-kiran-jonnalagadda
-length: 26517049
+length: 30473256
 description: Kiran Jonnalagadda on automating event logistics with python and growing developer communities.
 
 ---
