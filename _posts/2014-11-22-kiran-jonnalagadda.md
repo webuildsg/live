@@ -39,7 +39,7 @@ description: Kiran Jonnalagadda on automating event logistics with python and gr
 - [Banglore](http://en.wikipedia.org/wiki/Bangalore)
 - [AirJaldi](http://main.airjaldi.com/)
 - [Akiba's Trip to Dharmasala](http://www.freaklabs.org/index.php/Blog/Misc/The-Road-to-Dharamsala-The-Beginning.html)
-- [Kushagra Agarwal](https://twitter.com/kushsolitary)
+- [Kushagra Gour](https://github.com/chinchang)
 - [Little Eye Labs](http://www.littleeye.co/)
 
 **[I/O Polling audience questions [39:25]](#t=39:25)**
