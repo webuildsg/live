@@ -23,11 +23,10 @@ default_logo : logo-100.jpg
 default_day : Sat
 default_time : 11am
 
-next_guest: "Honor Harger"
-next_episode: "028"
-next_podcast_start_time: 2014-12-06 11:00 +0800
-next_podcast_end_time: 2014-12-06 12:00 +0800
-next_profile: /img/028-honor-hager-profile.jpg
-next_topic: Radio Astronomy and connecting people with Arts & Sciences.
-next_connect: 'Connect with Honor on <a href="https://twitter.com/honorharger">Twitter</a>, <a href="http://decelerator.blogspot.sg/">Particle Decelerator</a> blog and the <a href="https://www.facebook.com/ArtScienceMuseum">ArtScience Museum</a>!'
-
+next_guest: "Mitch Altman"
+next_episode: "Special 002"
+next_podcast_start_time: 2014-12-07 11:00 +0800
+next_podcast_end_time: 2014-12-07 12:00 +0800
+next_profile: /img/special-002-mitch-altman-profile.jpg
+next_topic: Spirit of inventing and educating people through hackerspaces.
+next_connect: 'Connect with Mitch on <a href="https://twitter.com/maltman23">Twitter</a> and <a href="http://www.cornfieldelectronics.com/">Cornfield Electronics</a>!'
