@@ -77,10 +77,10 @@
         podcastTime = moment(config.podcastTimeString, config.timeFormatString);
 
         // -hours, -seconds, +hour around the podcast live time
-        preMoment = podcastTime.clone().subtract(config.preMoment.unit, config.preMoment.amount);
-        startMoment = podcastTime.clone().subtract(config.startMoment.unit, config.startMoment.amount);
-        stopMoment = podcastTime.clone().add(config.stopMoment.unit, config.stopMoment.amount);
-        liveEndMoment = podcastTime.clone().add(config.liveEndMoment.unit, config.liveEndMoment.amount);
+        preMoment = podcastTime.clone().subtract(config.preMoment.amount, config.preMoment.unit);
+        startMoment = podcastTime.clone().subtract(config.startMoment.amount, config.startMoment.unit);
+        stopMoment = podcastTime.clone().add(config.stopMoment.amount, config.stopMoment.unit);
+        liveEndMoment = podcastTime.clone().add(config.liveEndMoment.amount, config.liveEndMoment.unit);
 
         // countdown
         countdown();
@@ -352,15 +352,15 @@
         ms = remainingTime.diff(now, 'milliseconds', true);
         days = Math.floor(moment.duration(ms).asDays());
 
-        remainingTime.subtract('days', days);
+        remainingTime.subtract(days, 'days');
         ms = remainingTime.diff(now, 'milliseconds', true);
         hours = Math.floor(moment.duration(ms).asHours());
 
-        remainingTime.subtract('hours', hours);
+        remainingTime.subtract(hours, 'hours');
         ms = remainingTime.diff(now, 'milliseconds', true);
         minutes = Math.floor(moment.duration(ms).asMinutes());
 
-        remainingTime.subtract('minutes', minutes);
+        remainingTime.subtract(minutes, 'minutes');
         ms = remainingTime.diff(now, 'milliseconds', true);
         seconds = Math.floor(moment.duration(ms).asSeconds());
 
