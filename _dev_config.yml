@@ -23,10 +23,10 @@ defaults:
     values:
       layout: "post"
 
-next_guest: "Mitch Altman"
-next_episode: "Special 002"
-next_podcast_start_time: 2014-12-07 11:00 +0800
-next_podcast_end_time: 2014-12-07 12:00 +0800
-next_profile: /img/special-002-mitch-altman-profile.jpg
-next_topic: Spirit of inventing and educating people through hackerspaces.
-next_connect: 'Connect with Mitch on <a href="https://twitter.com/maltman23">Twitter</a> and <a href="http://www.cornfieldelectronics.com/">Cornfield Electronics</a>!'
+next_guest: "Harish Pillay"
+next_episode: "029"
+next_podcast_start_time: 2015-01-03 11:00 +0800
+next_podcast_end_time: 2015-01-03 12:00 +0800
+next_profile: /img/029-harish-pillay-profile.jpg
+next_topic: open source in enterprise and organising hackathons.
+next_connect: 'Connect with Harish on <a href="https://twitter.com/harishpillay">Twitter</a> and <a href="https://github.com/harishpillay">Github</a>!'
