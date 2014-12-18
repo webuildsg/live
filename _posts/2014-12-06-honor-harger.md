@@ -4,7 +4,7 @@ permalink: /028-honor-harger/
 profile: 028-honor-harger
 enclosure: http://audio.live.webuild.sg/028-honor-harger
 length: 26349449
-description: Honor Harger on radio astronomy and connecting people with Arts & Sciences.
+description: Honor Harger on radio astronomy and connecting people with Arts and Sciences.
 ---
 
 **[Introduction [0:38]](#t=0:38)**
@@ -37,7 +37,7 @@ description: Honor Harger on radio astronomy and connecting people with Arts & S
 - [Radio Astronomy by radioqualia](http://www.radio-astronomy.net/)
 - [Windward Community College Radio Observatory](http://jupiter.wcc.hawaii.edu/newradiojove/main.html)
 
-**[connecting people with Arts & Sciences [20:44]](#t=20:44)**
+**[connecting people with Arts and Sciences [20:44]](#t=20:44)**
 
 - [Arts and Science Museum](http://www.marinabaysands.com/museum.html)
 - [Da Vinci](http://www.marinabaysands.com/museum/davinci.html)
