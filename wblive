@@ -8,7 +8,7 @@ app="~/Workspace/webuild-live"
 open $app
 subl $app
 
-open https://github.com/sayanee/webuild-live/issues?state=open
+open https://github.com/webuildsg/webuild-live/issues?state=open
 open http://localhost:4000
 open http://live.webuild.sg
 
