@@ -1,4 +1,4 @@
-	---
+---
 title: 029 Harish Pillay
 permalink: /029-harish-pillay/
 profile: 029-harish-pillay
@@ -21,7 +21,7 @@ description: Harish Pillay on open source in Enterprise and Hackathons.
 - [SMTP](http://en.wikipedia.org/wiki/Simple_Mail_Transfer_Protocol)
 - [Bash](http://en.wikipedia.org/wiki/Bash_%28Unix_shell%29)
 - [COMMAND.COM](http://en.wikipedia.org/wiki/COMMAND.COM)
-- [Shell Shock (Bash Bug)](http://en.wikipedia.org/wiki/Shellshock_(software_bug\))
+- [Shell Shock (Bash Bug)](http://en.wikipedia.org/wiki/Shellshock_\(software_bug\))
 - [SCO Unix](http://en.wikipedia.org/wiki/SCO_OpenServer)
 - [Red Hat Services](http://www.redhat.com/en/services)
 - [Open Core](http://en.wikipedia.org/wiki/Open_core)
@@ -63,7 +63,7 @@ description: Harish Pillay on open source in Enterprise and Hackathons.
 - [Arduino](http://www.arduino.cc/)
 - [RaspberryPi](http://www.raspberrypi.org/)
 - [Novena Laptop](http://www.kosagi.com/w/index.php?title=Novena_Main_Page)
-- [2001:_A_Space_Odyssey](http://en.wikipedia.org/wiki/2001:_A_Space_Odyssey_(film\))
+- [2001: A Space Odyssey](http://en.wikipedia.org/wiki/2001:_A_Space_Odyssey_\(film\))
 - [Space: 1999](http://en.wikipedia.org/wiki/Space:_1999)
 
 **[Picks [51:01]](#t=51:01)**
