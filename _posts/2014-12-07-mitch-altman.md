@@ -77,7 +77,6 @@ time: 11am
 - [31C3](http://events.ccc.de/congress/2014/wiki/Static:Main_Page)
 - [HOPE](http://www.hope.net/)
 - [NoiseBridge](https://www.noisebridge.net/)
-- []()
 
 **[Electric Plug  – Connect with Mitch [1:03:34]](#t=1:03:34)**
 
