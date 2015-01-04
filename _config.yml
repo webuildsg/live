@@ -23,10 +23,10 @@ default_logo : logo-100.jpg
 default_day : Sat
 default_time : 11am
 
-next_guest: "Harish Pillay"
-next_episode: "029"
-next_podcast_start_time: 2015-01-03 11:00 +0800
-next_podcast_end_time: 2015-01-03 12:00 +0800
-next_profile: /img/029-harish-pillay-profile.jpg
-next_topic: open source in enterprise and organising hackathons.
-next_connect: 'Connect with Harish on <a href="https://twitter.com/harishpillay">Twitter</a> and <a href="https://github.com/harishpillay">Github</a>!'
+next_guest: "Michelle Lye"
+next_episode: "030"
+next_podcast_start_time: 2015-03-07 11:00 +0800
+next_podcast_end_time: 2015-03-07 12:00 +0800
+next_profile: /img/030-michelle-lye-profile.jpg
+next_topic: playing with micro controllers and teaching electronics.
+next_connect: 'Connect with Michelle on <a href="https://twitter.com/monolye">Twitter</a>, <a href="http://mopusworks.com/">Mopus Works</a> and <a href="http://mopusworks.com/product-category/tweeq-core/">Tweeq</a>!'
