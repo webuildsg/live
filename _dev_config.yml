@@ -23,10 +23,10 @@ defaults:
     values:
       layout: "post"
 
-next_guest: "Michelle Lye"
+next_guest: "Cedric Honnet"
 next_episode: "030"
-next_podcast_start_time: 2015-03-07 11:00 +0800
-next_podcast_end_time: 2015-03-07 12:00 +0800
-next_profile: /img/030-michelle-lye-profile.jpg
-next_topic: playing with micro controllers and teaching electronics.
-next_connect: 'Connect with Michelle on <a href="https://twitter.com/monolye">Twitter</a>, <a href="http://mopusworks.com/">Mopus Works</a> and <a href="http://mopusworks.com/product-category/tweeq-core/">Tweeq</a>!'
+next_podcast_start_time: 2015-02-28 11:00 +0800
+next_podcast_end_time: 2015-02-28 12:00 +0800
+next_profile: /img/030-cedric-honnet-profile.jpg
+next_topic: electronic sensors and geek communities around the world.
+next_connect: 'Connect with Cedric on <a href="https://twitter.com/brainiaxxx">Twitter</a>, <a href="https://github.com/honnet">Github</a> and <a href="https://www.hackster.io/cedric/twi">Twi</a>!'
