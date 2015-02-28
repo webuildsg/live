@@ -23,7 +23,7 @@ Here are the various tools and configurations used for running this podcast!
 <a name="radio"></a>
 <h3 class="important">radio</h3>
 
-15 hours before we go live, we play music from [CC Mixter](/setup#radio). Here's the list of tracks:
+15 hours before we go live, we play creative commons music. Here's the list of tracks in our playlist:
 
 - mp3 (Chrome/FF/Safari)
   1. [The Savvy & The Chic Vol.1: Navigator](http://thesavvyandthechic.blogspot.sg/2010/04/savvy-chic-vol1.html)
