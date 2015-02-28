@@ -23,10 +23,10 @@ default_logo : logo-100.jpg
 default_day : Sat
 default_time : 11am
 
-next_guest: "Cedric Honnet"
-next_episode: "030"
-next_podcast_start_time: 2015-02-28 11:00 +0800
-next_podcast_end_time: 2015-02-28 12:00 +0800
-next_profile: /img/030-cedric-honnet-profile.jpg
-next_topic: electronic sensors and geek communities around the world.
-next_connect: 'Connect with Cedric on <a href="https://twitter.com/brainiaxxx">Twitter</a>, <a href="https://www.hackster.io/cedric">Hackster</a> and <a href="http://twiz.io">Twiz</a>!'
+next_guest: "Alyssa Quek"
+next_episode: "031"
+next_podcast_start_time: 2015-03-21 11:00 +0800
+next_podcast_end_time: 2015-03-21 12:00 +0800
+next_profile: /img/031-alyssa-quek-profile.jpg
+next_topic: computer vision in python and getting involved in the developer community.
+next_connect: 'Connect with Alyssa on <a href="https://twitter.com/alyssaquek">Twitter</a>, <a href="http://scriptogr.am/alyssa">Blog</a> and <a href="https://github.com/alyssaq">Github</a>!'
