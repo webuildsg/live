@@ -5,7 +5,6 @@ date:   2014-08-28 29:00:00
 permalink: /setup/
 ---
 
-
 Here are the various tools and configurations used for running this podcast!
 
 1. [Mumble](http://mumble.sourceforge.net/) with [separate channel recording](http://blog.mumble.info/for-the-record/)
@@ -21,3 +20,21 @@ Here are the various tools and configurations used for running this podcast!
 
 ![Setup diagram]({{ site.url }}/img/setup.jpg)
 
+<a name="radio"></a>
+<h3 class="important">radio</h3>
+
+15 hours before we go live, we play music from [CC Mixter](/setup#radio). Here's the list of tracks:
+
+- mp3 (Chrome/FF/Safari)
+  1. [The Savvy & The Chic Vol.1: Navigator](http://thesavvyandthechic.blogspot.sg/2010/04/savvy-chic-vol1.html)
+  - [The Savvy & the Chic Vol.6: Exotica *mixed by Hektor Thillet*](http://thesavvyandthechic.blogspot.sg/2010/07/savvy-chic-vol6-exotica-mixed-by-hektor.html)
+  - [The Savvy & The Chic Vol9: Continental *compiled by Hektor Thillet*](http://thesavvyandthechic.blogspot.sg/2012/02/savvy-chic-vol9-continental-compiled-by.html)
+  - [The Mixin' Kitchen 46](http://ccmixter.org/playlist/browse/12950)
+  - [The Mixin' Kitchen 47](http://ccmixter.org/playlist/browse/13599)
+  - [The Mixin' Kitchen 48](http://ccmixter.org/playlist/browse/13811)
+- ogg (Chromium/FF/etc on Linux)
+  1. [Music Only - 140418 - Music Manumit Podcast](http://www.musicmanumit.com/2014/04/music-only-140418-music-manumit-podcast.html)
+  - [Music Only - 140412 - Music Manumit Podcast](http://www.musicmanumit.com/2014/04/music-only-140412-music-manumit-podcast.html)
+  - [Music Only - 140321 - Music Manumit Podcast](http://www.musicmanumit.com/2014/03/music-only-140321-music-manumit-podcast.html)
+  - [Music Only - 140328 - Music Manumit Podcast](http://www.musicmanumit.com/2014/03/music-only-140328-music-manumit-podcast.html)
+  - [Music Manumit Music Only Podcast - 111209](http://www.musicmanumit.com/2011/12/music-manumit-music-only-podcast-111209.html)
