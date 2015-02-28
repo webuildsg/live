@@ -4,23 +4,24 @@ layout: page
 date:   2013-09-21 15:00:00
 permalink: /live-notes/
 ---
-On the actual day, at 11am sharp our live audio stream goes silent and we start the show! It is a fast-paced lively conversation with our guest and audience.
+
+On the actual day, at **11am** sharp our live audio stream goes silent and we start the show! It is a fast-paced lively conversation with our guest and audience.
 
 <pre><code class="language-javascript">(function() {
 
   import 'episode';
 
-  var topics = ['building', 'learning', 'sharing'],
-    guest = {'maker', 'developer' , 'designer'},
-    audience = 'live audience in IRC #webuildsg',
-    hosts = ['time keeper', 'sound controller'];
+  var topics = ['building', 'learning', 'sharing'];
+  var guest = ['maker', 'developer' , 'designer'];
+  var audience = 'live audience in IRC #webuildsg';
+  var hosts = ['time keeper', 'sound controller'];
 
   // first 5 minutes
   welcome(guest, topics);
   guestDeclaration('current projects', guest);
   malformedQuery('lame riddle', guest, hosts[1]);
 
-  // next 25 minutes
+  // next 30 minutes
   discussion(topics, guest);
 
   // next 10 minutes
@@ -28,7 +29,13 @@ On the actual day, at 11am sharp our live audio stream goes silent and we start 
   rapidFire('fast answers', guest, hosts[1]);
 
   // final 5 minutes
-  doublyLinkedList('recent tools released', hosts[0]);
+  picks([
+    'books',
+    'apps',
+    'food',
+    'meetups',
+    'tools'
+  ], hosts, guest);
   eventLoop('upcoming events', hosts[0]);
   electricPlug('personal project links', guest);
 
@@ -43,7 +50,7 @@ We have a fun guideline script to follow for each episode too! And it goes somet
 
 **[11:00 am] (5 min - START)**
 
-import episode 18
+import episode `numbber`
 
 It's `date`, streaming directly from Singapore - It's We Build LIVE!
 
@@ -65,13 +72,13 @@ Hi `firstname of guest`! Welcome!
 
 Announce how live audience can ask questions via twitter or irc
 
-Topic 1: 3 questions
+Topic 1 (technology): 3 questions
 
 **[11:20 am] (10 min)**
 
 Announce how live audience can ask questions via twitter or irc
 
-Topic 2: 2 questions
+Topic 2 (community): 2 questions
 
 
 **[11:30 am] (10 min)**
@@ -99,4 +106,4 @@ That's it for this episode [number] of We Build LIVE. We will get together again
 
 Until then,
 
-return 0;
+`return 0;`
