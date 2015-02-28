@@ -222,6 +222,7 @@
                     addSubtitle('continue to join us in the chat');
                     addAudioAndIRC('radio', true);
                     //console.log("Switching to Radio");
+                    removeLiveTime();
                     live.setAttribute('data-state', 'during-radio');
                 }
             }
