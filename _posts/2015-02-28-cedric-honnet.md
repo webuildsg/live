@@ -9,9 +9,9 @@ description: Cedric Honnet on electronic sensors and geek communities.
 
 **[Introduction [1:35]](#t=1:35)**
 
-- [Tangible Displays](http://www.tangibledisplay.com/)
+- [Tangible Display](http://www.tangibledisplay.com/)
 - [DJ Qbert](http://en.wikipedia.org/wiki/DJ_Qbert)
-- [Akai S3200 Sampler](http://www.vintagesynth.com/akai/s3000.php)
+- [Akai S3200XL Sampler](http://www.planet-groove.com/akai/s3200xl.html)
 - [FPGA](http://en.wikipedia.org/wiki/Field-programmable_gate_array)
 - [Cool Edit Pro](http://en.wikipedia.org/wiki/Adobe_Audition)
 
@@ -34,7 +34,7 @@ description: Cedric Honnet on electronic sensors and geek communities.
 - [Raspberry Pi](http://www.raspberrypi.org/)
 - [ODROID](http://www.hardkernel.com/main/main.php)
 - [Raspberry Pi 2](http://www.raspberrypi.org/products/raspberry-pi-2-model-b/)
-- [ARM1136](http://www.arm.com/products/processors/classic/arm11/arm1136.php)
+- [Raspi1/iPhone1 CPU (ARM1136)](http://www.arm.com/products/processors/classic/arm11/arm1136.php)
 - [Radxa](http://radxa.com/Home)
 - [Cubieboard](http://cubieboard.org/)
 - [RockChip](http://en.wikipedia.org/wiki/Rockchip)
@@ -66,16 +66,19 @@ description: Cedric Honnet on electronic sensors and geek communities.
 - [brainiaxxx](https://twitter.com/brainiaxxx)
 - [Twiz](http://twiz.io)
 - [Touch Fabric](http://www.makery.info/2014/12/02/maurin-donneaud-invente-la-peau-de-robot/)
+- [Jimi Hertz](https://twitter.com/jimihertz)
+- Paris Hackerspaces: [BlackBoxe](http://blackboxe.org)/[Le Loop](http://leloop.org)
 - [Noisebridge](https://www.noisebridge.net/)
 - [MIT Media Lab](http://www.media.mit.edu/)
 - [Sifteo](http://farewell.sifteo.com/)
 
 **[Rapid Fire questions [44:07]](#t=44:07)**
 
-- [http://opencv.org/](OpenCV)
+- [OpenCV](http://opencv.org/)
 - [RaspberryPi Meetup](https://www.facebook.com/groups/raspberrypisingapore/)
 - [Hackware](http://www.meetup.com/Hackware/)
 - [NYC Resistor](http://www.nycresistor.com/)
+- [Hack Manathan](http://www.hackmanhattan.com/)
 - [LifePatch](http://lifepatch.org/)
 
 **[Picks [51:01]](#t=51:01)**
@@ -96,12 +99,13 @@ description: Cedric Honnet on electronic sensors and geek communities.
 - [FOSS Asia](http://fossasia.org/)
 - [MakerFaire Singapore](http://makerfairesingapore.com/)
 - [WeBuildSg](http://webuild.sg)
-- [OpenScience Event](https://www.facebook.com/events/424468387727225)
+- [Open Science Conference](https://is.gd/open_science_sg)
 
 **[Electric Plug  – Connect with Cedric [57:42]](#t=57:42)**
 
 - [Links from Cedric](http://board.net/p/cedric-webuild)
 - [Cedric's Twitter](https://twitter.com/brainiaxxx)
+- [Cedric's portfolio](http:/portfolio.honnet.eu)
 
 
 
