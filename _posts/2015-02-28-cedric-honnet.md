@@ -105,7 +105,7 @@ description: Cedric Honnet on electronic sensors and geek communities.
 
 - [Links from Cedric](http://board.net/p/cedric-webuild)
 - [Cedric's Twitter](https://twitter.com/brainiaxxx)
-- [Cedric's portfolio](http:/portfolio.honnet.eu)
+- [Cedric's portfolio](http://portfolio.honnet.eu)
 
 
 
