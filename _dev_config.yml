@@ -23,10 +23,10 @@ defaults:
     values:
       layout: "post"
 
-next_guest: "Alyssa Quek"
-next_episode: "031"
-next_podcast_start_time: 2015-03-21 11:00 +0800
-next_podcast_end_time: 2015-03-21 12:00 +0800
-next_profile: /img/031-alyssa-quek-profile.jpg
-next_topic: computer vision in python and getting involved in the developer community.
-next_connect: 'Connect with Alyssa on <a href="https://twitter.com/alyssaquek">Twitter</a>, <a href="http://scriptogr.am/alyssa">Blog</a> and <a href="https://github.com/alyssaq">Github</a>!'
+next_guest: "Michelle Lye"
+next_episode: "032"
+next_podcast_start_time: 2015-04-04 11:00 +0800
+next_podcast_end_time: 2015-04-04 12:00 +0800
+next_profile: /img/032-michelle-lye-profile.jpg
+next_topic: playing with microcontrollers and teaching electronics.
+next_connect: 'Connect with Michelle on <a href="https://twitter.com/monolye">Twitter</a>, <a href="http://mopusworks.com/">Mopus Words</a> and <a href="http://mopusworks.com/product-category/tweeq-core/">Tweeq</a>!'
