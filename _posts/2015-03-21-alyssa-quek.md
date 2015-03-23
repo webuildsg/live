@@ -53,7 +53,7 @@ description: Alyssa Quek on computer vision in python and getting involved in th
 - [Data Science](http://www.meetup.com/DataScience-SG-Singapore/)
 - [Hackware](http://www.meetup.com/Hackware/)
 - [TheList.sg](http://thelist.sg/)
-- [WeBuild](http://github.com/webuildsg)
+- [WeBuild Github](http://github.com/webuildsg)
 - [HeyEvent](http://heyevent.com/)
 - [Fundamentals of Computer Vision](http://www.cs.ucf.edu/courses/cap6411/book.pdf)
 - [Computer Vision: Algorithms and Applications](http://szeliski.org/Book/)
@@ -61,7 +61,7 @@ description: Alyssa Quek on computer vision in python and getting involved in th
 
 **[I/O Polling audience questions [34:07]](#t=34:07)**
 
-- [Facebook face regnition algorithm](https://research.facebook.com/publications/480567225376225/deepface-closing-the-gap-to-human-level-performance-in-face-verification/)
+- [Facebook face recognition algorithm](https://research.facebook.com/publications/480567225376225/deepface-closing-the-gap-to-human-level-performance-in-face-verification/)
 - [scikit-learn](http://scikit-learn.org/stable/)
 
 **[Rapid Fire questions [41:09]](#t=41:09)**
