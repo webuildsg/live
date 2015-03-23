@@ -66,7 +66,7 @@ description: Alyssa Quek on computer vision in python and getting involved in th
 
 **[Rapid Fire questions [41:09]](#t=41:09)**
 
-- [Mahotoas](http://luispedro.org/software/mahotas/)
+- [Mahotas](http://luispedro.org/software/mahotas/)
 - [talk.js](http://www.meetup.com/Singapore-JS/)
 - [Snow Crash](http://en.wikipedia.org/wiki/Snow_Crash)
 
