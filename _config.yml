@@ -23,10 +23,10 @@ default_logo : logo-100.jpg
 default_day : Sat
 default_time : 11am
 
-next_guest: "Michelle Lye"
-next_episode: "032"
-next_podcast_start_time: 2015-04-04 11:00 +0800
-next_podcast_end_time: 2015-04-04 12:00 +0800
-next_profile: /img/032-michelle-lye-profile.jpg
-next_topic: playing with microcontrollers and teaching electronics.
-next_connect: 'Connect with Michelle on <a href="https://twitter.com/monolye">Twitter</a>, <a href="http://mopusworks.com/">Mopus Words</a> and <a href="http://mopusworks.com/product-category/tweeq-core/">Tweeq</a>!'
+next_guest: "Kenneth Lim"
+next_episode: "033"
+next_podcast_start_time: 2015-04-19 11:00 +0800
+next_podcast_end_time: 2015-04-19 12:00 +0800
+next_profile: /img/033-kenneth-lim-profile.jpg
+next_topic: designing hardware modules and crowd funding electronics.
+next_connect: 'Connect with Kenneth on <a href="https://twitter.com/kennethlimcp">Twitter</a>, <a href="http://github.com/kennethlimcp">Github</a> and <a href="http://limsimiteh.com/kenneth/">blog</a>!'
