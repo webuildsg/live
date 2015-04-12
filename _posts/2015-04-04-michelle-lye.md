@@ -43,7 +43,7 @@ description: Michelle Lye on playing with microcontrollers and teaching electron
 - [Tan Kah Kee Young Inventors' Award](http://www.tkkfoundation.org.sg/tkk/foundation/young/invest_eng.shtml)
 - [Analog Electronics](http://en.wikipedia.org/wiki/Analogue_electronics)
 - [Op-Amps](http://en.wikipedia.org/wiki/Operational_amplifier)
-- [Design Applications for Intrumentation Amplifers]()
+- [A Designer's Guide to Instrumentation Amplifiers](http://www.analog.com/en/education/education-library/dh-designers-guide-to-instrumentation-amps.html)
 
 **[I/O Polling audience questions [26:52]](#t=26:52)**
 
