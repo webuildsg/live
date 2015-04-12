@@ -20,7 +20,7 @@ description: Michelle Lye on playing with microcontrollers and teaching electron
 - [IMU](http://en.wikipedia.org/wiki/Inertial_measurement_unit)
 - [IOT](http://en.wikipedia.org/wiki/Internet_of_Things)
 - [BLE](http://en.wikipedia.org/wiki/Bluetooth_low_energy)
-- [Cedric's Chip](https://www.nordicsemi.com/eng/Products/Bluetooth-Smart-Bluetooth-low-energy/nRF51822)
+- [Cedric's Twiz.io Chip](https://www.nordicsemi.com/eng/Products/Bluetooth-Smart-Bluetooth-low-energy/nRF51822)
 - [IO](http://en.wikipedia.org/wiki/Input/output)
 - [Toolchain](http://elinux.org/Toolchains)
 - [Arduino Toolchain](https://github.com/arduino/toolchain-avr)
