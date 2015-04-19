@@ -3,7 +3,7 @@ title: 033 Kenneth Lim
 permalink: /033-kenneth-lim/
 profile: 033-kenneth-lim
 enclosure: http://audio.live.webuild.sg/033-kenneth-lim
-length: 28880401
+length: 26296575
 description: Kenneth Lim on playing with microcontrollers and teaching electronics.
 ---
 
