@@ -35,10 +35,6 @@ date: 2013-09-21 13:00:00
     <atom:link rel="self" type="application/rss+xml" title="{{ site.name }}" href="{{ site.url }}/feed.xml" />
     <atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="self" type="application/rss+xml" href="{{ site.feed }}" />
     <atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="hub" href="http://pubsubhubbub.appspot.com/" />
-    <itunes:owner>
-      <itunes:email>{{ site.email }}</itunes:email>
-      <itunes:name>{{ site.author }}</itunes:name>
-    </itunes:owner>
     <itunes:keywords>{{ site.tags }}</itunes:keywords>
     <itunes:category text="Technology">
       <itunes:category text="Podcasting" />
@@ -53,7 +49,7 @@ date: 2013-09-21 13:00:00
 
       <itunes:subtitle>{{ post.description }}</itunes:subtitle>
       <itunes:summary>{{ post.description }}</itunes:summary>
-      <description>{{ post.description }}</description>
+      <description><![CDATA[{{ post.content }}]]></description>
       <content:encoded><![CDATA[{{ post.content }}]]></content:encoded>
 
       <guid isPermaLink="false">{{ post.enclosure }}.mp3</guid>
@@ -62,7 +58,6 @@ date: 2013-09-21 13:00:00
       <itunes:explicit>no</itunes:explicit>
       <itunes:keywords>{{ post.tags }}</itunes:keywords>
       <enclosure url="{{ post.enclosure }}.mp3" length="{{ post.length }}" type="audio/mp3" />
-      <content:encoded>{{ post.description }}</content:encoded>
       <itunes:image href="{{ site.url }}/logo-100.jpg" />
     </item>
     {% endfor %}
