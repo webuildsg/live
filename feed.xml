@@ -52,7 +52,7 @@ date: 2013-09-21 13:00:00
       <itunes:author>{{ site.author }}</itunes:author>
 
       <itunes:subtitle>{{ post.description }}</itunes:subtitle>
-      <itunes:summary>{{ post.description }}</itunes:summary>
+      <itunes:summary>{{ post.content }}</itunes:summary>
       <description>{{ post.description }}</description>
       <content:encoded><![CDATA[{{ post.description }}]]></content:encoded>
 
