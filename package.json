@@ -1,9 +1,16 @@
 {
   "name": "webuild-live",
   "version": "0.1.0",
-  "author": "Sayanee <sayanee@gmail.com>",
   "description": "a live conversation with geeks in town on building, learning and sharing",
+  "private": true,
+  "scripts": {
+    "start": "jekyll serve --config _dev_config.yml --watch"
+  },
   "contributors": [
+    {
+      "name": "Sayanee",
+      "email": "sayanee@gmail.com"
+    },
     {
       "name": "Chinmay",
       "email": "notthetup@gmail.com"
