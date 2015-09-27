@@ -73,18 +73,20 @@
             // Safari doesn't honor the responseType of 'json'.
             response = JSON.parse(request.response);
         }
-        config.podcastTimeString = response.meta.next_live_show.start_time;
-        podcastTime = moment(config.podcastTimeString, config.timeFormatString);
+        if (response.meta.next_live_show) {
+            config.podcastTimeString = response.meta.next_live_show.start_time;
+            podcastTime = moment(config.podcastTimeString, config.timeFormatString);
 
-        // -hours, -seconds, +hour around the podcast live time
-        preMoment = podcastTime.clone().subtract(config.preMoment.amount, config.preMoment.unit);
-        startMoment = podcastTime.clone().subtract(config.startMoment.amount, config.startMoment.unit);
-        stopMoment = podcastTime.clone().add(config.stopMoment.amount, config.stopMoment.unit);
-        liveEndMoment = podcastTime.clone().add(config.liveEndMoment.amount, config.liveEndMoment.unit);
+            // -hours, -seconds, +hour around the podcast live time
+            preMoment = podcastTime.clone().subtract(config.preMoment.amount, config.preMoment.unit);
+            startMoment = podcastTime.clone().subtract(config.startMoment.amount, config.startMoment.unit);
+            stopMoment = podcastTime.clone().add(config.stopMoment.amount, config.stopMoment.unit);
+            liveEndMoment = podcastTime.clone().add(config.liveEndMoment.amount, config.liveEndMoment.unit);
 
-        // countdown
-        countdown();
-        setInterval(countdown, 1000);
+            // countdown
+            countdown();
+            setInterval(countdown, 1000);
+        }
     };
     request.send();
 

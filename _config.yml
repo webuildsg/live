@@ -23,10 +23,10 @@ default_logo : logo-100.jpg
 default_day : Sat
 default_time : 11am
 
-next_guest: "Sebastiaan Deckers"
-next_episode: "034"
-next_podcast_start_time: 2015-10-10 11:00 +0800
-next_podcast_end_time: 2015-10-10 12:00 +0800
-next_profile: /img/034-seb-deckers-profile.jpg
-next_topic: frontend web technologies and developer productivity.
-next_connect: 'Connect with Seb on <a href="https://twitter.com/sebdeckers">Twitter</a>, <a href="https://github.com/cbas">Github</a> and <a href="http://www.cofounders.sg/">CoFounders</a>!'
+# next_guest: "Sebastiaan Deckers"
+# next_episode: "034"
+# next_podcast_start_time: 2015-10-10 11:00 +0800
+# next_podcast_end_time: 2015-10-10 12:00 +0800
+# next_profile: /img/034-seb-deckers-profile.jpg
+# next_topic: frontend web technologies and developer productivity.
+# next_connect: 'Connect with Seb on <a href="https://twitter.com/sebdeckers">Twitter</a>, <a href="https://github.com/cbas">Github</a> and <a href="http://www.cofounders.sg/">CoFounders</a>!'

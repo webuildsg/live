@@ -15,12 +15,12 @@ DTEND:{{ post.date | date: "%Y%m%d" }}T040000Z
 DTSTAMP:{{ post.date | date: "%Y%m%d" }}T030000Z
 END:VEVENT
 {% endfor %}BEGIN:VEVENT
-UID:{{ site.next_podcast_start_time | date: "%Y%m%d" }}@live.webuild.sg
 LOCATION:http://live.webuild.sg/
-SUMMARY:{{ site.next_episode}} {{ site.next_guest }}
 CLASS:PUBLIC
+{% if site.next_guest %}SUMMARY:{{ site.next_episode}} {{ site.next_guest }}
+UID:{{ site.next_podcast_start_time | date: "%Y%m%d" }}@live.webuild.sg
 DTSTART:{{ site.next_podcast_start_time | date: "%Y%m%d" }}T030000Z
 DTEND:{{ site.next_podcast_end_time | date: "%Y%m%d" }}T040000Z
 DTSTAMP:{{ site.next_podcast_start_time | date: "%Y%m%d" }}T030000Z
-END:VEVENT
+{% endif %}END:VEVENT
 END:VCALENDAR

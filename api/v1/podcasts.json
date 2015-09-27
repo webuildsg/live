@@ -6,7 +6,9 @@ layout: null
     "generated_at": "{{ site.time | date: \"%Y%m%d\" }}",
     "location": "Singapore",
     "api_version": "v1",
-    "total_podcasts": "{{ site.posts | size }}",
+    "total_podcasts": "{{ site.posts | size }}"
+    {% if site.next_guest %}
+    ,
     "next_live_show": {
       "guest": "{{site.next_guest}}",
       "episode_number": "{{site.next_episode}}",
@@ -16,6 +18,7 @@ layout: null
       "description": "{{site.next_guest}} on {{site.next_topic | strip_html}} {{site.next_connect | strip_html}}",
       "url": "{{site.url}}"
     }
+    {% endif %}
   },
   "podcasts": [
     {% for post in site.posts %}{
