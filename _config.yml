@@ -8,7 +8,7 @@ destination: ./_publish
 permalink: /:title
 exclude: ['sass', 'node_modules', 'Gruntfile.js', 'package.json', 'readme.md', 'js', 'scripts']
 markdown: redcarpet
-url: http://live.webuild.sg
+url: //live.webuild.sg
 timezone:    Asia/Singapore
 encoding:    UTF-8
 
