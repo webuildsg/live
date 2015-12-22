@@ -3,3 +3,4 @@
 _publish
 node_modules
 js/lib
+.bundle
