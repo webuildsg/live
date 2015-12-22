@@ -1,8 +1,8 @@
-#We Build SG LIVE
+# We Build SG LIVE
 
 This repository contains the website for a live audio podcast.
 
-[![Build Status](https://travis-ci.org/webuildsg/live.png)](https://travis-ci.org/webuildsg/live) [![Dependency Status](https://gemnasium.com/webuildsg/live.svg)](https://gemnasium.com/webuildsg/live)
+[![Build Status](https://travis-ci.org/webuildsg/live.svg)](https://travis-ci.org/webuildsg/live) [![Dependency Status](https://gemnasium.com/webuildsg/live.svg)](https://gemnasium.com/webuildsg/live)
 
 Related websites:
 
@@ -11,20 +11,20 @@ Related websites:
 - [Twitter](https://twitter.com/webuildsg)
 - [Github](https://github.com/webuildsg/live)
 
-##install
+## install
 
 1. clone repository
 
     ```
     git@github.com:webuildsg/live.git
     ```
-1. install packages
+- install packages
 
     ```
     npm install
     bundle install
     ```
-1. add a git pre-commit hook to generate new `sitemap.xml` with new episodes. edit file `.git/hooks/pre-commit`
+- add a git pre-commit hook to generate new `sitemap.xml` with new episodes. edit file `.git/hooks/pre-commit`
 
     ```
     #!/bin/sh
@@ -34,7 +34,7 @@ Related websites:
     mv _publish/sitemap.xml sitemap.xml
     ```
 
-##development
+## development
 
 1. build static pages
 
@@ -42,12 +42,12 @@ Related websites:
     jekyll build
     ```
 
-1. start server
+- start server
 
     ```
     jekyll serve --config _dev_config.yml --watch
     ```
-1. if there's error on `invalid byte sequence in US-ASCII
+- if there's error on `invalid byte sequence in US-ASCII
 error: invalid byte sequence in US-ASCII`, run the following in the command line:
 
     ```
@@ -55,18 +55,18 @@ error: invalid byte sequence in US-ASCII`, run the following in the command line
     LANG="en_US.UTF-8"
     ```
 
-1. command line watch for css and javascript
+- command line watch for css and javascript
 
     ```
     grunt
     ```
-1. push to github pages
+- push to github pages
 
     ```
     git push origin gh-pages
     ```
 
-##with docker
+## with docker
 
 1. Install Docker
 - Take note of $DOCKER_HOST IP address
@@ -75,14 +75,12 @@ error: invalid byte sequence in US-ASCII`, run the following in the command line
 	```
 	url: http://192.168.59.103:4000
 	```
-
 - Start docker E.g. for MAC OSX
 
 	```
 	boot2docker start
 	export DOCKER_HOST=tcp://$(boot2docker ip 2>/dev/null):2375
 	```
-
 - Build the image and run it
 
 	```
@@ -92,7 +90,7 @@ error: invalid byte sequence in US-ASCII`, run the following in the command line
 - Open in browser with `$DOCKER_HOST` IP address E.g. `http://192.168.59.103:4000`
 
 
-#Credits
+## Credits
 
 1. [Social icon fonts](http://drinchev.github.io/monosocialiconsfont/)
 1. [MomentJS](http://momentjs.com/) for all things timing, dates and seconds
@@ -100,6 +98,6 @@ error: invalid byte sequence in US-ASCII`, run the following in the command line
 1. [8-bit Nanjas for music](http://freemusicarchive.org/music/8-Bit_Ninjas/Party_in_Space/kzz007_-_12_-_8-bit_ninjas_-_shiny_spaceship)
 1. [Modernizr for HTML5 audio detection](http://modernizr.com/)
 
-#License
+## License
 
 [We Build SG LIVE](http://live.webuild.sg) is licensed under [Creative Commons CC0 3.0 Attribution 3.0 Unported](http://creativecommons.org/licenses/by/3.0).
