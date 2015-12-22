@@ -24,13 +24,13 @@ date: 2013-09-21 13:00:00
       <itunes:email>{{ site.email }}</itunes:email>
       <itunes:name>{{ site.author }}</itunes:name>
     </itunes:owner>
-    <itunes:image href="{{ site.url }}/logo-1400.jpg" />
+    <itunes:image href="https://assets.webuild.sg/logo-1400.jpg" />
     <image>
       <title>{{ site.name }}</title>
       <width>100</width>
       <height>100</height>
       <link>{{ site.url }}</link>
-      <url>{{ site.url }}/logo-100.jpg</url>
+      <url>https://assets.webuild.sg/logo-100.jpg</url>
     </image>
     <atom:link rel="self" type="application/rss+xml" title="{{ site.name }}" href="{{ site.url }}/feed.xml" />
     <atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="self" type="application/rss+xml" href="{{ site.feed }}" />
@@ -63,7 +63,7 @@ date: 2013-09-21 13:00:00
       <itunes:keywords>{{ post.tags }}</itunes:keywords>
       <enclosure url="{{ post.enclosure }}.mp3" length="{{ post.length }}" type="audio/mp3" />
       <content:encoded>{{ post.description }}</content:encoded>
-      <itunes:image href="{{ site.url }}/logo-100.jpg" />
+      <itunes:image href="https://assets.webuild.sg/logo-100.jpg" />
     </item>
     {% endfor %}
 
