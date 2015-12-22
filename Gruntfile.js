@@ -90,7 +90,6 @@ module.exports = function(grunt) {
         tasks: [ 'uglify:production' ]
       }
     }
-
   });
 
   grunt.loadNpmTasks('grunt-contrib-clean');
@@ -107,8 +106,16 @@ module.exports = function(grunt) {
     'compass',
     'jscs',
     'jshint',
+    'uglify'
+  ]);
+
+  grunt.registerTask('watching', [
+    'clean',
+    'copy',
+    'compass',
+    'jscs',
+    'jshint',
     'uglify',
     'watch'
   ]);
-
 };

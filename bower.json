@@ -1,6 +1,6 @@
 {
   "name": "webuild-live",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "a live conversation with geeks in town on building, learning and sharing",
   "main": "index.html",
   "keywords": [
@@ -17,6 +17,6 @@
   ],
   "dependencies": {
     "fluidvids": "2.4.1",
-    "moment": "2.10.2"
+    "moment": "2.10.6"
   }
 }

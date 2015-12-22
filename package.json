@@ -1,10 +1,12 @@
 {
   "name": "webuild-live",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "a live conversation with geeks in town on building, learning and sharing",
   "private": true,
   "scripts": {
-    "start": "jekyll serve --config _dev_config.yml --watch"
+    "build": "grunt",
+    "start": "jekyll serve --config _dev_config.yml --watch",
+    "watch": "grunt watching"
   },
   "contributors": [
     {
@@ -31,7 +33,7 @@
     "grunt-contrib-clean": "0.7.0",
     "grunt-contrib-compass": "1.0.4",
     "grunt-contrib-copy": "0.8.2",
-    "grunt-jscs": "2.4.0",
+    "grunt-jscs": "2.5.0",
     "grunt-contrib-jshint": "0.11.3",
     "grunt-contrib-uglify": "0.11.0",
     "grunt-contrib-watch": "0.6.1"
