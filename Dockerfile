@@ -6,7 +6,6 @@ RUN     apt-get install -y git curl nano build-essential libssl-dev libreadline-
 # install ruby
 ADD     http://cache.ruby-lang.org/pub/ruby/2.1/ruby-2.1.2.tar.bz2 /
 RUN     tar xvjf ruby-2.1.2.tar.bz2 && cd ruby-2.1.2 && ./configure --disable-install-doc --with-openssl-dir=/usr/bin && make && make install && cd / && rm -rf /ruby-2.1.2
-RUN     gem install sass compass jekyll --no-ri --no-rdoc
 
 # install node, npm, bower, grunt
 RUN     apt-get install -y software-properties-common python-software-properties git curl nano nginx

@@ -4,20 +4,8 @@ module.exports = function(grunt) {
 
     clean: {
       assets: [
-        'style.css',
         'js/moment.js'
       ]
-    },
-
-    compass: {
-      production: {
-        options: {
-          specify: 'sass/style.sass',
-          cssPath: './',
-          outputStyle: 'compressed',
-          noLineComments: true
-        }
-      }
     },
 
     copy: {
@@ -76,15 +64,6 @@ module.exports = function(grunt) {
     },
 
     watch: {
-      styles: {
-        files: [
-         'sass/**/*.scss',
-         'sass/**/*.sass'
-        ],
-        tasks: [
-         'compass:production'
-        ]
-      },
       script: {
         files: [ 'js/script.input.js' ],
         tasks: [ 'uglify:production' ]
@@ -93,7 +72,6 @@ module.exports = function(grunt) {
   });
 
   grunt.loadNpmTasks('grunt-contrib-clean');
-  grunt.loadNpmTasks('grunt-contrib-compass');
   grunt.loadNpmTasks('grunt-contrib-copy');
   grunt.loadNpmTasks('grunt-jscs');
   grunt.loadNpmTasks('grunt-contrib-jshint');
@@ -103,7 +81,6 @@ module.exports = function(grunt) {
   grunt.registerTask('default', [
     'clean',
     'copy',
-    'compass',
     'jscs',
     'jshint',
     'uglify'
@@ -112,7 +89,6 @@ module.exports = function(grunt) {
   grunt.registerTask('watching', [
     'clean',
     'copy',
-    'compass',
     'jscs',
     'jshint',
     'uglify',
