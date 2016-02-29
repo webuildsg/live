@@ -5,6 +5,7 @@
   "private": true,
   "scripts": {
     "build": "grunt",
+    "deploy": "git push origin gh-pages",
     "start": "jekyll serve --config _dev_config.yml --watch",
     "watch": "grunt watching"
   },

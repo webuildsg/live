@@ -1,94 +1,38 @@
 # We Build SG LIVE
 
-This repository contains the website for a live audio podcast.
+> Website for a live audio podcast episodes at [live.webuild.sg](https://live.webuild.sg)
 
 [![Build Status](https://travis-ci.org/webuildsg/live.svg)](https://travis-ci.org/webuildsg/live) [![Dependency Status](https://gemnasium.com/webuildsg/live.svg)](https://gemnasium.com/webuildsg/live)
 
-Related websites:
+## Quick start
 
-- [Main website](http://live.webuild.sg/)
-- [Facebook](http://facebook.com/webuildsg)
-- [Twitter](https://twitter.com/webuildsg)
-- [Github](https://github.com/webuildsg/live)
+1. clone the project: `git clone git@github.com:webuildsg/live.git && cd live`
+- install dependancies: `npm i && bundle install`
+- start the website locally: `npm start`
 
-## install
+## Development
 
-1. clone repository
-
-    ```
-    git@github.com:webuildsg/live.git
-    ```
-- install packages
-
-    ```
-    npm install
-    bundle install
-    ```
+1. build static pages: `jekyll build`
+- start server: `jekyll serve --config _dev_config.yml --watch`
 - add a git pre-commit hook to generate new `sitemap.xml` with new episodes. edit file `.git/hooks/pre-commit`
 
-    ```
-    #!/bin/sh
+  ```sh
+  #!/bin/sh
 
-    rm sitemap.xml
-    jekyll build
-    mv _publish/sitemap.xml sitemap.xml
-    ```
-
-## development
-
-1. build static pages
-
-    ```
-    jekyll build
-    ```
-
-- start server
-
-    ```
-    jekyll serve --config _dev_config.yml --watch
-    ```
+  rm sitemap.xml
+  jekyll build
+  mv _publish/sitemap.xml sitemap.xml
+  ```
+- command line watch for building css and javascript: `grunt`
 - if there's error on `invalid byte sequence in US-ASCII
 error: invalid byte sequence in US-ASCII`, run the following in the command line:
 
-    ```
-    LC_CTYPE="en_US.UTF-8"
-    LANG="en_US.UTF-8"
-    ```
+  ```sh
+  LC_CTYPE="en_US.UTF-8"
+  LANG="en_US.UTF-8"
+  ```
 
-- command line watch for css and javascript
-
-    ```
-    grunt
-    ```
-- push to github pages
-
-    ```
-    git push origin gh-pages
-    ```
-
-## with docker
-
-1. Install Docker
-- Take note of $DOCKER_HOST IP address
-- Edit `line 11` of file `_dev_config.yml` to replace `localhost` with `$DOCKER_HOST` IP address. E.g.
-
-	```
-	url: http://192.168.59.103:4000
-	```
-- Start docker E.g. for MAC OSX
-
-	```
-	boot2docker start
-	export DOCKER_HOST=tcp://$(boot2docker ip 2>/dev/null):2375
-	```
-- Build the image and run it
-
-	```
-	docker build -t wblive .
-	docker run -d -p 4000:4000 wblive
-	```
-- Open in browser with `$DOCKER_HOST` IP address E.g. `http://192.168.59.103:4000`
-
+- push to github pages: `git push origin gh-pages`
 
 ## Credits
 
