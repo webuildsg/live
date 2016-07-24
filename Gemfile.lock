@@ -124,6 +124,3 @@ PLATFORMS
 
 DEPENDENCIES
   github-pages (>= 87)
-
-BUNDLED WITH
-   1.12.5

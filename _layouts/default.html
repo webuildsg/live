@@ -24,7 +24,14 @@
   <link rel="apple-touch-icon" sizes="72x72" href="https://assets.webuild.sg/apple-touch-icon-72x72-precomposed.png">
   <link rel="apple-touch-icon" sizes="114x114" href="https://assets.webuild.sg/apple-touch-icon-114x114-precomposed.png">
   <link rel="apple-touch-icon" sizes="144x144" href="https://assets.webuild.sg/apple-touch-icon-144x144-precomposed.png">
+  <style>
+  iframe {
+    width: 100%;
+    height: 100%;
 
+    border: 0;
+  }
+  </style>
 </head>
 <body>
 
@@ -34,10 +41,6 @@
   {% include header.html %}
   <div class="container">
     {% if site.next_guest %}
-    <div class="chat">
-      <div id="scrollback-container" style="height:95%"></div>
-      <p class="note"><a href="https://scrollback.io/webuildsg/" target="_blank">Expand chat to full page</a> or join #webuildsg on irc.freenode.net</p>
-    </div>
     <div class="live" id="liveDiv">
       <h3 id="liveHeading" class="important">Catch We Build LIVE</h3>
       <p class="countdown" id="liveCountdown">in <strong>1</strong> days <strong>14</strong> hr <strong>59</strong> min <strong>53</strong> s</p>
@@ -64,17 +67,6 @@
 </div>
 
 <script src="{{ site.url }}/script.js"></script>
-<!-- <script>
-  window.scrollback = {
-    "room":"webuildsg",
-    "form":"canvas",
-    "minimize":true};
-  (function(d,s,h,e){
-    e=d.createElement(s);e.async=1;
-    e.src=(location.protocol === "https:" ? "https:" : "http:") + "//scrollback.io/client.min.js";
-    d.getElementsByTagName(s)[0].parentNode.appendChild(e);
-    }(document,"script"));
-</script> -->
 <script>
 var _gaq = _gaq || [];
 _gaq.push(['_setAccount', 'UA-41270715-1']);
