@@ -1,12 +1,10 @@
 # We Build SG LIVE
 
-[![Join the chat at https://gitter.im/webuildsg/live](https://badges.gitter.im/webuildsg/live.svg)](https://gitter.im/webuildsg/live?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+[![Join the chat at https://gitter.im/webuildsg/live](https://badges.gitter.im/webuildsg/live.svg)](https://gitter.im/webuildsg/live?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge) [![Build Status](https://travis-ci.org/webuildsg/live.svg)](https://travis-ci.org/webuildsg/live) [![Dependency Status](https://gemnasium.com/webuildsg/live.svg)](https://gemnasium.com/webuildsg/live)
 
 > Website for a live audio podcast episodes at [live.webuild.sg](https://live.webuild.sg)
 
-[![Build Status](https://travis-ci.org/webuildsg/live.svg)](https://travis-ci.org/webuildsg/live) [![Dependency Status](https://gemnasium.com/webuildsg/live.svg)](https://gemnasium.com/webuildsg/live)
-
-## Quick start
+## Install
 
 1. clone the project: `git clone git@github.com:webuildsg/live.git && cd live`
 - install dependancies: `npm i && bundle install`
@@ -38,11 +36,7 @@ error: invalid byte sequence in US-ASCII`, run the following in the command line
 
 ## Credits
 
-1. [Social icon fonts](http://drinchev.github.io/monosocialiconsfont/)
-1. [MomentJS](http://momentjs.com/) for all things timing, dates and seconds
-1. [Prism](http://prismjs.com/index.html) for syntax highlighting
 1. [8-bit Nanjas for music](http://freemusicarchive.org/music/8-Bit_Ninjas/Party_in_Space/kzz007_-_12_-_8-bit_ninjas_-_shiny_spaceship)
-1. [Modernizr for HTML5 audio detection](http://modernizr.com/)
 
 ## License
 
