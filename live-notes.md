@@ -5,15 +5,16 @@ date:   2013-09-21 15:00:00
 permalink: /live-notes/
 ---
 
+### show format
+
 On the actual day, at **11am** sharp our live audio stream goes silent and we start the show! It is a fast-paced lively conversation with our guest and audience.
 
 <pre><code class="language-javascript">(function() {
-
   import 'episode';
 
   var topics = ['building', 'learning', 'sharing'];
-  var guest = ['maker', 'developer' , 'designer'];
-  var audience = 'live audience in IRC #webuildsg';
+  var guest = ['maker', 'engineer' , 'designer'];
+  var audience = 'live audience in Gitter chat webuildsg/live';
   var hosts = ['time keeper', 'sound controller'];
 
   // first 5 minutes
@@ -40,11 +41,12 @@ On the actual day, at **11am** sharp our live audio stream goes silent and we st
   electricPlug('personal project links', guest);
 
   return 0;
-
 })();</code>
 </pre>
 
 ___
+
+### show script
 
 We have a fun guideline script to follow for each episode too! And it goes something like this:
 

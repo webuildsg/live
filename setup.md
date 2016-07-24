@@ -5,6 +5,8 @@ date:   2014-08-28 29:00:00
 permalink: /setup/
 ---
 
+### Tools and config
+
 Here are the various tools and configurations used for running this podcast!
 
 1. [Mumble](http://mumble.sourceforge.net/) with [separate channel recording](http://blog.mumble.info/for-the-record/)
@@ -21,7 +23,8 @@ Here are the various tools and configurations used for running this podcast!
 ![Setup diagram]({{ site.url }}/img/setup.jpg)
 
 <a name="radio"></a>
-<h3 class="important">radio</h3>
+
+### Radio
 
 15 hours before we go live, we play creative commons music. Here's the list of tracks in our playlist:
 

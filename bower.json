@@ -17,6 +17,8 @@
   ],
   "dependencies": {
     "fluidvids": "2.4.1",
-    "moment": "2.13.0"
+    "moment": "2.13.0",
+    "prism": "^1.5.1",
+    "modernizr": "^3.3.1"
   }
 }

@@ -5,7 +5,7 @@ date:   2013-09-21 15:00:00
 permalink: /guest-notes/
 ---
 
-##Pre-requisites
+### Pre-requisites
 
 Each episode, our podcast guests can join us live from anywhere!
 
@@ -26,7 +26,7 @@ The next steps will take you **just 5 minutes** and you will be able to join the
 
 * * *
 
-##Basics
+### Basics
 
 1. Open [mumble](http://mumble.sourceforge.net/#Get_Mumble)
 1. **`Cancel`** the auto-opened **Audio Tuning Wizard**
@@ -34,15 +34,15 @@ The next steps will take you **just 5 minutes** and you will be able to join the
 
 * * *
 
-##Live podcast server
+### Live podcast server
 
 - Open the server connection dialog
 
 ![Server connection dialog]({{ site.url}}/img/guest-notes-8.jpg)
 
 - <a name="password"></a>Connect with the following info:
-    1. Username: Put your name and not "guest-name"
-    2. Password: You should already have the password.
+  1. Username: Put your name and not "guest-name"
+  2. Password: You should already have the password.
 
 ![Add server]({{ site.url}}/img/guest-notes-9.jpg)
 
@@ -68,7 +68,7 @@ The next steps will take you **just 5 minutes** and you will be able to join the
 
 * * *
 
-##Audio preferences
+### Audio preferences
 
 - Open `Menu > Mumble > Preferences`
 - Check the "Advanced" options right at the top
@@ -87,7 +87,7 @@ Ensure that you check the "Advanced" options.
 
 * * *
 
-##(Optional) Chat with live audience
+## (Optional) Chat with live audience
 
 - Join the chat with our live audience at **irc.freenode.net** in the channel **#webuildsg**
 - If you do not have an external IRC client, join the web client via [Scrollback.io](https://scrollback.io/webuildsg)
@@ -95,4 +95,4 @@ Ensure that you check the "Advanced" options.
 
 * * *
 
-##We'll have a [final check](/checklist#final) for 10 minutes at 10am, 1 hour before we go live! It'll be fun :)
+## We'll have a [final check](/checklist#final) for 10 minutes at 10am, 1 hour before we go live! It'll be fun :)

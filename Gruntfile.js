@@ -22,6 +22,12 @@ module.exports = function(grunt) {
             src: [ 'js/lib/fluidvids/dist/fluidvids.min.js' ],
             dest: 'js/fluidvids.js',
             filter: 'isFile'
+          },
+          {
+            expand: false,
+            src: [ 'js/lib/prism/prism.js' ],
+            dest: 'js/prism.js',
+            filter: 'isFile'
           }
         ]
       }

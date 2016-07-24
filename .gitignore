@@ -1,5 +1,5 @@
 .DS_Store
 _publish
 node_modules
-js/lib
+js
 .bundle
