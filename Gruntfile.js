@@ -1,38 +1,6 @@
 module.exports = function(grunt) {
 
   grunt.initConfig({
-
-    clean: {
-      assets: [
-        'js/moment.js'
-      ]
-    },
-
-    copy: {
-      main: {
-        files: [
-          {
-            expand: false,
-            src: [ 'js/lib/moment/min/moment.min.js' ],
-            dest: 'js/moment.js',
-            filter: 'isFile'
-          },
-          {
-            expand: false,
-            src: [ 'js/lib/fluidvids/dist/fluidvids.min.js' ],
-            dest: 'js/fluidvids.js',
-            filter: 'isFile'
-          },
-          {
-            expand: false,
-            src: [ 'js/lib/prism/prism.js' ],
-            dest: 'js/prism.js',
-            filter: 'isFile'
-          }
-        ]
-      }
-    },
-
     uglify: {
       options: {
         mangle: true
@@ -42,10 +10,11 @@ module.exports = function(grunt) {
       production: {
         files: {
           'script.js': [
-            'js/moment.js',
-            'js/prism.js',
+            'js/lib/fluidvids/dist/fluidvids.js',
+            'js/lib/moment/min/moment.min.js',
+            'js/lib/prism/prism.js',
+
             'js/modernizr.js',
-            'js/fluidvids.js',
             'js/script.input.js'
           ]
         }
@@ -85,16 +54,12 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-contrib-watch');
 
   grunt.registerTask('default', [
-    'clean',
-    'copy',
     'jscs',
     'jshint',
     'uglify'
   ]);
 
   grunt.registerTask('watching', [
-    'clean',
-    'copy',
     'jscs',
     'jshint',
     'uglify',
