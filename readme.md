@@ -1,5 +1,7 @@
 # We Build SG LIVE
 
+[![Join the chat at https://gitter.im/webuildsg/live](https://badges.gitter.im/webuildsg/live.svg)](https://gitter.im/webuildsg/live?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 > Website for a live audio podcast episodes at [live.webuild.sg](https://live.webuild.sg)
 
 [![Build Status](https://travis-ci.org/webuildsg/live.svg)](https://travis-ci.org/webuildsg/live) [![Dependency Status](https://gemnasium.com/webuildsg/live.svg)](https://gemnasium.com/webuildsg/live)
