@@ -68,7 +68,7 @@ Take note of the chat inside the interface that you can use to communicate with 
 ### Audio preferences
 
 - Open `Menu > Mumble > Preferences`
-- Check the "Advanced" options right at the top
+- Check the "Advanced" options at the bottom
 
 ![Mumble preferences]({{ site.url}}/img/guest-notes-14.jpg)
 
