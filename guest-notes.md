@@ -16,7 +16,7 @@ Ensure you have the following:
 1. Laptop
 1. Headphone connected to your laptop
 1. Microphone connected to your laptop
-1. Download [Mumble](http://mumble.sourceforge.net/#Get_Mumble) for Windows / Linux / Mac OSX
+1. Download the **Development Snapshot** of [Mumble](http://wiki.mumble.info/wiki/Main_Page#Download_Mumble) for Windows / Linux / Mac OSX
 
 The next steps will take you **just 5 minutes** and you will be able to join the live podcast server. You view the screencast below on how to setup and refer to the notes after that.
 
@@ -36,35 +36,32 @@ The next steps will take you **just 5 minutes** and you will be able to join the
 
 ### Live podcast server
 
-- Open the server connection dialog
+**Step 1**: Open the server connection dialog
 
 ![Server connection dialog]({{ site.url}}/img/guest-notes-8.jpg)
 
-- <a name="password"></a>Connect with the following info:
-  1. Username: Put your name and not "guest-name"
-  2. Password: You should already have the password.
+**Step 2**:  <a name="password"></a>Connect with the following info:
+
+  1. **Username**: Put your name and not "guest-name"
+  2. **Password**: You should already have the password from the hosts
 
 ![Add server]({{ site.url}}/img/guest-notes-9.jpg)
 
-- <a name="click"></a>**Important:** <span style="color: #800000;"><strong>Double click the chat room name "webuildsg-live"</strong></span> to join. Otherwise, you will be just in the lobby and not inside the chat room to hear the sound board and the hosts during the live show.
+**Step 3**: Double click the chat room name "webuildsg-live" to join. Otherwise, you will be just in the lobby and not inside the chat room to hear the sound board and the hosts during the live show.
 
-![Double click the chat room]({{ site.url}}/img/guest-notes-11.jpg)
+![Chat room]({{ site.url}}/img/guest-notes-10.jpg)
 
-- Yay!! We will do the same process, but just one hour before the live show with hosts and the sound board.
+This is how the mumble interface will typically look during the live show.
 
-![Chat room]({{ site.url}}/img/guest-notes-12.jpg)
+![During the live show]({{ site.url}}/img/guest-notes-11.jpg)
 
-- This is how the mumble interface will typically look during the live show.
+Take note of the chat inside the interface that you can use to communicate with only the hosts during the show
 
-![During the live show]({{ site.url}}/img/guest-notes-13.jpg)
+![Mumble Chat]({{ site.url}}/img/guest-notes-12.jpg)
 
-- Take note of the chat inside the interface that you can use to communicate with only the hosts during the show
+**Step 4**: While typing in the chat there will be notification sounds. You can switch them off by going to Preferences > Messages tab > uncheck all columns expect for 1st column "Console"
 
-![Mumble Chat]({{ site.url}}/img/guest-notes-14.jpg)
-
-- While typing in the chat there will be notification sounds. You can switch them off by going to Preferences > Messages tab > uncheck all columns expect for 1st column "Console"
-
-![Notification sounds off]({{ site.url}}/img/guest-notes-15.jpg)
+![Notification sounds off]({{ site.url}}/img/guest-notes-13.jpg)
 
 * * *
 
@@ -73,7 +70,7 @@ The next steps will take you **just 5 minutes** and you will be able to join the
 - Open `Menu > Mumble > Preferences`
 - Check the "Advanced" options right at the top
 
-![Mumble preferences]({{ site.url}}/img/guest-notes-10.jpg)
+![Mumble preferences]({{ site.url}}/img/guest-notes-14.jpg)
 
 - **Important:** You must click "Apply" and save the settings. Close this preference menu before you can hear the audio.
 
@@ -87,12 +84,11 @@ Ensure that you check the "Advanced" options.
 
 * * *
 
-## (Optional) Chat with live audience
+### (Optional) Chat with live audience
 
-- Join the chat with our live audience at **irc.freenode.net** in the channel **#webuildsg**
-- If you do not have an external IRC client, join the web client via [Scrollback.io](https://scrollback.io/webuildsg)
+- Join the chat with our live audience at [gitter.im/webuildsg/live](https://gitter.im/webuildsg/live)
 - During the live show, close this website [live.webuild.sg](http://live.webuild.sg) so that you do not hear yourself through the live streaming audio
 
 * * *
 
-## We'll have a [final check](/checklist#final) for 10 minutes at 10am, 1 hour before we go live! It'll be fun :)
+### We'll have a [final check](/checklist#final) <br> for 10 minutes at 10am,<br> 1 hour before we go live! <br>It'll be fun :)

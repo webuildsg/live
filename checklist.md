@@ -54,7 +54,7 @@ Before 1 hour, at 10am with guest *for 10 minutes*:
 1. Reminder not to visit `live.webuild.sg` in the browser during the show
 1. Using Mumble chat to communicate with the hosts in case the need arises
 1. Disable all notification sound:
-  ![]({{site.url}}/img/guest-notes-15.jpg)
+  ![]({{site.url}}/img/guest-notes-13.jpg)
 1. Inform that the episode will be released as [Creative Commons Share Alike license](http://creativecommons.org/licenses/by-sa/2.5/)
 1. Some [live stats can be viewed](http://listen.webuild.sg:8000/) when `mount point /live` is available during the show
 1. Instruction on how to mute yourself
