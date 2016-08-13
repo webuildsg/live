@@ -23,10 +23,10 @@ defaults:
     values:
       layout: "post"
 
-next_guest: "co-hosts"
-next_episode: "034"
-next_podcast_start_time: 2016-08-13 11:00 +0800
-next_podcast_end_time: 2016-08-13 12:00 +0800
-next_profile: /img/000-hello-world-profile.jpg
-next_topic: the reboot of the live podcast, new audio setup and what's new around the world in engineering and sciences.
-next_connect: 'Connect with the co-hosts on <a href="https://twitter.com/webuildsg">Twitter</a>, <a href="https://github.com/webuildsg">Github</a> and <a href="https://www.facebook.com/webuildsg">Facebook</a>!'
+next_guest: "Sebastiaan Deckers"
+next_episode: "035"
+next_podcast_start_time: 2016-09-03 11:00 +0800
+next_podcast_end_time: 2016-09-03 12:00 +0800
+next_profile: /img/035-seb-deckers-profile.jpg
+next_topic: HTTP/2 and teaching web development.
+next_connect: 'Connect with Seb on <a href="https://twitter.com/sebdeckers">Twitter</a> and <a href="https://github.com/cbas">Github</a>!'
