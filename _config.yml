@@ -23,10 +23,10 @@ default_logo : https://assets.webuild.sg/logo-200.jpg
 default_day : Sat
 default_time : 11am
 
-next_guest: "Sebastiaan Deckers"
-next_episode: "035"
-next_podcast_start_time: 2016-09-03 11:00 +0800
-next_podcast_end_time: 2016-09-03 12:00 +0800
-next_profile: /img/035-seb-deckers-profile.jpg
-next_topic: HTTP/2 and teaching web development.
-next_connect: 'Connect with Seb on <a href="https://twitter.com/sebdeckers">Twitter</a> and <a href="https://github.com/cbas">Github</a>!'
+next_guest: "Tan Hwee Xian"
+next_episode: "036"
+next_podcast_start_time: 2016-09-17 11:00 +0800
+next_podcast_end_time: 2016-09-17 12:00 +0800
+next_profile: /img/036-hwee-xian-tan-profile.jpg
+next_topic: wireless technologies.
+next_connect: 'Connect with Hwee Xian on <a href="http://hxtan.info/">her website</a> and <a href="https://twitter.com/hxtan_">Twitter</a>!'
