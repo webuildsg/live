@@ -23,10 +23,10 @@ defaults:
     values:
       layout: "post"
 
-next_guest: "Tan Hwee Xian"
-next_episode: "036"
-next_podcast_start_time: 2016-09-17 11:00 +0800
-next_podcast_end_time: 2016-09-17 12:00 +0800
-next_profile: /img/036-hwee-xian-tan-profile.jpg
-next_topic: wireless technologies.
-next_connect: 'Connect with Hwee Xian on <a href="http://hxtan.info/">her website</a> and <a href="https://twitter.com/hxtan_">Twitter</a>!'
+next_guest: "Subhransu Behera"
+next_episode: "037"
+next_podcast_start_time: 2016-10-01 11:00 +0800
+next_podcast_end_time: 2016-10-01 12:00 +0800
+next_profile: /img/037-subhransu-behera-profile.png
+next_topic: mobile software architecture.
+next_connect: 'Connect with Subh on <a href="https://twitter.com/subhransu">Twitter</a> and <a href="https://github.com/subhransu">GitHub</a>!'
