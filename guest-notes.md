@@ -82,6 +82,10 @@ Ensure that you check the "Advanced" options.
 
 ![Mumble Settings options on Windows]({{ site.url}}/img/guest-notes-10b-win.jpg)
 
+Uncheck all columns **Notification**, **Text-To-Speech** and **Soundfile** to mute all notification sounds:
+
+![Disable motification sounds]({{ site.url}}/img/guest-notes-10c-win.jpg)
+
 * * *
 
 ### (Optional) Chat with live audience
