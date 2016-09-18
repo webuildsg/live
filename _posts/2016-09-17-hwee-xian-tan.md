@@ -12,7 +12,7 @@ description: Hwee Xian Tan on wireless technologies.
 - [SMU Singapore Management University](http://www.smu.edu.sg/)
 - [SHINESeniors](http://icity.smu.edu.sg/shinesenior-home)
 - [A*Star](https://www.a-star.edu.sg/)
-- [Sense and Sensibiity](http://sns.i2r.a-star.edu.sg/)
+- [Sense and Sense-abilities](http://sns.i2r.a-star.edu.sg/)
 
 **[Wireless Technologies [3:25]](#t=3:25)**
 
