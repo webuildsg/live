@@ -1,9 +1,9 @@
 ---
 title: 036 Hwee Xian Tan
-permalink: /036-Hwee-Xian-Tan/
-profile: 036-Hwee-Xian-Tan
-enclosure: http://audio.live.webuild.sg/036-Hwee-Xian-Tan
-length: XXXXX
+permalink: /036-hwee-xian-tan/
+profile: 036-hwee-xian-tan
+enclosure: http://audio.live.webuild.sg/036-hwee-xian-tan
+length: 21687952
 description: Hwee Xian Tan on wireless technologies.
 ---
 
