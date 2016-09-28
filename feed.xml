@@ -16,6 +16,7 @@ date: 2013-09-21 13:00:00
     <link>{{ site.url }}</link>
     <description>{{ site.description }}</description>
     <language>en-us</language>
+    
     <itunes:explicit>no</itunes:explicit>
     <itunes:summary>{{ site.description }}</itunes:summary>
     <itunes:subtitle>{{ site.description }}</itunes:subtitle>
@@ -24,7 +25,12 @@ date: 2013-09-21 13:00:00
       <itunes:email>{{ site.email }}</itunes:email>
       <itunes:name>{{ site.author }}</itunes:name>
     </itunes:owner>
+    <itunes:keywords>{{ site.tags }}</itunes:keywords>
+    <itunes:category text="Technology">
+      <itunes:category text="Podcasting" />
+    </itunes:category>
     <itunes:image href="https://assets.webuild.sg/logo-1400.jpg" />
+    
     <image>
       <title>{{ site.name }}</title>
       <width>100</width>
@@ -32,38 +38,31 @@ date: 2013-09-21 13:00:00
       <link>{{ site.url }}</link>
       <url>https://assets.webuild.sg/logo-100.jpg</url>
     </image>
+    
     <atom:link rel="self" type="application/rss+xml" title="{{ site.name }}" href="{{ site.url }}/feed.xml" />
     <atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="self" type="application/rss+xml" href="{{ site.feed }}" />
     <atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="hub" href="http://pubsubhubbub.appspot.com/" />
-    <itunes:owner>
-      <itunes:email>{{ site.email }}</itunes:email>
-      <itunes:name>{{ site.author }}</itunes:name>
-    </itunes:owner>
-    <itunes:keywords>{{ site.tags }}</itunes:keywords>
-    <itunes:category text="Technology">
-      <itunes:category text="Podcasting" />
-    </itunes:category>
+   
     <creativeCommons:license>http://creativecommons.org/licenses/by/3.0/</creativeCommons:license>
 
     {% for post in site.posts %}
     <item>
       <title>{{ post.title }}</title>
       <link>{{ site.url }}{{ post.permalink }}</link>
-      <itunes:author>{{ site.author }}</itunes:author>
-
-      <itunes:subtitle>{{ post.description }}</itunes:subtitle>
-      <itunes:summary>{{ post.description }}</itunes:summary>
       <description>{{ post.description }}</description>
       <content:encoded><![CDATA[{{ post.content }}]]></content:encoded>
-
       <guid isPermaLink="false">{{ post.enclosure }}.mp3</guid>
       <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
       <author>{{ site.author }}</author>
+      
+      <itunes:author>{{ site.author }}</itunes:author>
+      <itunes:subtitle>{{ post.description }}</itunes:subtitle>
+      <itunes:summary>{{ post.description }}</itunes:summary>
       <itunes:explicit>no</itunes:explicit>
       <itunes:keywords>{{ post.tags }}</itunes:keywords>
-      <enclosure url="{{ post.enclosure }}.mp3" length="{{ post.length }}" type="audio/mp3" />
-      <content:encoded>{{ post.description }}</content:encoded>
       <itunes:image href="https://assets.webuild.sg/logo-100.jpg" />
+      
+      <enclosure url="{{ post.enclosure }}.mp3" length="{{ post.length }}" type="audio/mp3" />
     </item>
     {% endfor %}
 
