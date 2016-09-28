@@ -13,7 +13,7 @@ date: 2013-09-21 13:00:00
   <channel>
 
     <title>{{ site.name }}</title>
-    <link>{{ site.url }}</link>
+    <link>https:{{ site.url }}</link>
     <description>{{ site.description }}</description>
     <language>en-us</language>
     
@@ -48,7 +48,7 @@ date: 2013-09-21 13:00:00
     {% for post in site.posts %}
     <item>
       <title>{{ post.title }}</title>
-      <link>{{ site.url }}{{ post.permalink }}</link>
+      <link>https:{{ site.url }}{{ post.permalink }}</link>
       <description>{{ post.description }}</description>
       <content:encoded><![CDATA[{{ post.content }}]]></content:encoded>
       <guid isPermaLink="false">{{ post.enclosure }}.mp3</guid>
