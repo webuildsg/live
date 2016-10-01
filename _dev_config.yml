@@ -23,10 +23,10 @@ defaults:
     values:
       layout: "post"
 
-next_guest: "Subhransu Behera"
-next_episode: "037"
-next_podcast_start_time: 2016-10-01 11:00 +0800
-next_podcast_end_time: 2016-10-01 12:00 +0800
-next_profile: /img/037-subhransu-behera-profile.jpg
-next_topic: mobile software architecture.
-next_connect: 'Connect with Subh on <a href="https://twitter.com/subhransu">Twitter</a> and <a href="https://www.linkedin.com/in/subhransubehera">Linkedin</a>!'
+next_guest: "Navjot Pawera"
+next_episode: "038"
+next_podcast_start_time: 2016-10-15 11:00 +0800
+next_podcast_end_time: 2016-10-15 12:00 +0800
+next_profile: /img/038-navjot-pawera-profile.jpg
+next_topic: user experience design for web and mobile.
+next_connect: 'Connect with Nav on <a href="https://twitter.com/isnav">Twitter</a>!'
