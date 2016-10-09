@@ -3,7 +3,7 @@ title: 037 Subhransu Behera
 permalink: /037-subhransu-behera/
 profile: 037-subhransu-behera
 enclosure: http://audio.live.webuild.sg/037-subhransu-behera
-length: XXXXXXXX
+length: 27450780
 description: Subransu Behera on Mobile Software Architecture.
 ---
 
