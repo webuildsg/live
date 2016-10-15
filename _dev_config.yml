@@ -23,10 +23,10 @@ defaults:
     values:
       layout: "post"
 
-next_guest: "Navjot Pawera"
-next_episode: "038"
-next_podcast_start_time: 2016-10-15 11:00 +0800
-next_podcast_end_time: 2016-10-15 12:00 +0800
-next_profile: /img/038-navjot-pawera-profile.jpg
-next_topic: user experience design for web and mobile.
-next_connect: 'Connect with Nav on <a href="https://twitter.com/isnav">Twitter</a>!'
+next_guest: "Baoshi Zhu"
+next_episode: "039"
+next_podcast_start_time: 2016-11-05 11:00 +0800
+next_podcast_end_time: 2016-11-05 12:00 +0800
+next_profile: /img/039-baoshi-zhu-profile.jpg
+next_topic: micro-controllers and development boards.
+next_connect: 'Connect with Baoshi on <a href="https://twitter.com/ba0sh1">Twitter</a> and <a href="http://www.ba0sh1.com/">blog</a>!'
