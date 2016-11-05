@@ -23,10 +23,10 @@ default_logo : https://assets.webuild.sg/logo-200.jpg
 default_day : Sat
 default_time : 11am
 
-next_guest: "Baoshi Zhu"
-next_episode: "039"
-next_podcast_start_time: 2016-11-05 11:00 +0800
-next_podcast_end_time: 2016-11-05 12:00 +0800
-next_profile: /img/039-baoshi-zhu-profile.jpg
-next_topic: micro-controllers and development boards.
-next_connect: 'Connect with Baoshi on <a href="https://twitter.com/ba0sh1">Twitter</a> and <a href="http://www.ba0sh1.com/">blog</a>!'
+next_guest: "Chen Huijing"
+next_episode: "040"
+next_podcast_start_time: 2016-12-10 11:00 +0800
+next_podcast_end_time: 2016-12-10 12:00 +0800
+next_profile: /img/040-chen-huijing-profile.jpg
+next_topic: modern CSS.
+next_connect: 'Connect with Huijing on <a href="https://twitter.com/hj_chen">Twitter</a> and <a href="https://www.chenhuijing.com">blog</a>!'
