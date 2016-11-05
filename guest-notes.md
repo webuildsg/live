@@ -86,6 +86,10 @@ Uncheck all columns **Notification**, **Text-To-Speech** and **Soundfile** to mu
 
 ![Disable motification sounds]({{ site.url}}/img/guest-notes-10c-win.jpg)
 
+Adjust the Windows sound levels if needed:
+
+![Adjust Windows Sound levels]({{ site.url}}/img/guest-notes-10d-win.png)
+
 * * *
 
 ### (Optional) Chat with live audience
