@@ -81,5 +81,6 @@ description: Baoshi Zhu on micro-controllers and development boards.
 
 
 **[Electric Plug  – Connect with Baoshi [47:00]](#t=47:00)**
+
 - [Baoshi's Twitter](http://twitter.com/ba0sh1)
 - [Baoshi's Blog](http://www.ba0sh1.com/)
