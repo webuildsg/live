@@ -53,7 +53,6 @@ description: Baoshi Zhu on micro-controllers and development boards.
 - [STM32 CubeMX](http://www.st.com/en/development-tools/stm32cubemx.html)
 - [STM32 CubeMX to Makefile](https://github.com/baoshi/CubeMX2Makefile)
 - [PIC16x84](https://en.wikipedia.org/wiki/PIC16x84)
-- []()
 
 
 **[Rapid Fire questions  [36:28]](#t=36:28)**
