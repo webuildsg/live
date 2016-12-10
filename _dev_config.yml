@@ -23,10 +23,10 @@ defaults:
     values:
       layout: "post"
 
-next_guest: "Chen Huijing"
-next_episode: "040"
-next_podcast_start_time: 2016-12-10 11:00 +0800
-next_podcast_end_time: 2016-12-10 12:00 +0800
-next_profile: /img/040-chen-huijing-profile.jpg
-next_topic: modern CSS.
-next_connect: 'Connect with Huijing on <a href="https://twitter.com/hj_chen">Twitter</a> and <a href="https://www.chenhuijing.com">blog</a>!'
+next_guest: "Hakim Hamid"
+next_episode: "041"
+next_podcast_start_time: 2017-01-07 11:00 +0800
+next_podcast_end_time: 2017-01-07 12:00 +0800
+next_profile: /img/041-hakim-hamid-profile.jpg
+next_topic: mechanical engineeering.
+next_connect: 'Connect with Hakim Hamid on <a href="https://www.facebook.com/hakim.hamid">Facebook</a> and <a href="https://www.linkedin.com/in/abdul-hakim-hamid-36027414">LinkedIn</a>!'
