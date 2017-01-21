@@ -23,10 +23,10 @@ default_logo : https://assets.webuild.sg/logo-200.jpg
 default_day : Sat
 default_time : 11am
 
-next_guest: "Rahul Gokul"
-next_episode: "042"
-next_podcast_start_time: 2017-01-21 11:00 +0800
-next_podcast_end_time: 2017-01-21 12:00 +0800
-next_profile: /img/042-rahul-gokul-profile.jpg
-next_topic: computer network infrastructure.
-next_connect: 'Connect with Rahul Gokul on <a href="https://twitter.com/agrahul">Twitter</a> and <a href="https://github.com/rahulg">GitHub</a>!'
+next_guest: "Chang Sau Sheong"
+next_episode: "043"
+next_podcast_start_time: 2017-02-18 11:00 +0800
+next_podcast_end_time: 2017-02-18 12:00 +0800
+next_profile: /img/043-chang-sau-sheong-profile.jpg
+next_topic: Go programming language.
+next_connect: 'Connect with Sau Sheong on <a href="https://twitter.com/sausheong">Twitter</a> and <a href="https://github.com/sausheong">GitHub</a>!'
