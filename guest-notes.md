@@ -16,9 +16,9 @@ Ensure you have the following:
 1. Laptop
 1. Headphone connected to your laptop
 1. Microphone connected to your laptop
-1. Download the **Development Snapshot** of [Mumble](http://wiki.mumble.info/wiki/Main_Page#Download_Mumble) for Windows / Linux / Mac OSX
+1. Download the **Development Snapshot** of [Mumble](http://wiki.mumble.info/wiki/Main_Page#Download_Mumble) for Windows / Linux / macOS El Capitan and below. Download **Stable Snapshot** for macOS Sierra.
 
-The next steps will take you **just 5 minutes** and you will be able to join the live podcast server. You view the screencast below on how to setup and refer to the notes after that.
+The next steps will take you **just 5 minutes** and you will be able to join the live podcast server. You can either view the screencast below and / or refer to the notes after that.
 
 <div id="video">
   <iframe width="560" height="315" src="//www.youtube.com/embed/wEg8C1vGLhQ" frameborder="0" allowfullscreen></iframe>
