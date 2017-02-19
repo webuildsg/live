@@ -9,6 +9,9 @@ description: Sau Sheong Chang on Go programming language.
 
 **[Introduction [0:52]](#t=0:52)**
 
+- [Sau Sheong's Books](https://ssearch.oreilly.com/?q=Chang+Sau+Sheong)
+- [Sau Sheong's Book on Go](https://www.manning.com/books/go-web-programming)
+
 **[Go programming language[3:81]](#t=3:81)**
 
 - [Go lang](https://golang.org/)
