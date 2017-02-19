@@ -83,7 +83,7 @@ description: Rahul Gokul on computer network infrastructure.
 - [Starship Troopers](https://en.wikipedia.org/wiki/Starship_Troopers)
 - [Papers We Love](http://paperswelove.org/)
 
-**[Event Loop [51:34]](#t=51:34)**
+**[Picks[51:34]](#t=51:34)**
 
 - [Mi Band](http://www.mi.com/sg/miband/)
 - [Apple Watch](https://www.apple.com/sg/watch/)
