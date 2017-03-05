@@ -23,10 +23,10 @@ defaults:
     values:
       layout: "post"
 
-next_guest: "Agatha Lee"
-next_episode: "044"
-next_podcast_start_time: 2017-03-04 11:00 +0800
-next_podcast_end_time: 2017-03-04 12:00 +0800
-next_profile: /img/044-agatha-lee-profile.jpg
-next_topic: making with textiles.
-next_connect: 'Connect with Agatha on <a href="http://greenissuessingapore.blogspot.sg/">Green Issues by Agy</a>!'
+next_guest: "Eugene Teo"
+next_episode: "045"
+next_podcast_start_time: 2017-04-22 11:00 +0800
+next_podcast_end_time: 2017-04-22 12:00 +0800
+next_profile: /img/045-eugene-teo-profile.jpg
+next_topic: computer security.
+next_connect: 'Connect with Eugene on <a href="https://twitter.com/eugeneteo">Twitter</a>!'
