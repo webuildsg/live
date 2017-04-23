@@ -23,10 +23,10 @@ defaults:
     values:
       layout: "post"
 
-next_guest: "Eugene Teo"
-next_episode: "045"
-next_podcast_start_time: 2017-04-22 11:00 +0800
-next_podcast_end_time: 2017-04-22 12:00 +0800
-next_profile: /img/045-eugene-teo-profile.jpg
-next_topic: computer security.
-next_connect: 'Connect with Eugene on <a href="https://twitter.com/eugeneteo">Twitter</a>!'
+next_guest: "Lim Chee Aun"
+next_episode: "046"
+next_podcast_start_time: 2017-05-06 11:00 +0800
+next_podcast_end_time: 2017-05-06 12:00 +0800
+next_profile: /img/046-lim-chee-aun-profile.jpg
+next_topic: building web apps.
+next_connect: 'Connect with Chee Aun on <a href="https://twitter.com/cheeaun">Twitter</a> and <a href="https://github.com/cheeaun">GitHub</a>!'
