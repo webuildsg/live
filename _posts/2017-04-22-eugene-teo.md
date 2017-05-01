@@ -14,7 +14,7 @@ description: Eugene Teo on computer security.
 
 **[Computer Security[4:37]](#t=4:37)**
 
-- [2013 Singapore cyberattacks](https://en.wikipedia.org/wiki/2013_Singapore_cyberattacks)
+- [2013 Singapore cyber-attacks](https://en.wikipedia.org/wiki/2013_Singapore_cyberattacks)
 - [SSL](https://en.wikipedia.org/wiki/Transport_Layer_Security)
 - [Threat Modeling](https://www.owasp.org/index.php/Application_Threat_Modeling)
 - [Crown Jewels](http://www.computerweekly.com/opinion/Security-Think-Tank-Identify-and-protect-the-crown-jewels)
@@ -28,7 +28,7 @@ description: Eugene Teo on computer security.
 - [Clustering](https://en.wikipedia.org/wiki/Cluster_analysis)
 - [Random Forest](https://en.wikipedia.org/wiki/Random_forest)
 - [Machine Learning](https://en.wikipedia.org/wiki/Machine_learning)
-- [Adversarial machine learning](https://en.wikipedia.org/wiki/Adversarial_machine_learning)
+- [Adversarial Machine Learning](https://en.wikipedia.org/wiki/Adversarial_machine_learning)
 - [Metasploit](https://www.metasploit.com/)
 - [Penetration Testing](https://en.wikipedia.org/wiki/Penetration_test)
 - [Vulnerability Analysis](https://www.cert.org/vulnerability-analysis/)
@@ -53,7 +53,7 @@ description: Eugene Teo on computer security.
 
 - [Eugene's Following List](https://twitter.com/eugeneteo/following)
 - [Road Fighter](http://www.retrogames.cz/play_065-NES.php?language=EN)
-- [MIFARE Writer](https://www.mifare.net/en/products/tools/reader-kit/)
+- [MIFARE card writer](https://www.mifare.net/en/products/tools/reader-kit/)
 - [R](https://en.wikipedia.org/wiki/R_(programming_language))
 - [PyData-SG](https://www.meetup.com/PyData-SG/)
 - [Debian](https://www.debian.org/)
