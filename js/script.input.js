@@ -61,6 +61,7 @@
 
   var podcastTime;
   var remainingTime;
+  var audioEl = document.getElementsByTagName('audio');
   var live = document.getElementById('liveDiv');
   var request = new XMLHttpRequest();
 
@@ -93,6 +94,18 @@
   document.getElementsByTagName('header')[0].addEventListener('click', function() {
       window.parent.location.href = '/';
   });
+
+  for (var index = 0; index < audioEl.length; index++) {
+    audioEl[index].addEventListener('play', pauseOtherAudioEls);
+  }
+
+  function pauseOtherAudioEls(el) {
+    for (var index = 0; index < audioEl.length; index++) {
+      if (audioEl[index] != el.target && audioEl[index].paused === false){
+        audioEl[index].pause();
+      }
+    }
+  }
 
   // Add support for hash timestamps
   window.addEventListener('hashchange', function() {
@@ -144,7 +157,6 @@
           // after 2 hours
           addAfterMomentToDOM();
       }
-
   }
 
   // before -15 hours
