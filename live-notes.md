@@ -52,11 +52,11 @@ We have a fun guideline script to follow for each episode too! And it goes somet
 
 **[11:00 am] (5 min - START)**
 
-import episode `numbber`
+import episode `number`
 
 It's `date`, streaming directly from Singapore - It's We Build LIVE!
 
-This episode we'll be talking about `topic 1` and `topic 2`!
+This episode we'll be talking about `topic`!
 
 Welcome to episode `number` of We Build LIVE, I'm your host Sayanee, and on the soundboard is Chinmay.
 
@@ -70,18 +70,13 @@ Hi `firstname of guest`! Welcome!
 
 `Malformed queries - a fun riddle for the guest to solve`
 
-**[11:05 am] (15 min)**
+**[11:05 am] (25 min)**
 
 Announce how live audience can ask questions via twitter or irc
 
-Topic 1 (technology): 3 questions
+Topic: 5 questions
 
-**[11:20 am] (10 min)**
-
-Announce how live audience can ask questions via twitter or irc
-
-Topic 2 (community): 2 questions
-
+Announce how live audience can ask questions via chat
 
 **[11:30 am] (10 min)**
 
@@ -93,7 +88,7 @@ Topic 2 (community): 2 questions
 
 **[11:45 am]  (2 min)**
 
-`Doubly Linked-list - new software/hardware released`
+`Picks - interesting stuff to share`
 
 `Eventloop - upcoming developer, designer, maker events`
 
