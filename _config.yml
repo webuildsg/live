@@ -23,10 +23,10 @@ default_logo : https://assets.webuild.sg/logo-200.jpg
 default_day : Sat
 default_time : 11am
 
-next_guest: "Adnan Jalaludin"
-next_episode: "047"
-next_podcast_start_time: 2017-06-10 11:00 +0800
-next_podcast_end_time: 2017-06-10 12:00 +0800
-next_profile: /img/047-adnan-jalaludin-profile.jpg
-next_topic: DFM (design for manufacturability) for electronics.
-next_connect: 'Connect with Adnan on <a href="https://github.com/catmaker">GitHub</a>!'
+next_guest: "Li Haoyi"
+next_episode: "048"
+next_podcast_start_time: 2017-07-08 11:00 +0800
+next_podcast_end_time: 2017-07-08 12:00 +0800
+next_profile: /img/048-haoyi-li-profile.jpg
+next_topic: Scala programming language.
+next_connect: 'Connect with Haoyi on <a href="http://www.lihaoyi.com/">his blog</a> and <a href="https://github.com/lihaoyi">GitHub</a>!'
