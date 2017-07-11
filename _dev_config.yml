@@ -23,10 +23,10 @@ defaults:
     values:
       layout: "post"
 
-next_guest: "Li Haoyi"
-next_episode: "048"
-next_podcast_start_time: 2017-07-08 11:00 +0800
-next_podcast_end_time: 2017-07-08 12:00 +0800
-next_profile: /img/048-haoyi-li-profile.jpg
-next_topic: Scala programming language.
-next_connect: 'Connect with Haoyi on <a href="http://www.lihaoyi.com/">his blog</a> and <a href="https://github.com/lihaoyi">GitHub</a>!'
+next_guest: "Flaki István Szmozsánszky"
+next_episode: "049"
+next_podcast_start_time: 2017-08-05 11:00 +0800
+next_podcast_end_time: 2017-08-05 12:00 +0800
+next_profile: /img/049-flaki-profile.jpg
+next_topic: Rust programming language.
+next_connect: 'Connect with Flaki on <a href="https://reps.mozilla.org/u/flaki/">Mozilla</a> and <a href="https://twitter.com/slsoftworks">Twitter</a>!'
