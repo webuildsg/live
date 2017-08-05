@@ -23,10 +23,10 @@ default_logo : https://assets.webuild.sg/logo-200.jpg
 default_day : Sat
 default_time : 11am
 
-next_guest: "Chua U-Zyn"
+next_guest: "U-Zyn Chua"
 next_episode: "050"
 next_podcast_start_time: 2017-09-02 11:00 +0800
 next_podcast_end_time: 2017-09-02 12:00 +0800
 next_profile: /img/050-uzyn-chua-profile.jpg
-next_topic: Ethereum.
+next_topic: Bitcoin, Ethereum, blockchain and decentralization.
 next_connect: 'Connect with U-Zyn on <a href="https://twitter.com/uzyn">Twitter</a>, <a href="https://github.com/uzyn">GitHub</a> and <a href="http://uzyn.com/">website</a>!'
