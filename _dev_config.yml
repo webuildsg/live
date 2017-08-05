@@ -23,10 +23,10 @@ defaults:
     values:
       layout: "post"
 
-next_guest: "Flaki István Szmozsánszky"
-next_episode: "049"
-next_podcast_start_time: 2017-08-05 11:00 +0800
-next_podcast_end_time: 2017-08-05 12:00 +0800
-next_profile: /img/049-flaki-profile.jpg
-next_topic: Rust programming language.
-next_connect: 'Connect with Flaki on <a href="https://reps.mozilla.org/u/flaki/">Mozilla</a> and <a href="https://twitter.com/slsoftworks">Twitter</a>!'
+next_guest: "Chua U-Zyn"
+next_episode: "050"
+next_podcast_start_time: 2017-09-02 11:00 +0800
+next_podcast_end_time: 2017-09-02 12:00 +0800
+next_profile: /img/050-uzyn-chua-profile.jpg
+next_topic: Ethereum.
+next_connect: 'Connect with U-Zyn on <a href="https://twitter.com/uzyn">Twitter</a>, <a href="https://github.com/uzyn">GitHub</a> and <a href="http://uzyn.com/">website</a>!'
