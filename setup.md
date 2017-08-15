@@ -1,7 +1,7 @@
 ---
 title: setup
 layout: page
-date:   2014-08-28 29:00:00
+date:   2014-08-28 19:00:00
 permalink: /setup/
 ---
 
