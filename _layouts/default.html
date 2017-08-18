@@ -10,7 +10,9 @@
   <link rel="stylesheet" href="https://assets.webuild.sg/css/style.css">
   {% if page.title == "live notes" %}<link rel="stylesheet" href="/css/prism.css">{% endif %}
 
-  {% if page.profile %}<meta property="og:image" content="{{ site.url }}/img/{{ page.profile }}-profile.jpg">{% endif %}
+
+  {% if page.profile %}<meta property="og:image" content="{{ site.url }}/img/{{ page.profile }}-profile.jpg">
+  {% assign host = site.url | split: "" %}<meta property="twitter:image" content="{% if host[0] == "/" and host[1] == "/" %}http:{% endif %}{{site.url}}/img/{{ page.profile }}-profile.jpg">{% endif %}
   <meta property="og:image" content="{{site.default_logo}}">
   {% if site.next_profile %}<meta property="og:image" content="{{ site.url }}{{ site.next_profile }}">{% endif %}
   <meta property="og:url" content="{{ site.url }}{{ page.url }}">
