@@ -5,6 +5,9 @@ profile: 046-chee-aun-lim
 enclosure: http://audio.live.webuild.sg/046-chee-aun-lim
 length: 29138073
 description: Chee Aun Lim on building web apps.
+number: 046
+guest: Chee Aun Lim
+topic: Building web apps
 ---
 
 **[Introduction [0:29]](#t=0:29)**

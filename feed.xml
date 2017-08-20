@@ -47,9 +47,9 @@ date: 2013-09-21 13:00:00
 
     {% for post in site.posts %}
     <item>
-      <title>{% if post.title %}{{ post.title }} on {{ post.description }}{% else %}{{ post.number}} {{ post.topic }} with {{ post.guest }}{% endif %}</title>
+      <title>{% if post.topic %}{{ post.number}} {{ post.topic }} with {{ post.guest }}{% else %}{{ post.title }} on {{ post.description }}{% endif %}</title>
       <link>https:{{ site.url }}{{ post.permalink }}</link>
-      <description>{{ post.description }}</description>
+      <description>{% if post.topic %} {{ post.content }} {% else %} {{ post.description }}{% endif %}</description>
       <content:encoded><![CDATA[{{ post.content }}]]></content:encoded>
       <guid isPermaLink="false">{{ post.enclosure }}.mp3</guid>
       <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
