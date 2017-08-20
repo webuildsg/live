@@ -5,6 +5,9 @@ profile: 039-baoshi-zhu
 enclosure: http://audio.live.webuild.sg/039-baoshi-zhu
 length: 23287894
 description: Baoshi Zhu on micro-controllers and development boards.
+number: 039
+guest: Baoshi Zhu
+topic: Micro-controllers and development boards
 ---
 
 **[Introduction [0:30]](#t=0:30)**

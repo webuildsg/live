@@ -5,6 +5,9 @@ profile: 042-rahul-gokul
 enclosure: http://audio.live.webuild.sg/042-rahul-gokul
 length: 25660024
 description: Rahul Gokul on computer network infrastructure.
+number: 042
+guest: Rahul Gokul
+topic: Computer network infrastructure
 ---
 
 **[Introduction [0:49]](#t=0:49)**

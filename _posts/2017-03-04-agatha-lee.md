@@ -5,6 +5,9 @@ profile: 044-agatha-lee
 enclosure: http://audio.live.webuild.sg/044-agatha-lee
 length: 24915636
 description: Agatha Lee on making with textiles.
+number: 044
+guest: Agatha Lee
+topic: Making with textiles
 ---
 
 **[Introduction [1:34]](#t=1:34)**
