@@ -32,8 +32,6 @@ date: 2013-09-21 13:00:00
 
     <image>
       <title>{{ site.name }}</title>
-      <width>100</width>
-      <height>100</height>
       <link>https:{{ site.url }}</link>
       <url>https://assets.webuild.sg/logo-1400.jpg</url>
     </image>
