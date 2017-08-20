@@ -35,7 +35,7 @@ date: 2013-09-21 13:00:00
       <width>100</width>
       <height>100</height>
       <link>https:{{ site.url }}</link>
-      <url>https://assets.webuild.sg/logo-100.jpg</url>
+      <url>http://assets.webuild.sg/logo-1400.jpg</url>
     </image>
 
     <atom:link rel="self" type="application/rss+xml" title="{{ site.name }}" href="{{ site.url }}/feed.xml" />
