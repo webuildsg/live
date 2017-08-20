@@ -23,7 +23,7 @@ layout: null
   "podcasts": [
     {% for post in site.posts %}{
       "date": "{{ post.date | date: \"%Y%m%d\" }}",
-      "title": "{{ post.title }}",
+      "title": {% if post.title %}"{{ post.title }}"{% else %}"{{ post.number}} {{ post.topic }} with {{ post.guest }}"{% endif %} ,
       "description": "{{ post.description }}",
       "download_link": "{{ post.enclosure }}.mp3"
     }{% if post != site.posts.last %},{% endif %}{% endfor %}

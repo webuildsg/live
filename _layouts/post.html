@@ -13,7 +13,12 @@ layout: default
     <div class="post-content">
       <p>
         <a class="title" href="{{site.url}}{{ page.permalink }}">
-          {{ page.title }}<span> on {{ page.date | date_to_string }}, {% if page.day %}{{ page.day }}{% else %}{{site.default_day}}{% endif %}  @ {% if page.time %}{{ page.time }}{% else %}{{site.default_time}}{% endif %}</span>
+          {% if page.topic %}
+          {{ page.number}} {{ page.topic }} with {{ page.guest }}
+          {% else %}
+          {{ page.title }}
+          {% endif %}
+          <span> on {{ page.date | date_to_string }}, {% if page.day %}{{ page.day }}{% else %}{{site.default_day}}{% endif %}  @ {% if page.time %}{{ page.time }}{% else %}{{site.default_time}}{% endif %}</span>
         </a>
       </p>
       <div class="post">

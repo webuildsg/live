@@ -12,13 +12,22 @@ title: A live conversation with geeks in town on building, learning and sharing!
     <li data-index="{{ post.description | downcase }}" class="searchable">
 
       <div class="post-thumbnail">
-        <img src="{{ site.url }}/img/{{ post.profile }}-profile.jpg" class="attachment-post-thumbnail wp-post-image" alt="{{ post.title}}" />
+        {% if post.topic %}
+        <img src="{{ site.url }}/img/{{ post.profile }}-profile.jpg" class="attachment-post-thumbnail wp-post-image" alt="{{ post.number}} {{ post.topic }} with {{ post.guest }}"/>
+        {% else %}
+        <img src="{{ site.url }}/img/{{ post.profile }}-profile.jpg" class="attachment-post-thumbnail wp-post-image" alt="{{ post.title}}"/>
+        {% endif %}
       </div>
 
       <div class="post-content">
         <p>
           <a class="title" href="{{site.url}}{{post.permalink}}">
-          {{ post.title }}<span> {{ post.date | date_to_string }}, {% if post.day %}{{ post.day }}{% else %}Sat{% endif %}  @{% if post.time %}{{ post.time }}{% else %}11am{% endif %}</span>
+            {% if post.topic %}
+            {{ post.number}} {{ post.topic }} with {{ post.guest }}
+            {% else %}
+            {{ post.title }}
+            {% endif %}
+            <span> {{ post.date | date_to_string }}, {% if post.day %}{{ post.day }}{% else %}Sat{% endif %}  @{% if post.time %}{{ post.time }}{% else %}11am{% endif %}</span>
           </a>
         </p>
         <div class="post">
