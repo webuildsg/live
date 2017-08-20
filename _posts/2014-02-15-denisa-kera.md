@@ -5,7 +5,9 @@ profile: 012-denisa-kera
 enclosure: http://audio.live.webuild.sg/012-denisa-kera
 length: 26616523
 description: Denisa Kera on hacker culture, open science and community labs.
-
+number: 012
+guest: Denisa Kera
+topic: Hacker culture, open science and community labs
 ---
 
 **[Introduction [0:48]](#t=0:48)**

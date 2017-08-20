@@ -5,6 +5,9 @@ profile: 035-sebastiaan-deckers
 enclosure: http://audio.live.webuild.sg/035-sebastiaan-deckers
 length: 25965566
 description: Sebastiaan Deckers on HTTP/2 and teaching web development.
+number: 035
+guest: Sebastiaan Deckers
+topic: HTTP/2 and teaching web development
 ---
 
 **[Introduction [0:30]](#t=0:30)**

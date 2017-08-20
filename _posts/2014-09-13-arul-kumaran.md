@@ -5,7 +5,9 @@ profile: 024-arul-kumaran
 enclosure: http://audio.live.webuild.sg/024-arul-kumaran
 length: 25289714
 description: Arul Kumaran on creating web APIs and types of APIs.
-
+number: 024
+guest: Arul Kumaran
+topic: Creating web APIs and types of APIs
 ---
 
 **[Introduction [0:35]](#t=0:35)**

@@ -5,7 +5,9 @@ profile: 016-veronica-ng
 enclosure: http://audio.live.webuild.sg/016-veronica-ng
 length: 23675553
 description: Veronica Ng on UX and UI for products and open source legal docs for startups.
-
+number: 016
+guest: Veronica Ng
+topic: UX and UI for products and open source legal docs for startups
 ---
 
 **[Introduction [0:38]](#t=0:38)**

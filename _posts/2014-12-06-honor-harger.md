@@ -5,6 +5,9 @@ profile: 028-honor-harger
 enclosure: http://audio.live.webuild.sg/028-honor-harger
 length: 26349449
 description: Honor Harger on radio astronomy and connecting people with Arts and Sciences.
+number: 028
+guest: Honor Harger
+topic: Radio astronomy and connecting people with Arts and Sciences
 ---
 
 **[Introduction [0:38]](#t=0:38)**

@@ -5,6 +5,9 @@ profile: 006-calvin-cheng
 enclosure: http://audio.live.webuild.sg/006-calvin-cheng
 length: 16099208
 description: Calvin Cheng on Python programming and leading technology companies
+number: 006
+guest: Calvin Cheng
+topic: Python programming and leading technology companies
 ---
 
 **Python**
@@ -65,5 +68,3 @@ description: Calvin Cheng on Python programming and leading technology companies
 
 - [Calvin Cheng Facebook](https://www.facebook.com/calvin.cheng.lc)
 - [Hackers and Painters Facebook](https://www.facebook.com/groups/hackerspainters/events/)
-
-

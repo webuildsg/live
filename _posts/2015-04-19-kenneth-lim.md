@@ -4,7 +4,10 @@ permalink: /033-kenneth-lim/
 profile: 033-kenneth-lim
 enclosure: http://audio.live.webuild.sg/033-kenneth-lim
 length: 26296575
-description: Kenneth Lim on playing with microcontrollers and teaching electronics.
+description: Kenneth Lim on designing hardware modules and crowdfunding electronics.
+number: 033
+guest: Kenneth Lim
+topic: Designing hardware modules and crowdfunding electronics
 ---
 
 **[Introduction [0:32]](#t=0:32)**

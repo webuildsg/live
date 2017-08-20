@@ -7,6 +7,9 @@ length: 32073609
 description: Mitch Altman on spirit of invention and educating people through hackerspaces.
 day: Sun
 time: 11am
+number: Special 002
+guest: Mitch Altman
+topic: Spirit of invention and educating people through hackerspaces
 ---
 
 **[Introduction [0:39]](#t=0:39)**
@@ -85,4 +88,3 @@ time: 11am
 - [Mitch's Flickr](https://www.flickr.com/photos/maltman23)
 - [Mitch's Twitter](https://twitter.com/maltman23)
 - [Mitch's Instructables](http://www.instructables.com/member/mitch/)
-

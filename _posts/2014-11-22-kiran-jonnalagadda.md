@@ -5,7 +5,9 @@ profile: 027-kiran-jonnalagadda
 enclosure: http://audio.live.webuild.sg/027-kiran-jonnalagadda
 length: 30473256
 description: Kiran Jonnalagadda on automating event logistics with python and growing developer communities.
-
+number: 027
+guest: Kiran Jonnalagadda
+topic: Automating event logistics with python and growing developer communities
 ---
 
 **[Introduction [0:43]](#t=0:43)**

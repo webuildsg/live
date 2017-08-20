@@ -5,6 +5,9 @@ profile: 030-cedric-honnet
 enclosure: http://audio.live.webuild.sg/030-cedric-honnet
 length: 28481879
 description: Cedric Honnet on electronic sensors and geek communities.
+number: 030
+guest: Cedric Honnet
+topic: Electronic sensors and geek communities
 ---
 
 **[Introduction [1:35]](#t=1:35)**
@@ -106,6 +109,3 @@ description: Cedric Honnet on electronic sensors and geek communities.
 - [Links from Cedric](http://board.net/p/cedric-webuild)
 - [Cedric's Twitter](https://twitter.com/brainiaxxx)
 - [Cedric's portfolio](http://portfolio.honnet.eu)
-
-
-

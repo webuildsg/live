@@ -1,11 +1,13 @@
 ---
-title: 021 William Hooi
+title: 021 c
 permalink: /021-william-hooi/
 profile: 021-william-hooi
 enclosure: http://audio.live.webuild.sg/021-william-hooi
 length: 22147706
 description: William Hooi on maker festivals and community education.
-
+number: 021
+guest: William Hooi
+topic: Maker festivals and community education
 ---
 
 **[Introduction [1:17]](#t=1:17)**

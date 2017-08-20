@@ -5,7 +5,9 @@ profile: 025-anna-mic-roland
 enclosure: http://audio.live.webuild.sg/025-anna-mic-roland
 length: 34424853
 description: Anna, Mic and Roland on open source hardware and software.
-
+number: 025
+guest: Anna, Mic and Roland
+topic: Open source hardware and software
 ---
 
 **[Introduction [1:04]](#t=1:04)**
@@ -108,4 +110,3 @@ description: Anna, Mic and Roland on open source hardware and software.
 - [Roland's Website](http://rolandturner.com/contact)
 - [Michael's Website](http://coderkungfu.com/)
 - [Michael's Twitter	](http://www.twitter.com/coderkungfu)
-

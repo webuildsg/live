@@ -5,7 +5,9 @@ profile: 015-martin-brochhaus
 enclosure: http://audio.live.webuild.sg/015-martin-brochhaus
 length: 25032886
 description: Martin Brochhaus on developing with Python and organising talks in a tech conference.
-
+number: 015
+guest: Martin Brochhaus
+topic: Developing with Python and organising talks in a tech conference
 ---
 
 **[Introduction [0:38]](#t=0:38)**

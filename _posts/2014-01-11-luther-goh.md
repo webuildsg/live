@@ -5,7 +5,9 @@ profile: 010-luther-goh
 enclosure: http://audio.live.webuild.sg/010-luther-goh
 length: 24128410
 description: Luther Goh on building hackerspaces and running a hardware e-commerce business for geeks.
-
+number: 010
+guest: Luther Goh
+topic: Building hackerspaces and running a hardware e-commerce business for geeks
 ---
 
 **Introduction**

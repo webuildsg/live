@@ -5,7 +5,9 @@ profile: 011-mugunth-kumar
 enclosure: http://audio.live.webuild.sg/011-mugunth-kumar
 length: 33966548
 description: Mugunth Kumar on building iOS applications and authoring technical books for developers.
-
+number: 011
+guest: Mugunth Kumar
+topic: Building iOS applications and authoring technical books for developers
 ---
 
 **Introduction**

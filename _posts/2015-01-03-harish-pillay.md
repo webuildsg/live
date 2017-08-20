@@ -5,6 +5,9 @@ profile: 029-harish-pillay
 enclosure: http://audio.live.webuild.sg/029-harish-pillay
 length: 29459695
 description: Harish Pillay on open source in Enterprise and Hackathons.
+number: 029
+guest: Harish Pillay
+topic: Open source in Enterprise and Hackathons
 ---
 
 **[Introduction [0:50]](#t=0:50)**
@@ -86,4 +89,3 @@ description: Harish Pillay on open source in Enterprise and Hackathons.
 - [Singapore Computer Society](http://www.scs.org.sg)
 - [Harish's Github](https://github.com/harishpillay)
 - [Harish's Twitter](http://twitter.com/harishpillay)
-

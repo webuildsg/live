@@ -7,6 +7,9 @@ length: 20060421
 description: Matt Mullenweg on WordPress and Automattic.
 day: Wed
 time: 4pm
+number: Special 001
+guest: Matt Mullenweg
+topic: WordPress and Automattic
 ---
 
 **[Introduction [0:30]](#t=0:30)**
@@ -59,4 +62,3 @@ time: 4pm
 - [Hashtag for Matt Live SG](https://twitter.com/hashtag/mattinsg)
 - [Wordpress Singapore](http://wpug.sg/)
 - [Mayuko Moriyama](https://profiles.wordpress.org/mayukojpn/)
-

@@ -5,7 +5,11 @@ profile: 000-hello-world
 enclosure: http://audio.live.webuild.sg/000-hello-world
 length: 9007432
 description: First episode! Hosts explain the technology and reason behind this live audio show
+number: 000
+guest: Hello World
+topic: First episode
 ---
+
 *   [Icecast][1]
 *   [Mumble][2]
 *   [Soundplant][3]
