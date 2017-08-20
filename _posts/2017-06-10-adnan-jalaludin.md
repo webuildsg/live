@@ -5,7 +5,7 @@ profile: 047-adnan-jalaludin
 enclosure: http://audio.live.webuild.sg/047-adnan-jalaludin
 length: 25774552
 description: Adnan Jalaludin on design for manufacturability (DFM).
-number: 047
+number: "047"
 guest: Adnan Jalaludin
 topic: Design for manufacturability (DFM)
 ---

@@ -5,7 +5,7 @@ profile: 017-winston-teo
 enclosure: http://audio.live.webuild.sg/017-winston-teo
 length: 26779736
 description: Winston Teo on developer happiness and Ruby community events.
-number: 017
+number: "017"
 guest: Winston Teo
 topic: Developer happiness and Ruby community events
 ---

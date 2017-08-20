@@ -5,7 +5,7 @@ profile: 023-roland-turner
 enclosure: http://audio.live.webuild.sg/023-roland-turner
 length: 27843028
 description: Roland Turner on community based sensor projects and running hackerspaces.
-number: 023
+number: "023"
 guest: Roland Turner
 topic: Community based sensor projects and running hackerspaces
 ---

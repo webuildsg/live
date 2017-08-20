@@ -5,7 +5,7 @@ profile: 043-sau-sheong-chang
 enclosure: http://audio.live.webuild.sg/043-sau-sheong-chang
 length: 23211420
 description: Sau Sheong Chang on Go programming language.
-number: 044
+number: "044"
 guest: Sau Sheong Chang
 topic: Go programming language
 ---

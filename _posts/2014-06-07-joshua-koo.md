@@ -5,7 +5,7 @@ profile: 019-joshua-koo
 enclosure: http://audio.live.webuild.sg/019-joshua-koo
 length: 27786598
 description: Joshua Koo on fun with the web, threejs and randomness.
-number: 019
+number: "019"
 guest: Joshua Koo
 topic: Fun with the web, threejs and randomness
 ---

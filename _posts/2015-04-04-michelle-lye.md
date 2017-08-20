@@ -5,7 +5,7 @@ profile: 032-michelle-lye
 enclosure: http://audio.live.webuild.sg/032-michelle-lye
 length: 28880401
 description: Michelle Lye on playing with microcontrollers and teaching electronics.
-number: 032
+number: "032"
 guest: Michelle Lye
 topic: Playing with micro-controllers and teaching electronics
 ---

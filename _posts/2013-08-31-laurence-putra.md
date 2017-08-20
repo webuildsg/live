@@ -5,7 +5,7 @@ profile: 002-laurence-putra
 enclosure: http://audio.live.webuild.sg/002-laurence-putra
 length: 13468726
 description: Laurence Putra on MongoDB, being a student in technology and organizing tech unconferences
-number: 002
+number: "002"
 guest: Laurence Putra
 topic: MongoDB, being a student in technology and organizing tech unconferences
 ---

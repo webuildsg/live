@@ -5,7 +5,7 @@ profile: 020-kiruthika-curic
 enclosure: http://audio.live.webuild.sg/020-kiruthika-curic
 length: 24447114
 description: Kiruthika Curic on inspiring young makers and getting involved in Maker Faires.
-number: 020
+number: "020"
 guest: Kiruthika Curic
 topic: Inspiring young makers and getting involved in Maker Faires
 ---

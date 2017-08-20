@@ -5,7 +5,9 @@ profile: 014-lakshan-parera
 enclosure: http://audio.live.webuild.sg/014-lakshan-parera
 length: 21381590
 description: Lakshan Parera on startup product development and managing open source projects.
-
+number: "014"
+guest: Lakshan Parera
+topic: Startup product development and managing open source projects
 ---
 
 **[Introduction [0:38]](#t=0:38)**

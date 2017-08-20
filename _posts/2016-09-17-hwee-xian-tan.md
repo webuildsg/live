@@ -5,7 +5,7 @@ profile: 036-hwee-xian-tan
 enclosure: http://audio.live.webuild.sg/036-hwee-xian-tan
 length: 21687952
 description: Hwee Xian Tan on wireless technologies.
-number: 036
+number: "036"
 guest: Hwee Xian Tan
 topic: Wireless technologies
 ---

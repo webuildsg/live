@@ -5,7 +5,7 @@ profile: 007-ibnur-rashad
 enclosure: http://audio.live.webuild.sg/007-ibnur-rashad
 length: 23559347
 description: Muhd. Ibnur Rashad on building makerspaces and encouraging the DIY hands-on community spirit.
-number: 007
+number: "007"
 guest: Muhd. Ibnur Rashad
 topic: Building makerspaces and encouraging the DIY hands-on community spirit
 ---

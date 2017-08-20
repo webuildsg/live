@@ -5,7 +5,7 @@ profile: 026-vishnu-prem
 enclosure: http://audio.live.webuild.sg/026-vishnu-prem
 length: 26517049
 description: Vishnu Prem on starting young in tech and getting involved in student groups.
-number: 026
+number: "026"
 guest: Vishnu Prem
 topic: Starting young in tech and getting involved in student groups
 ---
