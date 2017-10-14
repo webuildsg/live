@@ -23,10 +23,10 @@ defaults:
     values:
       layout: "post"
 
-next_guest: "Aysha Anggraini"
-next_episode: "051"
-next_podcast_start_time: 2017-10-14 11:00 +0800
-next_podcast_end_time: 2017-10-14 12:00 +0800
-next_profile: /img/051-aysha-anggraini-profile.jpg
-next_topic: Scalable Vector Graphics (SVG).
-next_connect: 'Connect with Aysha on <a href="https://aysha.me/">her blog</a>, <a href="https://twitter.com/renettarenula">Twitter</a> and <a href="https://codepen.io/rrenula/">CodePen</a>!'
+next_guest: "Emil Tan"
+next_episode: "052"
+next_podcast_start_time: 2017-11-04 11:00 +0800
+next_podcast_end_time: 2017-11-04 12:00 +0800
+next_profile: /img/052-emil-tan-profile.jpg
+next_topic: Cybersecurity awareness.
+next_connect: 'Connect with Emil on <a href="https://twitter.com/Emil0xA">Twitter</a>, <a href="https://www.edgis-security.org/">Edgis Security</a> and <a href="https://www.honeynet.org/">Honeynet Project</a>!'
