@@ -18,7 +18,7 @@ date: 2013-09-21 13:00:00
 
     <itunes:explicit>no</itunes:explicit>
     <itunes:summary>{{ site.description }}</itunes:summary>
-    <itunes:subtitle>{{ site.description }}</itunes:subtitle>
+    <itunes:subtitle>{{ site.description | truncate: 255 }}</itunes:subtitle>
     <itunes:author>{{ site.author }}</itunes:author>
     <itunes:owner>
       <itunes:email>{{ site.email }}</itunes:email>
@@ -28,12 +28,12 @@ date: 2013-09-21 13:00:00
     <itunes:category text="Technology">
       <itunes:category text="Podcasting" />
     </itunes:category>
-    <itunes:image href="https://assets.webuild.sg/logo-1400.jpg" />
+    <itunes:image href="http://assets.webuild.sg/logo-1400.jpg" />
 
     <image>
       <title>{{ site.name }}</title>
       <link>https:{{ site.url }}</link>
-      <url>https://assets.webuild.sg/logo-1400.jpg</url>
+      <url>http://assets.webuild.sg/logo-1400.jpg</url>
     </image>
 
     <atom:link rel="self" type="application/rss+xml" title="{{ site.name }}" href="{{ site.url }}/feed.xml" />
@@ -50,14 +50,14 @@ date: 2013-09-21 13:00:00
       <content:encoded><![CDATA[{{ post.content | strip_html  }}]]></content:encoded>
       <guid isPermaLink="false">{{ post.enclosure }}.mp3</guid>
       <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
-      <author>{{ site.author }}</author>
+      <author>{{ site.email }}</author>
 
       <itunes:author>{{ site.author }}</itunes:author>
-      <itunes:subtitle>{% if post.topic %} <![CDATA[{{ post.content | strip_html }}]]> {% else %} {{ post.description }}{% endif %}}</itunes:subtitle>
+      <itunes:subtitle>{% if post.topic %} <![CDATA[{{ post.content | strip_html | truncate: 255 }}]]> {% else %} {{ post.description | truncate: 255 }}{% endif %}}</itunes:subtitle>
       <itunes:summary>{% if post.topic %} <![CDATA[{{ post.content | strip_html }}]]> {% else %} {{ post.description }}{% endif %}</itunes:summary>
       <itunes:explicit>no</itunes:explicit>
       <itunes:keywords>{{ post.tags }}</itunes:keywords>
-      <itunes:image href="https://assets.webuild.sg/logo-100.jpg" />
+      <itunes:image href="http://assets.webuild.sg/logo-100.jpg" />
 
       <enclosure url="{{ post.enclosure }}.mp3" length="{{ post.length }}" type="audio/mp3" />
     </item>
