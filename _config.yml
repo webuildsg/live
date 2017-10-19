@@ -1,9 +1,9 @@
 name: We Build SG LIVE
 description: We Build SG LIVE - A live conversation with geeks in town on building, learning and sharing!
 author: Chinmay and Sayanee
-email: sayanee@gmail.com
+email: sayanee@gmail.com (Chinmay and Sayanee)
 tags: live, show, audio, podcast, developers, makers, designers, software, hardware
-feed: http://feeds.feedburner.com/WeBuildLive
+feed: https://live.webuild.sg/feed.xml
 destination: ./_publish
 permalink: /:permalink
 exclude: ['node_modules', 'Gruntfile.js', 'package.json', 'readme.md', 'js', 'scripts']
