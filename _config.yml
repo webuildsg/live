@@ -23,10 +23,10 @@ default_logo : https://assets.webuild.sg/logo-200.jpg
 default_day : Sat
 default_time : 11am
 
-next_guest: "Emil Tan"
-next_episode: "052"
-next_podcast_start_time: 2017-11-04 11:00 +0800
-next_podcast_end_time: 2017-11-04 12:00 +0800
-next_profile: /img/052-emil-tan-profile.jpg
-next_topic: Cybersecurity awareness.
-next_connect: 'Connect with Emil on <a href="https://twitter.com/Emil0xA">Twitter</a>, <a href="https://www.edgis-security.org/">Edgis Security</a> and <a href="https://www.honeynet.org/">Honeynet Project</a>!'
+next_guest: "Chern Jie Lim"
+next_episode: "053"
+next_podcast_start_time: 2017-12-16 11:00 +0800
+next_podcast_end_time: 2017-12-16 12:00 +0800
+next_profile: /img/053-chernjie-lim-profile.jpg
+next_topic: Git version control.
+next_connect: 'Connect with Chern Jie on <a href="https://twitter.com/chernjie">Twitter</a>, <a href="https://github.com/chernjie">GitHub</a> and <a href="https://www.facebook.com/groups/sggrumpygits/">Grumpy Gits</a>!'
