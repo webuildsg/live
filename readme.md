@@ -13,7 +13,8 @@
 ## Development
 
 1. build static pages: `jekyll build`
-- start server: `jekyll serve --config _dev_config.yml --watch`
+- start local
+server: `jekyll serve --config _dev_config.yml --watch`
 - add a git pre-commit hook to generate new `sitemap.xml` with new episodes. edit file `.git/hooks/pre-commit`
 
   ```sh
