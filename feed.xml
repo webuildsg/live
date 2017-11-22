@@ -46,15 +46,17 @@ date: 2013-09-21 13:00:00
     <item>
       <title>{% if post.topic %}{{ post.number}} {{ post.topic }} with {{ post.guest }}{% else %}{{ post.title }} on {{ post.description }}{% endif %}</title>
       <link>https:{{ site.url }}{{ post.permalink }}</link>
-      <description>{% if post.topic %} <![CDATA[{{ post.content | strip_html }}]]> {% else %} {{ post.description }}{% endif %}</description>
-      <content:encoded><![CDATA[{{ post.content | strip_html  }}]]></content:encoded>
+      <description>{% if post.topic %} <![CDATA[{{ post.content }}]]> {% else %} {{ post.description }}{% endif %}</description>
+      <content:encoded><![CDATA[{{ post.content }}]]></content:encoded>
       <guid isPermaLink="false">{{ post.enclosure }}.mp3</guid>
       <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
       <author>{{ site.email }}</author>
 
+
+      <itunes:title>{% if post.topic %}{{ post.number}} {{ post.topic }} with {{ post.guest }}{% else %}{{ post.title }} on {{ post.description }}{% endif %}</itunes:title>
       <itunes:author>{{ site.author }}</itunes:author>
-      <itunes:subtitle>{% if post.topic %} <![CDATA[{{ post.content | strip_html | truncate: 255 }}]]> {% else %} {{ post.description | truncate: 255 }}{% endif %}}</itunes:subtitle>
-      <itunes:summary>{% if post.topic %} <![CDATA[{{ post.content | strip_html }}]]> {% else %} {{ post.description }}{% endif %}</itunes:summary>
+      <itunes:subtitle>{% if post.topic %} {{ post.topic }} with {{ post.guest }} {% else %} {{ post.description}} {% endif %}</itunes:subtitle>
+      <itunes:summary>{{ post.content | strip_html | truncate: 4000}} </itunes:summary>
       <itunes:explicit>no</itunes:explicit>
       <itunes:keywords>{{ post.tags }}</itunes:keywords>
       <itunes:image href="http://assets.webuild.sg/logo-100.jpg" />
