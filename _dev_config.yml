@@ -22,11 +22,3 @@ defaults:
       path: ""
     values:
       layout: "post"
-
-next_guest: "Chris Lienert"
-next_episode: "053"
-next_podcast_start_time: 2018-01-06 11:00 +0800
-next_podcast_end_time: 2018-01-06 12:00 +0800
-next_profile: /img/053-chris-lienert-profile.jpg
-next_topic: CSS in large web apps.
-next_connect: 'Connect with Chris on <a href="https://twitter.com/cliener">Twitter</a>, <a href="https://github.com/cliener">GitHub</a> and <a href="https://singaporecss.github.io/">Singapore CSS</a>!'
