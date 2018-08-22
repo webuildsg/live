@@ -28,12 +28,12 @@ date: 2013-09-21 13:00:00
     <itunes:category text="Technology">
       <itunes:category text="Podcasting" />
     </itunes:category>
-    <itunes:image href="http://assets.webuild.sg/logo-1400.jpg" />
+    <itunes:image href="http://webuildsg.github.io/assets/logo-1400.jpg" />
 
     <image>
       <title>{{ site.name }}</title>
       <link>https:{{ site.url }}</link>
-      <url>http://assets.webuild.sg/logo-1400.jpg</url>
+      <url>http://webuildsg.github.io/assets/logo-1400.jpg</url>
     </image>
 
     <atom:link rel="self" type="application/rss+xml" title="{{ site.name }}" href="{{ site.url }}/feed.xml" />
@@ -59,7 +59,7 @@ date: 2013-09-21 13:00:00
       <itunes:summary>{{ post.content | strip_html | truncate: 4000}} </itunes:summary>
       <itunes:explicit>no</itunes:explicit>
       <itunes:keywords>{{ post.tags }}</itunes:keywords>
-      <itunes:image href="http://assets.webuild.sg/logo-100.jpg" />
+      <itunes:image href="http://webuildsg.github.io/assets/logo-100.jpg" />
 
       <enclosure url="{{ post.enclosure }}.mp3" length="{{ post.length }}" type="audio/mp3" />
     </item>

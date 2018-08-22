@@ -19,6 +19,6 @@ defaults:
     values:
       layout: "post"
 
-default_logo : https://assets.webuild.sg/logo-200.jpg
+default_logo : https://webuildsg.github.io/assets/logo-200.jpg
 default_day : Sat
 default_time : 11am
