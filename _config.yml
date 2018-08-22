@@ -3,12 +3,12 @@ description: We Build SG LIVE - A live conversation with geeks in town on buildi
 author: Chinmay and Sayanee
 email: sayanee@gmail.com (Chinmay and Sayanee)
 tags: live, show, audio, podcast, developers, makers, designers, software, hardware
-feed: https://live.webuild.sg/feed.xml
+feed: https://webuildsg.github.io/live/feed.xml
 destination: ./_publish
 permalink: /:permalink
 exclude: ['node_modules', 'Gruntfile.js', 'package.json', 'readme.md', 'js', 'scripts']
 markdown: kramdown
-url: //live.webuild.sg
+url: //webuildsg.github.io/live
 timezone:    Asia/Singapore
 encoding:    UTF-8
 
