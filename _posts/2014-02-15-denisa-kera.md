@@ -2,7 +2,7 @@
 title: 012 Denisa Kera
 permalink: /012-denisa-kera/
 profile: 012-denisa-kera
-enclosure: http://audio.live.webuild.sg/012-denisa-kera
+enclosure: 012-denisa-kera
 length: 26616523
 description: Denisa Kera on hacker culture, open science and community labs.
 number: "012"

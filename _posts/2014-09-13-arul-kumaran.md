@@ -2,7 +2,7 @@
 title: 024 Arul Kumaran
 permalink: /024-arul-kumaran/
 profile: 024-arul-kumaran
-enclosure: http://audio.live.webuild.sg/024-arul-kumaran
+enclosure: 024-arul-kumaran
 length: 25289714
 description: Arul Kumaran on creating web APIs and types of APIs.
 number: "024"

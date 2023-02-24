@@ -2,7 +2,7 @@
 title: Special 001 Matt Mullenweg
 permalink: /special-001-matt-mullenweg/
 profile: special-001-matt-mullenweg
-enclosure: http://audio.live.webuild.sg/special-001-matt-mullenweg
+enclosure: special-001-matt-mullenweg
 length: 20060421
 description: Matt Mullenweg on WordPress and Automattic.
 day: Wed

@@ -2,7 +2,7 @@
 title: 035 Sebastiaan Deckers
 permalink: /035-sebastiaan-deckers/
 profile: 035-sebastiaan-deckers
-enclosure: http://audio.live.webuild.sg/035-sebastiaan-deckers
+enclosure: 035-sebastiaan-deckers
 length: 25965566
 description: Sebastiaan Deckers on HTTP/2 and teaching web development.
 number: "035"

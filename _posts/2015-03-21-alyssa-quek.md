@@ -2,7 +2,7 @@
 title: 031 Alyssa Quek
 permalink: /031-alyssa-quek/
 profile: 031-alyssa-quek
-enclosure: http://audio.live.webuild.sg/031-alyssa-quek
+enclosure: 031-alyssa-quek
 length: 25823237
 description: Alyssa Quek on computer vision in python and getting involved in the developer community.
 number: "031"

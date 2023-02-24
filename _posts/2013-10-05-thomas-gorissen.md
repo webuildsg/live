@@ -2,7 +2,7 @@
 title: 004 Thomas Gorissen
 permalink: /004-thomas-gorissen/
 profile: 004-thomas-gorissen
-enclosure: http://audio.live.webuild.sg/004-thomas-gorissen
+enclosure: 004-thomas-gorissen
 length: 18289530
 description: Thomas Gorissen on JavaScript programming language and organizing awesome tech conferences
 number: "004"

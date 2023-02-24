@@ -2,7 +2,7 @@
 title: 043 Sau Sheong Chang
 permalink: /043-sau-sheong-chang/
 profile: 043-sau-sheong-chang
-enclosure: http://audio.live.webuild.sg/043-sau-sheong-chang
+enclosure: 043-sau-sheong-chang
 length: 23211420
 description: Sau Sheong Chang on Go programming language.
 number: "044"

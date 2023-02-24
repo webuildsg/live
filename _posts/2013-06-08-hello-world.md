@@ -2,7 +2,7 @@
 title: 000 Hello World
 permalink: /hello-world/
 profile: 000-hello-world
-enclosure: http://audio.live.webuild.sg/000-hello-world
+enclosure: 000-hello-world
 length: 9007432
 description: First episode! Hosts explain the technology and reason behind this live audio show
 number: "000"

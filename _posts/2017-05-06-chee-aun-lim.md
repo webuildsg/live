@@ -2,7 +2,7 @@
 title: 046 Chee Aun Lim
 permalink: /046-chee-aun-lim/
 profile: 046-chee-aun-lim
-enclosure: http://audio.live.webuild.sg/046-chee-aun-lim
+enclosure: 046-chee-aun-lim
 length: 29138073
 description: Chee Aun Lim on building web apps.
 number: "046"

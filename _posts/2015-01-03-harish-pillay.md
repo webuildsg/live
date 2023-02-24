@@ -2,7 +2,7 @@
 title: 029 Harish Pillay
 permalink: /029-harish-pillay/
 profile: 029-harish-pillay
-enclosure: http://audio.live.webuild.sg/029-harish-pillay
+enclosure: 029-harish-pillay
 length: 29459695
 description: Harish Pillay on open source in Enterprise and Hackathons.
 number: "029"

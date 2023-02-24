@@ -2,7 +2,7 @@
 title: 014 Lakshan Parera
 permalink: /014-lakshan-parera/
 profile: 014-lakshan-parera
-enclosure: http://audio.live.webuild.sg/014-lakshan-parera
+enclosure: 014-lakshan-parera
 length: 21381590
 description: Lakshan Parera on startup product development and managing open source projects.
 number: "014"

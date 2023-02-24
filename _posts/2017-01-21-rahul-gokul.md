@@ -2,7 +2,7 @@
 title: 042 Rahul Gokul
 permalink: /042-rahul-gokul/
 profile: 042-rahul-gokul
-enclosure: http://audio.live.webuild.sg/042-rahul-gokul
+enclosure: 042-rahul-gokul
 length: 25660024
 description: Rahul Gokul on computer network infrastructure.
 number: "042"

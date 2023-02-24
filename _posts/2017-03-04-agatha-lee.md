@@ -2,7 +2,7 @@
 title: 044 Agatha Lee
 permalink: /044-agatha-lee/
 profile: 044-agatha-lee
-enclosure: http://audio.live.webuild.sg/044-agatha-lee
+enclosure: 044-agatha-lee
 length: 24915636
 description: Agatha Lee on making with textiles.
 number: "044"

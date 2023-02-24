@@ -9,6 +9,7 @@ permalink: /:permalink
 exclude: ['node_modules', 'Gruntfile.js', 'package.json', 'readme.md', 'js', 'scripts']
 markdown: kramdown
 url: //webuildsg.github.io/live
+audiourl: https://archive.org/download/webuildsglive/
 timezone:    Asia/Singapore
 encoding:    UTF-8
 

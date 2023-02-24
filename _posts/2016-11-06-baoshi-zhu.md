@@ -2,7 +2,7 @@
 title: 039 Baoshi Zhu
 permalink: /039-baoshi-zhu/
 profile: 039-baoshi-zhu
-enclosure: http://audio.live.webuild.sg/039-baoshi-zhu
+enclosure: 039-baoshi-zhu
 length: 23287894
 description: Baoshi Zhu on micro-controllers and development boards.
 number: "039"

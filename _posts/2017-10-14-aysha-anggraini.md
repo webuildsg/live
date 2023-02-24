@@ -2,7 +2,7 @@
 title: 051 Aysha Anggraini
 permalink: /051-aysha-anggraini/
 profile: 051-aysha-anggraini
-enclosure: http://audio.live.webuild.sg/051-aysha-anggraini
+enclosure: 051-aysha-anggraini
 length: 29636077
 description: Aysha Anggraini on Scalable Vector Graphics (SVG).
 number: "051"

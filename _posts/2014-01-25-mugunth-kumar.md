@@ -2,7 +2,7 @@
 title: 011 Mugunth Kumar
 permalink: /011-mugunth-kumar/
 profile: 011-mugunth-kumar
-enclosure: http://audio.live.webuild.sg/011-mugunth-kumar
+enclosure: 011-mugunth-kumar
 length: 33966548
 description: Mugunth Kumar on building iOS applications and authoring technical books for developers.
 number: "011"

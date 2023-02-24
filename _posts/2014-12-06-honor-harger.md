@@ -2,7 +2,7 @@
 title: 028 Honor Harger
 permalink: /028-honor-harger/
 profile: 028-honor-harger
-enclosure: http://audio.live.webuild.sg/028-honor-harger
+enclosure: 028-honor-harger
 length: 26349449
 description: Honor Harger on radio astronomy and connecting people with Arts and Sciences.
 number: "028"

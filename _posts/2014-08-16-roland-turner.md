@@ -2,7 +2,7 @@
 title: 023 Roland Turner
 permalink: /023-roland-turner/
 profile: 023-roland-turner
-enclosure: http://audio.live.webuild.sg/023-roland-turner
+enclosure: 023-roland-turner
 length: 27843028
 description: Roland Turner on community based sensor projects and running hackerspaces.
 number: "023"

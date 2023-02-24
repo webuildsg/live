@@ -2,7 +2,7 @@
 title: 005 Dave Appleton
 permalink: /005-dave-appleton/
 profile: 005-dave-appleton
-enclosure: http://audio.live.webuild.sg/005-dave-appleton
+enclosure: 005-dave-appleton
 length: 20378276
 description: Dave Appleton on playing with the Arduino and conducting technical hands-on workshops
 number: "005"

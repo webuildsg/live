@@ -2,7 +2,7 @@
 title: 030 Cedric Honnet
 permalink: /030-cedric-honnet/
 profile: 030-cedric-honnet
-enclosure: http://audio.live.webuild.sg/030-cedric-honnet
+enclosure: 030-cedric-honnet
 length: 28481879
 description: Cedric Honnet on electronic sensors and geek communities.
 number: "030"

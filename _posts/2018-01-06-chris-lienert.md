@@ -2,7 +2,7 @@
 title: 053 Chris Lienert
 permalink: /053-chris-lienert/
 profile: 053-chris-lienert
-enclosure: http://audio.live.webuild.sg/053-chris-lienert
+enclosure: 053-chris-lienert
 length: 29976082
 description: Chris Lienert on CSS in large web apps.
 number: "053"

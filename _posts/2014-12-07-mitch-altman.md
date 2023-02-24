@@ -2,7 +2,7 @@
 title: Special 002 Mitch Altman
 permalink: /special-002-mitch-altman/
 profile: special-002-mitch-altman
-enclosure: http://audio.live.webuild.sg/special-002-mitch-altman
+enclosure: special-002-mitch-altman
 length: 32073609
 description: Mitch Altman on spirit of invention and educating people through hackerspaces.
 day: Sun

@@ -2,7 +2,7 @@
 title: 019 Joshua Koo
 permalink: /019-joshua-koo/
 profile: 019-joshua-koo
-enclosure: http://audio.live.webuild.sg/019-joshua-koo
+enclosure: 019-joshua-koo
 length: 27786598
 description: Joshua Koo on fun with the web, threejs and randomness.
 number: "019"

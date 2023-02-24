@@ -2,7 +2,7 @@
 title: 015 Martin Brochhaus
 permalink: /015-martin-brochhaus/
 profile: 015-martin-brochhaus
-enclosure: http://audio.live.webuild.sg/015-martin-brochhaus
+enclosure: 015-martin-brochhaus
 length: 25032886
 description: Martin Brochhaus on developing with Python and organising talks in a tech conference.
 number: "015"

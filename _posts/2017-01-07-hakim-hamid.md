@@ -2,7 +2,7 @@
 title: 041 Hakim Hamid
 permalink: /041-hakim-hamid/
 profile: 041-hakim-hamid
-enclosure: http://audio.live.webuild.sg/041-hakim-hamid
+enclosure: 041-hakim-hamid
 length: 26164571
 description: Hakim Hamid on mechanical engineering.
 number: "041"

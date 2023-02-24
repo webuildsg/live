@@ -2,7 +2,7 @@
 title: 002 Laurence Putra
 permalink: /002-laurence-putra/
 profile: 002-laurence-putra
-enclosure: http://audio.live.webuild.sg/002-laurence-putra
+enclosure: 002-laurence-putra
 length: 13468726
 description: Laurence Putra on MongoDB, being a student in technology and organizing tech unconferences
 number: "002"

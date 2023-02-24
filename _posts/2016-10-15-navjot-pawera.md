@@ -2,7 +2,7 @@
 title: 038 Navjot Pawera
 permalink: /038-navjot-pawera/
 profile: 038-navjot-pawera
-enclosure: http://audio.live.webuild.sg/038-navjot-pawera
+enclosure: 038-navjot-pawera
 length: 27171786
 description: Navjot Pawera on user experience design for web and mobile.
 number: "038"

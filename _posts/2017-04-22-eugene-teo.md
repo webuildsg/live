@@ -2,7 +2,7 @@
 title: 045 Eugene Teo
 permalink: /045-eugene-teo/
 profile: 045-eugene-teo
-enclosure: http://audio.live.webuild.sg/045-eugene-teo
+enclosure: 045-eugene-teo
 length: 26305977
 description: Eugene Teo on computer security.
 number: "045"

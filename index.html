@@ -36,8 +36,8 @@ title: A live conversation with geeks in town on building, learning and sharing!
           {% else %}
           <audio controls=controls preload="none">
           {% endif %}
-            <source src="{{ post.enclosure }}.mp3" type="audio/mpeg"></source>
-            <source src="{{ post.enclosure }}.ogg" type="audio/mpeg"></source>
+            <source src="{{site.audiourl}}/{{ post.enclosure }}.mp3" type="audio/mpeg"></source>
+            <source src="{{site.audiourl}}/{{ post.enclosure }}.ogg" type="audio/mpeg"></source>
           </audio>
         </div>
       </div>

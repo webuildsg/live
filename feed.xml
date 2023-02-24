@@ -61,7 +61,7 @@ date: 2013-09-21 13:00:00
       <itunes:keywords>{{ post.tags }}</itunes:keywords>
       <itunes:image href="http://webuildsg.github.io/assets/logo-100.jpg" />
 
-      <enclosure url="{{ post.enclosure }}.mp3" length="{{ post.length }}" type="audio/mp3" />
+      <enclosure url="{{site.audiourl}}/{{ post.enclosure }}.mp3" length="{{ post.length }}" type="audio/mp3" />
     </item>
     {% endfor %}
   </channel>

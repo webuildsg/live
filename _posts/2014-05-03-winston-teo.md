@@ -2,7 +2,7 @@
 title: 017 Winston Teo
 permalink: /017-winston-teo/
 profile: 017-winston-teo
-enclosure: http://audio.live.webuild.sg/017-winston-teo
+enclosure: 017-winston-teo
 length: 26779736
 description: Winston Teo on developer happiness and Ruby community events.
 number: "017"
